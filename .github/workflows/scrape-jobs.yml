@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '0 9 * * *'  # 9 AM UTC daily
   workflow_dispatch:       # Allow manual trigger
+    inputs:
+      force_linkedin:
+        description: 'Force LinkedIn scrape even if profiles are not due'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   contents: write
@@ -20,16 +29,37 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Decide whether LinkedIn scrape is due
+        id: linkedin
+        env:
+          LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
+          LINKEDIN_LI_AT_POOL: ${{ secrets.LINKEDIN_LI_AT_POOL }}
+          LINKEDIN_LI_AT_2: ${{ secrets.LINKEDIN_LI_AT_2 }}
+          FORCE_LINKEDIN: ${{ github.event.inputs.force_linkedin || 'false' }}
         run: |
-          pip install -r pipeline/requirements.txt
-          playwright install chromium --with-deps
+          if python -c "from pipeline.sources.linkedin_rss import should_scrape_any; import sys; sys.exit(0 if should_scrape_any() else 1)"; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "LinkedIn scrape is due this run"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "LinkedIn scrape skipped (not due / no cookies)"
+          fi
+
+      - name: Install Playwright (LinkedIn only)
+        if: steps.linkedin.outputs.run == 'true'
+        run: playwright install chromium --with-deps
 
       - name: Run scraper
         run: python -m pipeline.scraper
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
+          LINKEDIN_LI_AT_POOL: ${{ secrets.LINKEDIN_LI_AT_POOL }}
+          LINKEDIN_LI_AT_2: ${{ secrets.LINKEDIN_LI_AT_2 }}
+          FORCE_LINKEDIN: ${{ github.event.inputs.force_linkedin || 'false' }}
 
       - name: Check for changes
         id: changes
@@ -39,8 +69,8 @@ jobs:
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
-          git config user.name "Job Hunt Bot"
-          git config user.email "actions@github.com"
+          git config user.name "EshwarCVS"
+          git config user.email "EshwarCVS@users.noreply.github.com"
           git add -A
-          git commit -m "chore: update job listings $(date -u +%Y-%m-%d)"
+          git commit --author="EshwarCVS <EshwarCVS@users.noreply.github.com>" -m "chore: update job listings $(date -u +%Y-%m-%d)"
           git push

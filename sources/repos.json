@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-15",
+  "orgs": {
+    "SimplifyJobs": {
+      "active": [
+        {
+          "name": "New-Grad-Positions",
+          "url": "https://github.com/SimplifyJobs/New-Grad-Positions",
+          "branch": "dev",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "kind": "new-grad"
+          }
+        },
+        {
+          "name": "Summer2026-Internships",
+          "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+          "branch": "dev",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "kind": "internships"
+          }
+        }
+      ],
+      "archived": [
+        {
+          "name": "Summer2025-Internships",
+          "url": "https://github.com/SimplifyJobs/Summer2025-Internships",
+          "branch": "dev",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "kind": "internships"
+          },
+          "archived_at": "2026-07-15",
+          "archive_reason": "Not scraped (backfill disabled); incorrect URL corrected"
+        }
+      ]
+    },
+    "jobright-ai": {
+      "active": [
+        {
+          "name": "2026-Data-Analysis-Internship",
+          "url": "https://github.com/jobright-ai/2026-Data-Analysis-Internship",
+          "branch": "master",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "is_h1b": false
+          }
+        },
+        {
+          "name": "2026-Data-Analysis-New-Grad",
+          "url": "https://github.com/jobright-ai/2026-Data-Analysis-New-Grad",
+          "branch": "master",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "is_h1b": false
+          }
+        },
+        {
+          "name": "2026-Software-Engineer-Internship",
+          "url": "https://github.com/jobright-ai/2026-Software-Engineer-Internship",
+          "branch": "master",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "is_h1b": false
+          }
+        },
+        {
+          "name": "2026-Software-Engineer-New-Grad",
+          "url": "https://github.com/jobright-ai/2026-Software-Engineer-New-Grad",
+          "branch": "master",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-07-15",
+          "meta": {
+            "is_h1b": false
+          }
+        },
+        {
+          "name": "Daily-H1B-Jobs-In-Tech",
+          "url": "https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech",
+          "branch": "master",
+          "first_seen": "2026-07-15",
+          "last_seen": "2026-07-15",
+          "last_activity": "2026-05-06",
+          "meta": {
+            "is_h1b": true
+          }
+        }
+      ],
+      "archived": []
+    }
+  },
+  "accounts": {}
+}

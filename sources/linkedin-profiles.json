@@ -1,6 +1,11 @@
 [
   {
-    "name": "Madhan Vadlamudi",
-    "url": "https://www.linkedin.com/in/madhanvadlamudi/"
+    "username": "madhanvadlamudi",
+    "display_name": "Madhan Vadlamudi",
+    "url": "https://www.linkedin.com/in/madhanvadlamudi/",
+    "tags": ["swe", "new-grad", "internships"],
+    "active": true,
+    "scrape_every_days": 3,
+    "notes": "Hiring links — scrape at most once every 3 days to reduce LinkedIn risk"
   }
 ]

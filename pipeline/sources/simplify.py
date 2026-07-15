@@ -10,7 +10,8 @@ from datetime import date, datetime
 
 import requests
 
-from pipeline.models import Job
+from pipeline.models import Job, normalize_info_tags
+from pipeline.registry import archive_stale_repos, touch_repo
 
 SIMPLIFY_ORG = "SimplifyJobs"
 GITHUB_API = "https://api.github.com"
@@ -23,15 +24,37 @@ SPONSORSHIP_MAP = {
 }
 
 
-def _detect_json_repos(year: int) -> dict[str, str]:
-    """Auto-detect internship repos for the given year."""
+def _detect_json_repos(year: int, include_previous: bool = True) -> dict[str, str]:
+    """Auto-detect internship repos for the given year (and prior year when backfilling)."""
     repos = {}
-    for pattern in [f"Summer{year}-Internships", f"Summer{year + 1}-Internships"]:
+    patterns = [
+        f"Summer{year}-Internships",
+        f"Summer{year + 1}-Internships",
+    ]
+    if include_previous:
+        patterns.append(f"Summer{year - 1}-Internships")
+
+    for pattern in patterns:
         url = f"{GITHUB_API}/repos/{SIMPLIFY_ORG}/{pattern}"
         resp = requests.get(url, timeout=15)
         if resp.status_code == 200:
-            default_branch = resp.json().get("default_branch", "dev")
+            data = resp.json()
+            default_branch = data.get("default_branch", "dev")
             repos[pattern] = default_branch
+            pushed = (data.get("pushed_at") or "")[:10]
+            try:
+                from datetime import datetime as _dt
+                activity = _dt.strptime(pushed, "%Y-%m-%d").date() if pushed else date.today()
+            except ValueError:
+                activity = date.today()
+            touch_repo(
+                SIMPLIFY_ORG,
+                pattern,
+                url=f"https://github.com/{SIMPLIFY_ORG}/{pattern}",
+                branch=default_branch,
+                last_activity=activity,
+                meta={"kind": "internships"},
+            )
     return repos
 
 
@@ -41,8 +64,23 @@ def _detect_newgrad_repos() -> dict[str, str]:
     url = f"{GITHUB_API}/repos/{SIMPLIFY_ORG}/New-Grad-Positions"
     resp = requests.get(url, timeout=15)
     if resp.status_code == 200:
-        default_branch = resp.json().get("default_branch", "dev")
+        data = resp.json()
+        default_branch = data.get("default_branch", "dev")
         repos["New-Grad-Positions"] = default_branch
+        pushed = (data.get("pushed_at") or "")[:10]
+        try:
+            from datetime import datetime as _dt
+            activity = _dt.strptime(pushed, "%Y-%m-%d").date() if pushed else date.today()
+        except ValueError:
+            activity = date.today()
+        touch_repo(
+            SIMPLIFY_ORG,
+            "New-Grad-Positions",
+            url=f"https://github.com/{SIMPLIFY_ORG}/New-Grad-Positions",
+            branch=default_branch,
+            last_activity=activity,
+            meta={"kind": "new-grad"},
+        )
     return repos
 
 
@@ -84,8 +122,11 @@ def _fetch_json_listings(repo: str, branch: str) -> list[Job]:
         category = _classify_role(entry.get("title", ""), entry.get("category", ""))
         terms = entry.get("terms", [])
         work_model = ""
-        if any("remote" in t.lower() for t in terms):
+        terms_lower = [t.lower() for t in terms]
+        if any("remote" in t for t in terms_lower):
             work_model = "Remote"
+        elif any("hybrid" in t for t in terms_lower):
+            work_model = "Hybrid"
 
         jobs.append(Job(
             title=entry["title"],
@@ -96,7 +137,7 @@ def _fetch_json_listings(repo: str, branch: str) -> list[Job]:
             source="SimplifyJobs",
             category=category,
             work_model=work_model,
-            info=" | ".join(info_parts) if info_parts else "",
+            info=normalize_info_tags(*info_parts),
         ))
 
     print(f"  [simplify] Fetched {len(jobs)} active jobs from {repo} (JSON)")
@@ -217,14 +258,14 @@ def _classify_role(title: str, category: str = "") -> str:
     return "Software Engineering"
 
 
-def scrape(year: int | None = None) -> list[Job]:
+def scrape(year: int | None = None, include_previous: bool = True) -> list[Job]:
     """Scrape all SimplifyJobs repos and return unified job list."""
     if year is None:
         year = date.today().year
 
     all_jobs: list[Job] = []
 
-    json_repos = _detect_json_repos(year)
+    json_repos = _detect_json_repos(year, include_previous=include_previous)
     for repo, branch in json_repos.items():
         all_jobs.extend(_fetch_json_listings(repo, branch))
 
@@ -232,5 +273,6 @@ def scrape(year: int | None = None) -> list[Job]:
     for repo, branch in newgrad_repos.items():
         all_jobs.extend(_fetch_json_listings(repo, branch))
 
+    archive_stale_repos(SIMPLIFY_ORG)
     print(f"  [simplify] Total: {len(all_jobs)} jobs from SimplifyJobs")
     return all_jobs

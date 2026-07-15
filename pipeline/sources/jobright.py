@@ -9,7 +9,8 @@ from datetime import date, datetime
 
 import requests
 
-from pipeline.models import Job
+from pipeline.models import Job, normalize_info_tags
+from pipeline.registry import archive_stale_repos, touch_repo
 
 JOBRIGHT_ORG = "jobright-ai"
 GITHUB_API = "https://api.github.com"
@@ -23,8 +24,12 @@ REPO_PATTERNS = [
 ]
 
 
-def _discover_repos(year: int) -> list[dict]:
+def _discover_repos(year: int, include_previous: bool = True) -> list[dict]:
     """Discover relevant repos from the jobright-ai org."""
+    years = {str(year), str(year + 1)}
+    if include_previous:
+        years.add(str(year - 1))
+
     repos = []
     page = 1
     while True:
@@ -39,10 +44,24 @@ def _discover_repos(year: int) -> list[dict]:
             name = repo["name"]
             for pattern in REPO_PATTERNS:
                 if re.match(pattern, name):
-                    if name.startswith("Daily-") or str(year) in name or str(year + 1) in name:
+                    if name.startswith("Daily-") or any(y in name for y in years):
+                        pushed = (repo.get("pushed_at") or "")[:10]
+                        try:
+                            activity = datetime.strptime(pushed, "%Y-%m-%d").date() if pushed else date.today()
+                        except ValueError:
+                            activity = date.today()
+                        branch = repo.get("default_branch", "master")
+                        touch_repo(
+                            JOBRIGHT_ORG,
+                            name,
+                            url=repo.get("html_url"),
+                            branch=branch,
+                            last_activity=activity,
+                            meta={"is_h1b": "H1B" in name},
+                        )
                         repos.append({
                             "name": name,
-                            "branch": repo.get("default_branch", "master"),
+                            "branch": branch,
                             "is_h1b": "H1B" in name,
                         })
                     break
@@ -175,7 +194,7 @@ def _parse_h1b_table(readme: str) -> list[Job]:
             source="jobright-ai",
             category=category,
             work_model="Remote" if location == "REMOTE" else "",
-            info=" | ".join(info_parts) if info_parts else "",
+            info=normalize_info_tags(*info_parts),
         ))
 
     return jobs
@@ -218,12 +237,12 @@ def _classify_from_repo(repo_name: str, title: str) -> str:
     return "Software Engineering"
 
 
-def scrape(year: int | None = None) -> list[Job]:
+def scrape(year: int | None = None, include_previous: bool = True) -> list[Job]:
     """Scrape all jobright-ai repos and return unified job list."""
     if year is None:
         year = date.today().year
 
-    repos = _discover_repos(year)
+    repos = _discover_repos(year, include_previous=include_previous)
     all_jobs: list[Job] = []
 
     for repo_info in repos:
@@ -244,5 +263,6 @@ def scrape(year: int | None = None) -> list[Job]:
         print(f"  [jobright] Parsed {len(jobs)} jobs from {name}")
         all_jobs.extend(jobs)
 
+    archive_stale_repos(JOBRIGHT_ORG)
     print(f"  [jobright] Total: {len(all_jobs)} jobs from jobright-ai")
     return all_jobs

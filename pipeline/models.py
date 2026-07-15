@@ -1,5 +1,7 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import date
+import html
+import re
 
 
 @dataclass
@@ -13,22 +15,75 @@ class Job:
     category: str = ""
     work_model: str = ""
     info: str = ""
+    contributor: str = ""
 
     @property
     def dedup_key(self) -> str:
         return self.url.split("?")[0].rstrip("/").lower()
 
+    @property
+    def location_type(self) -> str:
+        """Combined location + work model for table display."""
+        loc = (self.location or "").strip() or "Not Listed"
+        wm = (self.work_model or "").strip()
+        if not wm or wm.lower() in loc.lower():
+            return loc
+        return f"{loc} · {wm}"
+
     def to_table_row(self) -> str:
         date_str = self.date_posted.strftime("%b %d")
-        role_link = f"[{self.title}]({self.url})" if self.url else self.title
+        role = self._md_escape(self.title) or "Open Role"
+        role_link = f"[{role}]({self.url})" if self.url else role
         parts = [
             date_str,
             role_link,
-            self.company,
-            self.location,
-            self.category,
-            self.work_model or "-",
-            self.source,
-            self.info or "-",
+            self._md_escape(self.company) or "-",
+            self._md_escape(self.location_type),
+            self._md_escape(self.category) or "-",
+            self._md_escape(self.source) or "-",
+            self._md_escape(self.info) or "-",
         ]
         return "| " + " | ".join(parts) + " |"
+
+    def to_html_row(self) -> str:
+        date_str = self.date_posted.isoformat()
+        title = html.escape(self.title or "Open Role")
+        company = html.escape(self.company or "-")
+        loc = html.escape(self.location_type)
+        category = html.escape(self.category or "-")
+        source = html.escape(self.source or "-")
+        info = html.escape(self.info or "-")
+        url = html.escape(self.url or "#", quote=True)
+        return (
+            f'<tr data-date="{date_str}" data-category="{category}" data-source="{source}" '
+            f'data-company="{company}" data-location="{loc}" data-info="{info}">'
+            f'<td data-sort="{date_str}">{self.date_posted.strftime("%b %d")}</td>'
+            f'<td><a href="{url}" rel="noopener noreferrer" target="_blank">{title}</a></td>'
+            f"<td>{company}</td><td>{loc}</td><td>{category}</td>"
+            f"<td>{source}</td><td>{info}</td></tr>"
+        )
+
+    @staticmethod
+    def _md_escape(value: str) -> str:
+        if not value:
+            return ""
+        return value.replace("|", "\\|").replace("\n", " ").strip()
+
+
+def normalize_info_tags(*parts: str) -> str:
+    """Dedupe and join sponsorship / visa / degree tags."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for part in parts:
+        if not part:
+            continue
+        for token in re.split(r"\s*\|\s*", part.strip()):
+            token = token.strip()
+            if not token:
+                continue
+            key = token.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(token)
+    return " | ".join(out)

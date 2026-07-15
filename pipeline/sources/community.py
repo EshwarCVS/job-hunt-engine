@@ -29,16 +29,25 @@ def scrape() -> list[Job]:
         except (ValueError, KeyError):
             posted = date.today()
 
+        title = (entry.get("title") or "").strip()
+        company = (entry.get("company") or "").strip()
+        url = (entry.get("url") or "").strip()
+        if not title or not company or not url:
+            continue
+        if title in {"See Link", "TODO", "TBD"} or company in {"See Link", "TODO", "TBD"}:
+            continue
+
         jobs.append(Job(
-            title=entry.get("title", "See Link"),
-            company=entry.get("company", "Unknown"),
+            title=title,
+            company=company,
             location=entry.get("location", "Not Listed"),
-            url=entry["url"],
+            url=url,
             date_posted=posted,
             source="Community",
             category=entry.get("category", "Software Engineering"),
             work_model=entry.get("work_model", ""),
             info=entry.get("info", ""),
+            contributor=entry.get("contributor") or entry.get("submitted_by") or "",
         ))
 
     print(f"  [community] Loaded {len(jobs)} community-submitted jobs")

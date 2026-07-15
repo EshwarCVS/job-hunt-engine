@@ -1,0 +1,118 @@
+name: Ingest Curator Submission
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  ingest:
+    if: contains(github.event.issue.labels.*.name, 'curator-submission')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ingest submission
+        id: ingest
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          # Plaintext keys live only in Actions secrets — never in git
+          CURATOR_KEY_MADHANVADLAMUDI: ${{ secrets.CURATOR_KEY_MADHANVADLAMUDI }}
+          CURATOR_KEYS: ${{ secrets.CURATOR_KEYS }}
+        run: |
+          set +e
+          python -m pipeline.curator_ingest
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -eq 0 ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
+
+      - name: Commit append
+        if: steps.ingest.outputs.ok == 'true'
+        run: |
+          git config user.name "EshwarCVS"
+          git config user.email "EshwarCVS@users.noreply.github.com"
+          git add sources/curators/
+          if git diff --cached --quiet; then
+            echo "No file changes"
+            exit 0
+          fi
+          git commit --author="EshwarCVS <EshwarCVS@users.noreply.github.com>" \
+            -m "chore: curator submission from #${{ github.event.issue.number }}"
+          git push
+
+      - name: Comment success
+        if: steps.ingest.outputs.ok == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+            let body = issue.data.body || '';
+            body = body.replace(
+              /(###\s*Curator key\s*\n)([\s\S]*?)(?=\n###\s|\n*$)/i,
+              '$1\n`[REDACTED]`\n\n'
+            );
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                'Thanks — submission accepted and appended under your curator year/month folder.',
+                '',
+                'Your **curator key** was redacted from this issue. If it was visible before redact, ask a maintainer to rotate the GitHub secret.'
+              ].join('\n')
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              labels: ['curator-submission', 'ingested']
+            });
+
+      - name: Comment failure
+        if: steps.ingest.outputs.ok != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const code = '${{ steps.ingest.outputs.exit_code }}';
+            const auth = code === '10';
+            const body = auth
+              ? 'Could not verify your **curator key** (or curator ID / secret is not configured). No files were changed.'
+              : 'Submission failed (missing apply URL or invalid form). No files were changed.';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-curator-key']
+            });

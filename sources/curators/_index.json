@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "curators": [
+    {
+      "id": "madhanvadlamudi",
+      "display_name": "Madhan Vadlamudi",
+      "linkedin_url": "https://www.linkedin.com/in/madhanvadlamudi/",
+      "github": "",
+      "active": true,
+      "secret_name": "CURATOR_KEY_MADHANVADLAMUDI",
+      "notes": "Plaintext key lives only in GitHub Actions secret CURATOR_KEY_MADHANVADLAMUDI — never in this repo."
+    }
+  ]
+}

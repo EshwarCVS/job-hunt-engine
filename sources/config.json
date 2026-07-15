@@ -1,0 +1,11 @@
+{
+  "archive_inactive_days": 30,
+  "linkedin_lookback_days": 7,
+  "linkedin_default_scrape_every_days": 3,
+  "backfill_previous_month": false,
+  "active_listing_max_age_days": 60,
+  "commit_author": {
+    "name": "EshwarCVS",
+    "email": "EshwarCVS@users.noreply.github.com"
+  }
+}

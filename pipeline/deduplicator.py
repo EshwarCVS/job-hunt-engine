@@ -26,10 +26,14 @@ def _score(job: Job) -> int:
         score += 3
     if job.work_model:
         score += 2
-    if job.location and job.location not in ("Not Listed", "See Link"):
+    if job.location and job.location not in ("Not Listed", "See Link", "See post"):
         score += 2
     if job.category and job.category != "Software Engineering":
         score += 1
-    if job.company and job.company not in ("Unknown", "See Link"):
+    if job.company and job.company not in ("Unknown", "See Link", "See post"):
+        score += 1
+    if job.title and job.title not in ("See Link", "Open Role (see post)"):
+        score += 1
+    if job.contributor:
         score += 1
     return score

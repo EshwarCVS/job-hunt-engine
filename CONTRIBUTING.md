@@ -1,105 +1,93 @@
 # Contributing to Job Hunt Engine
 
-Thanks for helping make job hunting easier for everyone! Here's how you can contribute.
+Thanks for helping make job hunting easier for everyone.
 
-## Adding Job Listings
+## Ways to contribute
 
-### Option 1: Submit via Pull Request
+| Path | Best for |
+|------|----------|
+| [Add Job Listing](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=add-job.yml) issue | One-off community jobs |
+| PR editing `sources/community-jobs.json` | Batch community jobs |
+| [Curator submission](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) | Trusted curators (keyed) |
+| PRs to scrapers / docs | Pipeline & UX improvements |
 
-1. Fork this repository
-2. Add your job entry to `sources/community-jobs.json`:
+How scraping, filters, and dedup work (feedback welcome):
+**[pipeline/README.md](pipeline/README.md)**.
 
-```json
-{
-  "title": "Software Engineer",
-  "company": "Company Name",
-  "location": "City, State",
-  "url": "https://apply-link.com",
-  "date": "2026-07-14",
-  "category": "Software Engineering",
-  "work_model": "Remote",
-  "info": "H1B Sponsor"
-}
-```
+⭐ **If this repo helps you, please star it** — and consider starring
+[EshwarCVS](https://github.com/EshwarCVS) on GitHub too. Stars help others find
+open-source job tools.
 
-3. Open a Pull Request with the title: `Add: Company Name — Role Title`
+## Adding Job Listings (community)
 
-### Option 2: Submit via Issue
+### Option 1: Pull Request
 
-Use the [Add Job Listing](../../issues/new?template=add-job.yml) issue template to submit a job without needing to edit files.
+Add an entry to `sources/community-jobs.json` and open a PR titled
+`Add: Company Name — Role Title`.
 
-## Job Entry Format
+### Option 2: Issue form
 
-Every job entry needs these fields:
+Use [Add Job Listing](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=add-job.yml).
 
-| Field | Required | Example | Notes |
-|-------|----------|---------|-------|
-| `title` | Yes | Software Engineer | Job title as listed |
-| `company` | Yes | Google | Company name |
-| `location` | Yes | Mountain View, CA | City, State or "Remote" |
-| `url` | Yes | https://careers.google.com/... | Direct application link |
-| `date` | Yes | 2026-07-14 | YYYY-MM-DD format |
-| `category` | No | Software Engineering | See categories below |
-| `work_model` | No | Hybrid | Remote, Hybrid, or On Site |
-| `info` | No | H1B Sponsor | Visa, level, degree info |
+### Job entry fields
 
-### Categories
+| Field | Required | Example |
+|-------|----------|---------|
+| `title` | Yes | Software Engineer |
+| `company` | Yes | Google |
+| `location` | Yes | Mountain View, CA |
+| `url` | Yes | https://careers.google.com/... |
+| `date` | Yes | 2026-07-14 |
+| `category` | No | Software Engineering |
+| `work_model` | No | Remote |
+| `info` | No | H1B Sponsor |
+| `contributor` | No | alice |
 
-Use one of these categories:
+### Info tags
 
-- `Software Engineering` (default)
-- `Frontend`
-- `Backend`
-- `Full Stack`
-- `Data/ML`
-- `DevOps/Infra`
-- `Mobile`
-- `Security`
-- `Embedded/HW`
-- `Internship`
+`H1B Sponsor`, `H1B (Historical)`, `No Sponsorship`, `US Citizen Only`,
+`Advanced Degree`, `New Grad`, seniority labels.
 
-### Info Tags
+## Curator submissions (owned space + GitHub secret key)
 
-Common tags for the `info` field:
+Curators get `sources/curators/<id>/<year>/<month>/jobs.json`.
 
-- `H1B Sponsor` — company sponsors H1B visas
-- `H1B (Historical)` — company has sponsored in the past
-- `No Sponsorship` — no visa sponsorship available
-- `US Citizen Only` — requires US citizenship
-- `Advanced Degree` — requires Master's or PhD
-- `New Grad` — entry-level / new graduate role
-- `Senior`, `Staff`, `Principal` — seniority level
+**Keys are GitHub Actions secrets — not files in the repo.**
 
-## Adding Data Sources
+1. Maintainer runs `python -m pipeline.generate_curator_key <id>` (prints a key; does not write the repo).
+2. Maintainer adds it under **Settings → Secrets and variables → Actions** as `CURATOR_KEY_<ID>`.
+3. Maintainer DMs the key to the curator.
+4. Curator opens the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml), pastes **curator id + key + post**.
+5. Actions compares the form key to the secret. On match it appends `jobs.json` and redacts the key.
 
-To add a new automated data source:
+Details: [`sources/curators/README.md`](sources/curators/README.md).
 
-1. Create a new scraper in `pipeline/sources/`
-2. Follow the pattern of existing scrapers (return `list[Job]`)
-3. Add the import and call in `pipeline/scraper.py`
-4. Open a PR with a description of the source and update frequency
+## Adding scrapers / sources
 
-## Reporting Issues
+Read **[pipeline/README.md](pipeline/README.md)** first (fetch → filter → dedup → publish).
+Suggestions for better dedup, incremental sync, or official APIs are welcome as issues/PRs.
 
-- **Broken link?** Open an issue with the job title and company
-- **Duplicate listing?** Open an issue with both entries
-- **Scraper bug?** Include the error output and which source failed
+To add a scraper:
 
-## Adding LinkedIn Feed Sources
+1. New module under `pipeline/sources/`
+2. Return `list[Job]`
+3. Wire into `pipeline/scraper.py`
+4. Prefer voluntary curator / community intake over brittle authenticated scraping
 
-To add a LinkedIn user whose posts contain job listings:
+## Reporting issues
 
-1. Set up an RSS feed for their posts using a service like [rss.app](https://rss.app)
-2. Add the feed URL to `sources/linkedin-feeds.json`
-3. Submit a PR
+Broken links, duplicates, or scraper errors — open an issue with details.
 
-## Code Style
+## Code style
 
 - Python 3.12+
-- No external dependencies beyond what's in `requirements.txt` unless necessary
-- Type hints encouraged
-- Keep scrapers resilient to format changes (don't crash on unexpected input)
+- Keep dependencies minimal (`pipeline/requirements.txt`)
+- Type hints encouraged; scrapers should not crash on odd upstream HTML/JSON
+
+## Credits
+
+See [CREDITS.md](CREDITS.md) for how we cite SimplifyJobs, jobright-ai, and this project.
 
 ## Questions?
 
-Open an issue or start a discussion. We're happy to help!
+Open an issue. Contributions of all sizes are welcome.
