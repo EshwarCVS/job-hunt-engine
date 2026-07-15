@@ -6,7 +6,7 @@ Your open-source job board for tech roles — internships, new grad, and experie
 
 <p>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-15&color=0A66C2" alt="Last updated" /></a>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3674&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3672&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
@@ -41,11 +41,11 @@ This project stays useful when the community helps. We especially need:
 
 ## July 2026 Jobs
 
-> **3674** active listings · newest first · previous month: _no prior archive yet_ ·
+> **3672** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3674</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3672</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
@@ -129,7 +129,7 @@ This project stays useful when the community helps. We especially need:
 | Jul 15 | [Associate Product Engineer](https://jobright.ai/jobs/info/6a17433a5b0a497d5210a590?utm_campaign=Software%20Engineering&utm_source=1103) | MJH Life Sciences® | United States, US · Remote | Software Engineering | jobright-ai | - |
 | Jul 15 | [Software Developer I](https://jobright.ai/jobs/info/6a579c2af7517b519ad5b427?utm_campaign=Software%20Engineering&utm_source=1103) | General Atomics Aeronautical Systems | Poway, CA, United States · On Site | Software Engineering | jobright-ai | - |
 | Jul 15 | [Associate Embedded Software Engineer](https://jobright.ai/jobs/info/6a579ba5e9b77f668bd68df7?utm_campaign=Software%20Engineering&utm_source=1103) | Intramotev | St. Louis, Missouri, United States · On Site | Software Engineering | jobright-ai | - |
-| … | *+3594 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
+| … | *+3592 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 

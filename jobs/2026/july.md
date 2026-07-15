@@ -4,7 +4,7 @@
 
 
 
-> **3674** listings for July 2026
+> **3672** listings for July 2026
 
 <details open>
 <summary><strong>Job listings</strong> (click to collapse / expand)</summary>
@@ -777,7 +777,6 @@
 | Jul 13 | [Associate Product Manager Intern - Associate Product Manager](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Associate-Product-Manager--APM-_JR348039-1) | Salesforce | SF | Internship | SimplifyJobs | Bachelor's, Master's |
 | Jul 13 | [Software Engineer Intern](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us-2/) | Citadel Securities | London, UK | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
 | Jul 13 | [Engineering Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00187036) | Leidos | Huntsville, AL | Internship | SimplifyJobs | Bachelor's |
-| Jul 13 | [Student Reporting - Ams](https://avaap.wd501.myworkdayjobs.com/AvaapCareers/job/United-States-of-America/Student-Reporting---AMS_JR1132) | Avaap | Remote in USA | Data/ML | SimplifyJobs | - |
 | Jul 13 | [Associate Product Manager Intern - Associate Product Manager](https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Associate-Product-Manager--APM-_JR348039) | Salesforce | SF | Internship | SimplifyJobs | Bachelor's, Master's |
 | Jul 13 | [Quantitative Research Engineer Intern](https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-europe/) | Citadel | London, UK | Internship | SimplifyJobs | PhD |
 | Jul 13 | [Teleoperation Software Engineering Internship](https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c/application) | Persona AI | Houston, TX, Pensacola, FL | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
@@ -1749,7 +1748,6 @@
 | Jul 10 | [Research Data Coordinator - Burnsville](https://jobright.ai/jobs/info/6a4ebdd9fc327f422fef4093?utm_campaign=Data%20Analysis&utm_source=1103) | Minnesota Oncology | Burnsville,Minnesota,United States · On Site | Data/ML | jobright-ai | - |
 | Jul 10 | [Associate, Research & Delivery (Kurdish - Sorani Speaking)](https://jobright.ai/jobs/info/6a42432dadab21425e9fd304?utm_campaign=Data%20Analysis&utm_source=1103) | Exiger | Toronto, Ontario, Canada · Remote | Data/ML | jobright-ai | - |
 | Jul 09 | [Student Economics & Investment Research](https://aimco.wd10.myworkdayjobs.com/AIMCoCareers/job/Edmonton/Student--Economics---Investment-Research--Fall-2026-_JR100870) | Alberta Investment Management Corporation | Calgary, AB, Canada, Edmonton, AB, Canada | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
-| Jul 09 | [Data Scientist Intern](https://job-boards.greenhouse.io/uberfreight/jobs/5194491008) | Uber Freight | Chicago, IL | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
 | Jul 09 | [Digital Marketing Intern - Technical AI & Automation](https://job-boards.greenhouse.io/eulerity/jobs/4695806006) | Eulerity | NYC | Internship | SimplifyJobs | - |
 | Jul 09 | [Data Analyst Assistant](https://job-boards.greenhouse.io/brevium/jobs/4326783006) | Brevium | American Fork, UT | Data/ML | SimplifyJobs | Bachelor's |
 | Jul 09 | [Climate & Health Intern](https://osv-edf.wd5.myworkdayjobs.com/en-US/Confidential/job/Remote---US-Home/Climate---Health-Intern_REQ-002561) | Environmental Defense Fund | NYC | Internship | SimplifyJobs | Bachelor's |
