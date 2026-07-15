@@ -1,0 +1,75 @@
+name: Add Job Listing
+description: Submit a job listing to be added to the board
+title: "Add: [Company] — [Role]"
+labels: ["job-submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Job Title
+      placeholder: "e.g., Software Engineer"
+    validations:
+      required: true
+
+  - type: input
+    id: company
+    attributes:
+      label: Company Name
+      placeholder: "e.g., Google"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Application URL
+      placeholder: "https://careers.google.com/..."
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      placeholder: "e.g., Mountain View, CA or Remote"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Software Engineering
+        - Frontend
+        - Backend
+        - Full Stack
+        - Data/ML
+        - DevOps/Infra
+        - Mobile
+        - Security
+        - Embedded/HW
+        - Internship
+    validations:
+      required: true
+
+  - type: dropdown
+    id: work_model
+    attributes:
+      label: Work Model
+      options:
+        - On Site
+        - Hybrid
+        - Remote
+        - Not Sure
+    validations:
+      required: true
+
+  - type: input
+    id: info
+    attributes:
+      label: Additional Info
+      description: "H1B sponsorship, seniority level, degree requirements, etc."
+      placeholder: "e.g., H1B Sponsor, Senior level"
+    validations:
+      required: false

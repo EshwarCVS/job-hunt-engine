@@ -1,0 +1,46 @@
+name: Scrape Jobs Daily
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 9 AM UTC daily
+  workflow_dispatch:       # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r pipeline/requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: python -m pipeline.scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Job Hunt Bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "chore: update job listings $(date -u +%Y-%m-%d)"
+          git push

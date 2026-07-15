@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+pipeline/jobs_data.csv
+node_modules/
+.env
+.env.*
+!.env.example
