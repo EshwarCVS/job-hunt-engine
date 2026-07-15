@@ -95,11 +95,10 @@ only if they were produced by real runs in those months.
 
 ### 5. Automation
 
-[`.github/workflows/scrape-jobs.yml`](../.github/workflows/scrape-jobs.yml) runs
-daily / on demand, commits as `EshwarCVS` when outputs change.
+- **Curator ingest** ([`curator-submit.yml`](../.github/workflows/curator-submit.yml)): runs when an issue is **opened** with the `curator-submission` label (Curator submission form). Commits JSON to **`develop`**.
+- **Scrape + publish** ([`scrape-jobs.yml`](../.github/workflows/scrape-jobs.yml)): daily cron (and manual). Checks out **`develop`**, scrapes (curators + community + upstream), commits, then merges **`develop` → `master`** and keeps both in sync. **`master`** is the public board.
 
-Curator issue form → [`.github/workflows/curator-submit.yml`](../.github/workflows/curator-submit.yml)
-appends into the curator year/month folder after GitHub-secret key check.
+Scheduled runs never prompt. Manual “Run workflow” may show an optional LinkedIn force flag — leave `false` unless you are forcing LinkedIn.
 
 ---
 

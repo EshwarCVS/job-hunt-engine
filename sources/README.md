@@ -36,9 +36,9 @@ Generic list of LinkedIn profiles to mine for hiring links.
 ```json
 [
   {
-    "username": "madhanvadlamudi",
-    "display_name": "Madhan Vadlamudi",
-    "url": "https://www.linkedin.com/in/madhanvadlamudi/",
+    "username": "eshwarchandravidhyasagar",
+    "display_name": "Eshwar Chandra Vidhyasagar",
+    "url": "https://www.linkedin.com/in/eshwarchandravidhyasagar/",
     "tags": ["swe", "new-grad", "internships"],
     "active": true,
     "scrape_every_days": 3,

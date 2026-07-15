@@ -7,8 +7,7 @@
       "linkedin_url": "https://www.linkedin.com/in/madhanvadlamudi/",
       "github": "",
       "active": true,
-      "secret_name": "CURATOR_KEY_MADHANVADLAMUDI",
-      "notes": "Plaintext key lives only in GitHub Actions secret CURATOR_KEY_MADHANVADLAMUDI — never in this repo."
+      "notes": "Passphrase is stored only in GitHub Actions (never in this file)."
     }
   ]
 }

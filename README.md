@@ -12,9 +12,12 @@ Your open-source job board for tech roles — internships, new grad, and experie
 **Quick links:** [Interactive Board (sort & filter)](docs/board.html) ·
 [Contribute a job](CONTRIBUTING.md) ·
 [Curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) ·
+[Curator onboarding (maintainers)](sources/curators/ONBOARDING.md) ·
 [Data sources](sources/README.md) ·
 [How scraping works](pipeline/README.md) ·
 [Credits](CREDITS.md) ·
+[Security](SECURITY.md) ·
+[Code of Conduct](CODE_OF_CONDUCT.md) ·
 [Issues](https://github.com/EshwarCVS/job-hunt-engine/issues)
 
 **Support the project:** ⭐ [Star this repo](https://github.com/EshwarCVS/job-hunt-engine) · ⭐ [Star @EshwarCVS](https://github.com/EshwarCVS)
@@ -26,7 +29,7 @@ Your open-source job board for tech roles — internships, new grad, and experie
 This project stays useful when the community helps. We especially need:
 
 - New / hard-to-find listings via [community PR or issue](CONTRIBUTING.md)
-- Curators: paste posts with the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) (secret key + owned year/month folder)
+- Curators: paste posts with the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) (secret key + owned year/month folder) · [request access](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-request.yml)
 - Bug reports for dead application links
 - Improvements to scrapers and the interactive board — see [pipeline/README.md](pipeline/README.md)
 - ⭐ Star [this repo](https://github.com/EshwarCVS/job-hunt-engine) and [@EshwarCVS](https://github.com/EshwarCVS) if it helps you

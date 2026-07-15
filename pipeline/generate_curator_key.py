@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Generate a random curator submit key for GitHub Actions secrets.
+"""Print the CURATOR_<ID> name to add into the CURATOR_KEYS GitHub secret.
 
-Does NOT write anything to the repo. Copy the printed key into:
-  Repo → Settings → Secrets and variables → Actions → New repository secret
-  Name:  CURATOR_KEY_<CURATORID_UPPER>
-  Value: <printed key>
+Does NOT write the repo. Onboard flow:
 
-Then send the same value to the curator privately (DM). They paste it in the
-curator issue form. The Action compares form input to the secret.
+1. Add curator to sources/curators/_index.json + folder
+2. Settings → Secrets → Actions → edit CURATOR_KEYS (JSON)
+3. Add: "eshwarchandravidhyasagar": "their-passphrase"
+   and/or "CURATOR_ESHWARCHANDRAVIDHYASAGAR": "their-passphrase"
+4. DM the passphrase to the curator
 
 Usage:
-  python -m pipeline.generate_curator_key madhanvadlamudi
+  python -m pipeline.generate_curator_key eshwarchandravidhyasagar
 """
 
 from __future__ import annotations
@@ -18,21 +18,26 @@ from __future__ import annotations
 import secrets
 import sys
 
+from pipeline.curator_ingest import curator_secret_env_name
+
 
 def main(argv: list[str]) -> int:
     if len(argv) != 2:
         print("Usage: python -m pipeline.generate_curator_key <curator_id>", file=sys.stderr)
         return 2
-    curator_id = argv[1].strip().lstrip("@").lower().replace("-", "")
-    secret_name = "CURATOR_KEY_" + curator_id.upper().replace("-", "_")
-    key = secrets.token_urlsafe(32)
-    print(f"GitHub secret name:  {secret_name}")
-    print(f"GitHub secret value: {key}")
+    curator_id = argv[1].strip().lstrip("@").lower()
+    env_name = curator_secret_env_name(curator_id)
+    suggested = secrets.token_urlsafe(16)
+    print(f"Curator id:           {curator_id}")
+    print(f"Secret map name:      CURATOR_KEYS   (one GitHub Actions secret for everyone)")
+    print(f"JSON entry (id):      \"{curator_id}\": \"<passphrase>\"")
+    print(f"JSON entry (alias):   \"{env_name}\": \"<passphrase>\"")
     print()
-    print("1) Add the secret in GitHub (Settings → Secrets → Actions).")
-    print("2) DM the value to the curator — do not commit it, do not paste it in issues yourself.")
-    print("3) Tell them to use the Curator submission issue form and paste the key there.")
-    print("4) Wire the secret into .github/workflows/curator-submit.yml env if it is a new curator.")
+    print("You may use a memorable passphrase instead of random — just never commit it.")
+    print(f"Random suggestion (optional): {suggested}")
+    print()
+    print("Edit GitHub → Settings → Secrets → Actions → CURATOR_KEYS only.")
+    print("Do not commit passphrases. Do not add a new workflow env line per curator.")
     return 0
 
 

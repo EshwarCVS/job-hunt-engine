@@ -1,63 +1,47 @@
 # Curator owned spaces
 
+Maintainer onboarding (full steps): **[ONBOARDING.md](ONBOARDING.md)**
+
 ```text
 sources/curators/
-  _index.json                          # public registry (NO keys)
+  _index.json
+  ONBOARDING.md
   <curator-id>/
     profile.json
     <year>/
       <month>/
-        jobs.json                      # voluntary submissions
+        jobs.json          # structured jobs extracted from posts
+        posts/             # raw pasted LinkedIn text (no keys)
 ```
 
-Example: `sources/curators/madhanvadlamudi/2026/07/jobs.json`
+## Form flow
 
-## How keys work (GitHub Secrets — not the repo)
+1. Curator opens **Curator submission** issue → id + passphrase + **post as-is**
+2. Action **redacts the passphrase** from the issue immediately
+3. Post is parsed (apply URLs + title/company/location/visa heuristics)
+4. Files land on **`develop`** under the curator year/month folder
+5. Scrape/publish is triggered → listings appear on **`master`**
 
-```text
-You (maintainer)                    Madhan (curator)                 GitHub Actions
-─────────────────                   ────────────────                 ──────────────
-1. Generate a random key
-2. Store it as Actions secret
-   CURATOR_KEY_MADHANVADLAMUDI ──┐
-3. DM the same key to Madhan      │
-                                  │ 4. Opens Curator issue form
-                                  │ 5. Pastes curator id + key
-                                  │ 6. Pastes LinkedIn post as-is
-                                  └────────────────────────────────► 7. Loads secret from GitHub
-                                                                     8. Constant-time compare
-                                                                     9. If match → append jobs.json
-                                                                    10. Redact key on the issue
+## Secrets (`CURATOR_KEYS`)
+
+One GitHub Actions secret (JSON). Do **not** put real passphrases in git.
+
+```json
+{
+  "eshwarchandravidhyasagar": "<passphrase>",
+  "CURATOR_ESHWARCHANDRAVIDHYASAGAR": "<passphrase>"
+}
 ```
 
-- **Where the key is stored:** only in **GitHub → Settings → Secrets and variables → Actions**
-  (secret name `CURATOR_KEY_MADHANVADLAMUDI`, or a JSON map secret `CURATOR_KEYS`).
-- **Not stored in git:** `_index.json` only lists the secret *name*, never the value.
-- **How Madhan enters it:** the [Curator submission](../../issues/new?template=curator-submit.yml) form field **Curator key**.
-- **How validation works:** the workflow injects `${{ secrets.CURATOR_KEY_… }}` into the job environment; `pipeline/curator_ingest.py` compares the form value with `hmac.compare_digest`. No match → nothing is written.
+Alias = `CURATOR_` + id in screaming case. Onboard = edit this secret only (no workflow change).
 
-### Maintainer setup
+Memorable passphrases are fine; rotate if one was visible before redact.
 
-```bash
-python -m pipeline.generate_curator_key madhanvadlamudi
-# Copy printed name + value into GitHub Actions secrets.
-# DM the value to the curator. Do not commit it.
-```
+## Credits / git attribution
 
-For new curators, also add an `env:` line in `.github/workflows/curator-submit.yml`:
-
-```yaml
-CURATOR_KEY_NEWPERSON: ${{ secrets.CURATOR_KEY_NEWPERSON }}
-```
-
-(or put everyone in one `CURATOR_KEYS` JSON secret: `{"madhanvadlamudi":"…","other":"…"}`).
-
-### Security notes
-
-- Rotate the secret if an issue showed the key before redact.
-- Prefer a secondary identity for automation; never put personal passwords in secrets meant for curators.
-- Public issue forms are briefly visible — redact runs after ingest; treat keys as rotatable.
-
-## Credits
+Commits from curator ingest use the submitter's GitHub identity when known
+(form username → `_index.json` `github` → issue author → maintainer fallback).
+Fill `github` in `_index.json` when onboarding so credit still works if a maintainer
+pastes on their behalf.
 
 See [CREDITS.md](../../CREDITS.md).

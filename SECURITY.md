@@ -14,8 +14,9 @@ Never commit:
 - Curator submit keys
 - API tokens / `.env` files
 
-Use GitHub Actions secrets / local `.env` (gitignored). Curator keys belong in
-`Settings → Secrets and variables → Actions` only.
+Use GitHub Actions secrets / local `.env` (gitignored). Curator passphrases belong in
+the single Actions secret **`CURATOR_KEYS`** (JSON map). Prefer aliases like
+`CURATOR_ESHWARCHANDRAVIDHYASAGAR` (= `CURATOR_` + curator id). Never commit passphrase values.
 
 ## Automated checks
 
