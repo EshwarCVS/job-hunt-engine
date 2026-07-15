@@ -4,7 +4,7 @@ Your open-source job board for tech roles — internships, new grad, and experie
 
 <p>
   <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-15&color=0A66C2" alt="Last updated" /></a>
-  <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3650&color=2ea44f" alt="Job count" /></a>
+  <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3625&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
 </p>
@@ -38,15 +38,17 @@ This project stays useful when the community helps. We especially need:
 
 ## July 2026 Jobs
 
-> **3650** active listings · newest first · previous month: _no prior archive yet_ ·
+> **3625** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](docs/board.html)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3650</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3625</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
 | Jul 15 | [Software Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/8052785) | Cloudflare | Austin, TX | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Test Engineering Apprentice](https://jobs.smartrecruiters.com/SmithsGroup2/744000137822980) | Smiths Detection Group | Slough, UK | Software Engineering | SimplifyJobs | - |
+| Jul 15 | [Software Engineer Intern](https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application?embed=true) | Circleback | SF | Internship | SimplifyJobs | - |
 | Jul 15 | [Software Engineer – University Graduate](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/) | Citadel Securities | London, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
 | Jul 15 | [Data Labeler](https://www.tesla.com/careers/search/job/276585) | Tesla | Palo Alto, CA | Data/ML | SimplifyJobs | - |
 | Jul 15 | [GIS Analyst](https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/Gastonia-NC-USA/Analyst-GIS_70804-1) | Enbridge | Morrisville, NC, Gastonia, NC | Data/ML | SimplifyJobs | Bachelor's |
@@ -56,6 +58,18 @@ This project stays useful when the community helps. We especially need:
 | Jul 15 | [Research Engineer](https://jobs.ashbyhq.com/fundamentalresearchlabs/8d460b28-233d-4305-a708-cf547ec3285e/application?embed=true) | Fundamental Research Labs | Menlo Park, CA | Data/ML | SimplifyJobs | - |
 | Jul 15 | [Diamond Turning Machinist - Starshield](https://boards.greenhouse.io/spacex/jobs/8523980002) | SpaceX | West Athens, CA | Software Engineering | SimplifyJobs | - |
 | Jul 15 | [Machine Learning Engineer - Tapestry](https://x.company/careers/8633983002?gh_jid=8633983002) | X Development | Mountain View, CA | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 15 | [Associate Data Engineer](https://jobs.ashbyhq.com/quantexa/b835b33f-a320-48b9-bf6b-e7c59cc87466/application?embed=true) | Quantexa | London, UK | Data/ML | SimplifyJobs | - |
+| Jul 15 | [Software Engineer New Grad](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true) | Faros AI | San Mateo, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Software Engineer 1](https://jobs.ashbyhq.com/checkout.com/c37d4aba-998a-4266-8525-2b5fad1bfb56/application?embed=true) | Checkout.com | London, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Forward Deployed Engineer](https://jobs.ashbyhq.com/faros-ai/842a6e50-4050-4d7d-99f0-b9272c76cf43/application?embed=true) | Faros AI | San Mateo, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Product Implementation Engineer 1](https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f/application?embed=true) | Corvus Robotics | Mountain View, CA | Software Engineering | SimplifyJobs | - |
+| Jul 15 | [Software Development Engineer Intern (Network Automation) - 2026 Summer (BS/MS)](https://jobright.ai/jobs/info/6a5747f9e9b77f668bd67618?utm_campaign=1079&utm_source=git) | ByteDance | San Jose, CA, United States · On Site | Internship | jobright-ai | - |
+| Jul 15 | [Software Engineer Intern](https://jobright.ai/jobs/info/6a56a26ff7517b519ad57272?utm_campaign=1079&utm_source=git) | NetApp | Wichita, KS, United States · On Site | Internship | jobright-ai | - |
+| Jul 15 | [Developer Intern](https://jobright.ai/jobs/info/6a4af1163dbab558e29af6e1?utm_campaign=1079&utm_source=git) | CCS | Hauppauge, NY, United States · On Site | Internship | jobright-ai | - |
+| Jul 15 | [Computational Designer - Researcher](https://jobright.ai/jobs/info/6a573ff2367e61670f5aeaba?utm_campaign=Software%20Engineering&utm_source=1103) | Sherwood Design Engineers | New York City, NY, United States · On Site | Software Engineering | jobright-ai | - |
+| Jul 15 | [Full-Stack Software Engineer, Specialized Professional Intelligence](https://jobright.ai/jobs/info/6a5739a910c4d945d864d582?utm_campaign=Software%20Engineering&utm_source=1103) | X, The Moonshot Factory | Mountain View, CA, United States · On Site | Software Engineering | jobright-ai | - |
+| Jul 15 | [Software Engineer (C++ or Python) – 2027 Grads](https://jobright.ai/jobs/info/6a5505cf377f983ce8a973cf?utm_campaign=Software%20Engineering&utm_source=1103) | Hudson River Trading | Austin, TX, United States · On Site | Software Engineering | jobright-ai | - |
+| Jul 15 | [Junior Infrastructure Engineer](https://jobright.ai/jobs/info/6a57347453b3962b910b3f0f?utm_campaign=Software%20Engineering&utm_source=1103) | Acronis | Tempe, AZ, USA · Remote | DevOps/Infra | jobright-ai | - |
 | Jul 15 | [Backend Compiler Engineer (New College Grad 2026)](https://lnkd.in/gsvZGt3X) | See post | Santa Clara, CA | Software Engineering | Curator — @eshwarchandravidhyasagar | New Grad \| Software Engineering \| Via @eshwarchandravidhyasagar |
 | Jul 14 | [Data Engineering Intern](https://job-boards.greenhouse.io/janestreet/jobs/8631973002) | Jane Street | NYC | Internship | SimplifyJobs | - |
 | Jul 14 | [Electronics Tech Intern](https://fa-ewub-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_26/job/1330) | Duracell | Atlanta, GA | Internship | SimplifyJobs | Bachelor's, Associate's |
@@ -73,7 +87,6 @@ This project stays useful when the community helps. We especially need:
 | Jul 14 | [Frontend Application Engineer Intern](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/29776) | Navy Federal | Pensacola, FL, Vienna, VA | Internship | SimplifyJobs | Bachelor's |
 | Jul 14 | [BB Process Engineering Intern](https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11508) | Kulicke & Soffa | Ambler, PA | Internship | SimplifyJobs | Bachelor's |
 | Jul 14 | [Year Round Intern - Business Intelligence Analyst](https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/30289) | Navy Federal | Winchester, VA, Vienna, VA | Internship | SimplifyJobs | Bachelor's |
-| Jul 14 | [Field Engineer Apprentice](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Detroit/Field-Engineer-Apprentice_R4043571) | GE Healthcare | Detroit, MI | Software Engineering | SimplifyJobs | Bachelor's, Master's, Associate's, Certificate |
 | Jul 14 | [Analog Design Engineer Co-op - Analog Design Engineer](https://jobs.eu.lever.co/cirrus/8ad92ca2-1f67-4a86-a5cf-12b7b2981960/apply) | Cirrus Logic | Greensboro, NC | Internship | SimplifyJobs | Master's, PhD |
 | Jul 14 | [Regression Lab Co-op](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38077) | Nokia | Westford, MA | Internship | SimplifyJobs | Bachelor's |
 | Jul 14 | [Digital Design Engineer Co-op - Digital Design Engineer](https://jobs.eu.lever.co/cirrus/285c6096-5bc0-438e-abc6-b9768891167d/apply) | Cirrus Logic | Greensboro, NC | Internship | SimplifyJobs | Master's, PhD |
@@ -113,20 +126,7 @@ This project stays useful when the community helps. We especially need:
 | Jul 14 | [Software Development Engineer - Military Veterans](https://amazon.jobs/en/jobs/3179205/software-development-engineer-military-veterans) | Amazon | Seattle, WA, Redmond, WA, Arlington, VA +4 more | Software Engineering | SimplifyJobs | Bachelor's |
 | Jul 14 | [Graduate Java Developer](https://jobs.smartrecruiters.com/RadiusLimited/744000137606588) | Radius Limited | Northwich, UK | Software Engineering | SimplifyJobs | Bachelor's |
 | Jul 14 | [Electrical Tech 1](https://jobs.halliburton.com/job/Aberdeen-Aberdeen-R&M-Electrical-Tech-I-ABE-AB21-0GN/1408540000/?ats=successfactors) | Halliburton | Aberdeen, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's, MBA, PhD, Associate's, JD, MD, Certificate |
-| Jul 14 | [Internal Audit Associate - Data Analytics Focus](https://cinfin.taleo.net/careersection/ex/jobdetail.ftl?job=2600637) | Cincinnati Financial | Fairfield, OH | Internship | SimplifyJobs | Bachelor's |
-| Jul 14 | [HVAC Controls Systems Application Engineer](https://jci.wd5.myworkdayjobs.com/JCI/job/Capitol-Heights-Maryland-United-States-of-America/HVAC-Controls-Systems-Application-Engineer_WD30274054-1) | Johnson Controls | District Heights, MD | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 14 | [Mapping Engineer](https://jobs.ashbyhq.com/AeroVect/0677f8a9-c7dd-4e36-ac45-685fbc28bca4/application) | AeroVect | Atlanta, GA | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 14 | [Assistant Catastrophe Analyst](https://archgroup.wd1.myworkdayjobs.com/careers/job/London-United-Kingdom/Assistant-Catastrophe-Analyst_R26_696-1) | Arch Capital Group | London, UK | Data/ML | SimplifyJobs | - |
-| Jul 14 | [Hardware Engineer](https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/9940) | Ralliant | Glasgow, UK | Embedded/HW | SimplifyJobs | Bachelor's |
-| Jul 14 | [Software Engineer 1 - Model and Simulation](https://job-boards.greenhouse.io/katalyst/jobs/6115352004) | Katalyst Space Technologies | Broomfield, CO | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 14 | [iOS Engineer 1 - Subscriptions](https://jobs.lever.co/spotify/5089cbe3-5e62-4c24-89a2-9a1487eb5034/apply) | Spotify | London, UK | Mobile | SimplifyJobs | - |
-| Jul 14 | [Analyst 1 - Customer Digital Engagement](https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers/job/2350394) | Waste Management | Hartford, CT | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 14 | [Space Optimization Analyst](https://careers.footlocker.com/jobs/70887?icims=1) | Foot Locker | NYC | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 14 | [Tax – Business and Data Intelligence - Analyst](https://higher.gs.com/roles/135162) | Goldman Sachs | NYC | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 14 | [Business Intelligence Developer 1 - Google Cloud](https://www.google.com/about/careers/applications/jobs/results/112117687143801542) | Google | Austin, TX, Chicago, IL, Boulder, CO +1 more | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 14 | [Data Engineer 1 - Amazon Business Ops Analytics](https://amazon.jobs/en/jobs/10474520/data-engineer-i-amazon-business-ops-analytics) | Amazon | Toronto, ON, Canada | Data/ML | SimplifyJobs | - |
-| Jul 14 | [Associate Developer](https://oldrepublic.wd1.myworkdayjobs.com/oldrepublictitle/job/FL-Orlando-6545-Corporate-Ctr-Blvd/Associate-C--Developer_R-4196) | Old Republic Title | Orlando, FL | Software Engineering | SimplifyJobs | Bachelor's |
-| … | *+3570 more — use [Interactive Board](docs/board.html) to browse all* | | | | | |
+| … | *+3545 more — use [Interactive Board](docs/board.html) to browse all* | | | | | |
 
 </details>
 
