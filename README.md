@@ -4,7 +4,7 @@ Your open-source job board for tech roles — internships, new grad, and experie
 
 <p>
   <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-15&color=0A66C2" alt="Last updated" /></a>
-  <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3657&color=2ea44f" alt="Job count" /></a>
+  <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3650&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
 </p>
@@ -38,11 +38,11 @@ This project stays useful when the community helps. We especially need:
 
 ## July 2026 Jobs
 
-> **3657** active listings · newest first · previous month: _no prior archive yet_ ·
+> **3650** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](docs/board.html)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3657</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3650</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
@@ -56,6 +56,7 @@ This project stays useful when the community helps. We especially need:
 | Jul 15 | [Research Engineer](https://jobs.ashbyhq.com/fundamentalresearchlabs/8d460b28-233d-4305-a708-cf547ec3285e/application?embed=true) | Fundamental Research Labs | Menlo Park, CA | Data/ML | SimplifyJobs | - |
 | Jul 15 | [Diamond Turning Machinist - Starshield](https://boards.greenhouse.io/spacex/jobs/8523980002) | SpaceX | West Athens, CA | Software Engineering | SimplifyJobs | - |
 | Jul 15 | [Machine Learning Engineer - Tapestry](https://x.company/careers/8633983002?gh_jid=8633983002) | X Development | Mountain View, CA | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 15 | [Backend Compiler Engineer (New College Grad 2026)](https://lnkd.in/gsvZGt3X) | See post | Santa Clara, CA | Software Engineering | Curator — @eshwarchandravidhyasagar | New Grad \| Software Engineering \| Via @eshwarchandravidhyasagar |
 | Jul 14 | [Data Engineering Intern](https://job-boards.greenhouse.io/janestreet/jobs/8631973002) | Jane Street | NYC | Internship | SimplifyJobs | - |
 | Jul 14 | [Electronics Tech Intern](https://fa-ewub-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_26/job/1330) | Duracell | Atlanta, GA | Internship | SimplifyJobs | Bachelor's, Associate's |
 | Jul 14 | [Software Development Engineer Apprentice - Military Veterans](https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans) | Amazon | Arlington, VA, Bellevue, WA, Cupertino, CA +1 more | Software Engineering | SimplifyJobs | Bachelor's |
@@ -125,8 +126,7 @@ This project stays useful when the community helps. We especially need:
 | Jul 14 | [Business Intelligence Developer 1 - Google Cloud](https://www.google.com/about/careers/applications/jobs/results/112117687143801542) | Google | Austin, TX, Chicago, IL, Boulder, CO +1 more | Data/ML | SimplifyJobs | Bachelor's |
 | Jul 14 | [Data Engineer 1 - Amazon Business Ops Analytics](https://amazon.jobs/en/jobs/10474520/data-engineer-i-amazon-business-ops-analytics) | Amazon | Toronto, ON, Canada | Data/ML | SimplifyJobs | - |
 | Jul 14 | [Associate Developer](https://oldrepublic.wd1.myworkdayjobs.com/oldrepublictitle/job/FL-Orlando-6545-Corporate-Ctr-Blvd/Associate-C--Developer_R-4196) | Old Republic Title | Orlando, FL | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 14 | [eDiscovery Data Analyst](https://caci.wd1.myworkdayjobs.com/external/job/Alexandria-VA-US/eDiscovery-Data-Analyst_329042) | CACI | Alexandria, VA | Data/ML | SimplifyJobs | Bachelor's |
-| … | *+3577 more — use [Interactive Board](docs/board.html) to browse all* | | | | | |
+| … | *+3570 more — use [Interactive Board](docs/board.html) to browse all* | | | | | |
 
 </details>
 
@@ -227,7 +227,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) to:
 
 ### Contributors — July 2026
 
-_Be the first community contributor this month — [add a job](CONTRIBUTING.md)!_
+Thanks to this month's contributors: **eshwarchandravidhyasagar**.
 
 ---
 
