@@ -167,9 +167,10 @@ Browse previous months:
 - **Get it in writing** — verbal offers aren't binding
 
 ### Resources
-- [Resume Tips](skills/resume-tips.md)
+- [Resume Tips](skills/resume-tips.md) — plus [LinkedIn resume checklist](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumetips-jobsearch-softwareengineering-activity-7458586210945490946-1yzF) and [live resume review](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-share-7450549819946835968-e_pG)
 - [Interview Checklist](skills/interview-checklist.md)
 - [ATS Optimization](skills/ats-optimization.md)
+- [Vigilant Lamp](https://github.com/EshwarCVS/vigilant-lamp) — learning tracks (SDE, data, FDE, systems)
 - [More Resources](resources.md)
 
 ---
