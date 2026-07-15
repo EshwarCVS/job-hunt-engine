@@ -737,7 +737,7 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
         <span>{today.strftime("%B %Y")} · {total} listings · generated {today.isoformat()}</span>
         <a href="{REPO_URL}">GitHub</a>
         <a href="{REPO_URL}#readme">README</a>
-        <a href="{PAGES_URL}/">Website</a>
+        <a href="{REPO_URL}/blob/master/CONTRIBUTING.md">Contributing</a>
       </div>
     </header>
 
@@ -746,6 +746,9 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
         <input id="q" type="search" placeholder="Search role, company, location, visa…" autocomplete="off" />
         <select id="category" aria-label="Category"><option value="">All categories</option>{cat_opts}</select>
         <select id="source" aria-label="Source"><option value="">All sources</option>{src_opts}</select>
+        <label class="inline">Posted on
+          <input id="onDate" type="date" aria-label="Filter by posted date" />
+        </label>
         <label class="inline">Per page
           <select id="pageSize" aria-label="Rows per page">
             <option value="25">25</option>
@@ -810,7 +813,7 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
         <input data-goto type="number" min="1" step="1" style="min-width:4.2rem;flex:0" />
       </label>
     </div>
-    <p class="tip">Tip: click column headers to sort. Use chips for Remote / New grad / Intern / Visa. Open roles in a new tab so you keep browsing.</p>
+    <p class="tip">Tip: pick a date under <strong>Posted on</strong> to show that day’s listings (newest first). Click column headers to sort. Use chips for Remote / New grad / Intern / Visa. Found a role? See <a href="{REPO_URL}/blob/master/CONTRIBUTING.md">Contributing</a>.</p>
   </div>
   <button type="button" id="toTop" class="secondary" aria-label="Back to top">↑</button>
 
@@ -818,6 +821,7 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
     const q = document.getElementById('q');
     const category = document.getElementById('category');
     const source = document.getElementById('source');
+    const onDate = document.getElementById('onDate');
     const pageSizeEl = document.getElementById('pageSize');
     const count = document.getElementById('count');
     const tbody = document.querySelector('#jobs tbody');
@@ -826,7 +830,16 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
     let sortAsc = false;
     let page = 1;
 
-    // Backfill Apply + flags for older generated rows
+    function formatPostedDate(iso) {{
+      if (!iso || !/^\\d{{4}}-\\d{{2}}-\\d{{2}}$/.test(iso)) return iso || '';
+      const [y, m, d] = iso.split('-').map(Number);
+      const dt = new Date(Date.UTC(y, m - 1, d));
+      return dt.toLocaleDateString('en-US', {{
+        month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC'
+      }});
+    }}
+
+    // Backfill Apply + flags + full dates for older generated rows
     for (const row of tbody.rows) {{
       const link = row.querySelector('a[href]');
       if (!row.dataset.flags) {{
@@ -846,8 +859,14 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
         link.classList.add('role-link');
       }}
       const dateCell = row.cells[0];
-      if (dateCell && !dateCell.querySelector('.date')) {{
-        dateCell.innerHTML = `<span class="date">${{dateCell.textContent}}</span>`;
+      if (dateCell) {{
+        const iso = row.dataset.date || dateCell.getAttribute('data-sort') || '';
+        if (iso) {{
+          dateCell.setAttribute('data-sort', iso);
+          dateCell.innerHTML = `<span class="date">${{formatPostedDate(iso)}}</span>`;
+        }} else if (!dateCell.querySelector('.date')) {{
+          dateCell.innerHTML = `<span class="date">${{dateCell.textContent}}</span>`;
+        }}
       }}
     }}
 
@@ -855,6 +874,7 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
       const term = q.value.trim().toLowerCase();
       const cat = category.value;
       const src = source.value;
+      const day = onDate.value;
       const out = [];
       for (const row of tbody.rows) {{
         const hay = (row.dataset.company + ' ' + row.dataset.location + ' ' +
@@ -862,9 +882,11 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
                      row.dataset.info + ' ' + row.innerText).toLowerCase();
         const flags = (row.dataset.flags || '').split(/\\s+/).filter(Boolean);
         const flagOk = [...activeFlags].every(f => flags.includes(f));
+        const dateOk = !day || row.dataset.date === day;
         const ok = (!term || hay.includes(term))
           && (!cat || row.dataset.category === cat)
           && (!src || row.dataset.source === src)
+          && dateOk
           && flagOk;
         if (ok) out.push(row);
       }}
@@ -920,7 +942,7 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
       const rows = Array.from(tbody.rows);
       rows.sort((a, b) => {{
         let av, bv;
-        if (key === 'date') {{ av = a.dataset.date; bv = b.dataset.date; }}
+        if (key === 'date') {{ av = a.dataset.date || ''; bv = b.dataset.date || ''; }}
         else if (key === 'company') {{ av = a.dataset.company; bv = b.dataset.company; }}
         else if (key === 'location') {{ av = a.dataset.location; bv = b.dataset.location; }}
         else if (key === 'category') {{ av = a.dataset.category; bv = b.dataset.category; }}
@@ -938,14 +960,40 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
       resetPageAndApply();
     }}
 
+    function onDateChanged() {{
+      sortKey = 'date';
+      sortAsc = false;
+      const rows = Array.from(tbody.rows);
+      rows.sort((a, b) => {{
+        const av = a.dataset.date || '';
+        const bv = b.dataset.date || '';
+        if (av < bv) return 1;
+        if (av > bv) return -1;
+        return 0;
+      }});
+      rows.forEach(r => tbody.appendChild(r));
+      resetPageAndApply();
+    }}
+
     q.addEventListener('input', resetPageAndApply);
     category.addEventListener('change', resetPageAndApply);
     source.addEventListener('change', resetPageAndApply);
+    onDate.addEventListener('change', onDateChanged);
     pageSizeEl.addEventListener('change', resetPageAndApply);
     document.getElementById('reset').addEventListener('click', () => {{
-      q.value = ''; category.value = ''; source.value = '';
+      q.value = ''; category.value = ''; source.value = ''; onDate.value = '';
       pageSizeEl.value = '50'; page = 1; activeFlags.clear();
       document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      sortKey = 'date'; sortAsc = false;
+      const rows = Array.from(tbody.rows);
+      rows.sort((a, b) => {{
+        const av = a.dataset.date || '';
+        const bv = b.dataset.date || '';
+        if (av < bv) return 1;
+        if (av > bv) return -1;
+        return 0;
+      }});
+      rows.forEach(r => tbody.appendChild(r));
       apply();
     }});
     document.querySelectorAll('.chip').forEach(chip => {{

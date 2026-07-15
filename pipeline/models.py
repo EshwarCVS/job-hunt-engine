@@ -69,7 +69,7 @@ class Job:
             f'<tr data-date="{date_str}" data-category="{category}" data-source="{source}" '
             f'data-company="{company}" data-location="{loc}" data-info="{info}" '
             f'data-flags="{flag_attr}">'
-            f'<td data-sort="{date_str}"><span class="date">{self.date_posted.strftime("%b %d")}</span></td>'
+            f'<td data-sort="{date_str}"><span class="date">{self.date_posted.strftime("%b %d, %Y")}</span></td>'
             f'<td class="role"><a class="role-link" href="{url}" rel="noopener noreferrer" target="_blank">{title}</a></td>'
             f"<td>{company}</td><td>{loc}</td><td><span class=\"pill\">{category}</span></td>"
             f"<td>{source}</td><td>{info}</td>"
