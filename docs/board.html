@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Browse and filter 1 tech jobs. Apply from the board." />
   <title>Job Hunt Engine — Board</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fragment+Mono:wght@400&display=swap" rel="stylesheet" />
   <style>
     :root {
       --bg: #f3efe6;
@@ -15,6 +12,8 @@
       --muted: #5c6554;
       --line: #d5d0c4;
       --accent: #0f6a4b;
+      --font: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+      --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
       
       --accent-2: #c45c26;
       --card: #fffcf5;
@@ -25,7 +24,7 @@
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      font-family: "DM Sans", "Segoe UI", sans-serif;
+      font-family: var(--font);
       background:
         radial-gradient(900px 420px at 0% -5%, rgba(15, 106, 75, .12), transparent 55%),
         radial-gradient(700px 380px at 100% 0%, rgba(196, 92, 38, .10), transparent 50%),
@@ -43,7 +42,7 @@
       to { opacity: 1; transform: none; }
     }
     .eyebrow {
-      font-family: "Fragment Mono", ui-monospace, monospace;
+      font-family: var(--mono);
       font-size: .78rem; letter-spacing: .04em; text-transform: uppercase;
       color: var(--accent); margin: 0;
     }
@@ -133,7 +132,7 @@
     tbody tr:hover { background: #f4faf6; }
     tr.hidden { display: none; }
     .date {
-      font-family: "Fragment Mono", ui-monospace, monospace;
+      font-family: var(--mono);
       font-size: .82rem; color: var(--muted); white-space: nowrap;
     }
     .role-link {
