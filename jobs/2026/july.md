@@ -1,6 +1,6 @@
 # July 2026 Jobs
 
-[← Back to Current Listings](../../README.md) · [Interactive Board](../../docs/board.html)
+[← Back to Current Listings](https://github.com/EshwarCVS/job-hunt-engine#readme) · [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 
 

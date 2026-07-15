@@ -1,0 +1,57 @@
+name: Deploy GitHub Pages
+
+# Publishes docs/ from the master branch to:
+#   https://eshwarcvs.github.io/job-hunt-engine/
+#
+# Triggered by:
+#   - Scrape Jobs + Publish (after develop → master)
+#   - Manual "Run workflow"
+#
+# Note: GITHUB_TOKEN pushes do NOT start other workflows, so scrape
+# must call this explicitly (workflow_call / dispatch).
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master (source of truth for the public board)
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Ensure Pages entrypoints exist
+        run: |
+          test -f docs/board.html
+          # Site root should be the interactive board
+          if [ ! -f docs/index.html ]; then
+            cp docs/board.html docs/index.html
+          fi
+          touch docs/.nojekyll
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload docs/ from master
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

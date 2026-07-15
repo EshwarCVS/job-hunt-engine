@@ -21,14 +21,15 @@ Each board row includes a **Source** column. Prefer linking to the original appl
 
 | Component | Role | License |
 |-----------|------|---------|
-| This repository | Aggregator, scrapers, board | [MIT](LICENSE) |
+| This repository | Aggregator, scrapers, board | [MIT](LICENSE) · [Live site](https://eshwarcvs.github.io/job-hunt-engine/) |
 | [leash-secrets](https://github.com/FasterApiWeb/leash-secrets) | Secret scanning in CI | MIT |
 | Python `requests`, `playwright` | HTTP / browser automation | Upstream licenses |
 
 ## How to cite / credit this project
 
 ```text
-Based on Job Hunt Engine — https://github.com/EshwarCVS/job-hunt-engine (MIT)
+Based on Job Hunt Engine — https://github.com/EshwarCVS/job-hunt-engine (MIT)  
+Live board: https://eshwarcvs.github.io/job-hunt-engine/
 Job data also attributed to SimplifyJobs (Pitt CSC & Simplify), jobright-ai,
 and community curators.
 ```

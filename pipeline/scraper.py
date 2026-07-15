@@ -23,6 +23,9 @@ ROOT = Path(__file__).parent.parent
 JOBS_DIR = ROOT / "jobs"
 README_PATH = ROOT / "README.md"
 BOARD_PATH = ROOT / "docs" / "board.html"
+BOARD_INDEX_PATH = ROOT / "docs" / "index.html"
+PAGES_URL = "https://eshwarcvs.github.io/job-hunt-engine"
+REPO_URL = "https://github.com/EshwarCVS/job-hunt-engine"
 EXISTING_JOBS_CSV = ROOT / "pipeline" / "jobs_data.csv"
 CONTRIBUTORS_FILE = ROOT / "sources" / "contributors.json"
 
@@ -273,7 +276,7 @@ def _generate_job_table(jobs: list[Job], *, limit: int | None = None) -> str:
     if limit is not None and len(jobs) > limit:
         lines.append(
             f"| … | *+{len(jobs) - limit} more — use "
-            f"[Interactive Board](docs/board.html) to browse all* | | | | | |"
+            f"[Interactive Board]({PAGES_URL}/) to browse all* | | | | | |"
         )
     return "\n".join(lines)
 
@@ -361,6 +364,8 @@ def _update_readme(jobs: list[Job], today: date, contributors: list[str]):
     license_badge = _badge("license", "MIT", "informational")
     sources_badge = _badge("sources", "Simplify · jobright · LinkedIn · Community", "6f42c1")
 
+    website_badge = _badge("website", "GitHub Pages", "222")
+
     contrib_section = "_Be the first community contributor this month — "
     contrib_section += "[add a job](CONTRIBUTING.md)!_"
     if contributors:
@@ -371,14 +376,17 @@ def _update_readme(jobs: list[Job], today: date, contributors: list[str]):
 
 Your open-source job board for tech roles — internships, new grad, and experienced.
 
+**Website (sort & filter):** {PAGES_URL}/
+
 <p>
-  <a href="docs/board.html"><img src="{updated_badge}" alt="Last updated" /></a>
-  <a href="docs/board.html"><img src="{count_badge}" alt="Job count" /></a>
+  <a href="{PAGES_URL}/"><img src="{updated_badge}" alt="Last updated" /></a>
+  <a href="{PAGES_URL}/"><img src="{count_badge}" alt="Job count" /></a>
   <a href="LICENSE"><img src="{license_badge}" alt="License" /></a>
+  <a href="{PAGES_URL}/"><img src="{website_badge}" alt="Website" /></a>
   <img src="{sources_badge}" alt="Sources" />
 </p>
 
-**Quick links:** [Interactive Board (sort & filter)](docs/board.html) ·
+**Quick links:** [Interactive Board (sort & filter)]({PAGES_URL}/) ·
 [Contribute a job](CONTRIBUTING.md) ·
 [Curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) ·
 [Curator onboarding (maintainers)](sources/curators/ONBOARDING.md) ·
@@ -400,7 +408,7 @@ This project stays useful when the community helps. We especially need:
 - New / hard-to-find listings via [community PR or issue](CONTRIBUTING.md)
 - Curators: paste posts with the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) (secret key + owned year/month folder) · [request access](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-request.yml)
 - Bug reports for dead application links
-- Improvements to scrapers and the interactive board — see [pipeline/README.md](pipeline/README.md)
+- Improvements to scrapers and the interactive board ([live site]({PAGES_URL}/)) — see [pipeline/README.md](pipeline/README.md)
 - ⭐ Star [this repo](https://github.com/EshwarCVS/job-hunt-engine) and [@EshwarCVS](https://github.com/EshwarCVS) if it helps you
 
 ---
@@ -408,7 +416,7 @@ This project stays useful when the community helps. We especially need:
 ## {month_name} {year} Jobs
 
 > **{job_count}** active listings · newest first · previous month: {prev_link} ·
-> full list with **sort & filter**: [Interactive Board](docs/board.html)
+> full list with **sort & filter**: [Interactive Board]({PAGES_URL}/)
 
 <details open>
 <summary><strong>Job listings</strong> (click to collapse / expand) — preview of {min(job_count, preview_limit)} / {job_count}</summary>
@@ -518,6 +526,7 @@ Please keep attribution when you reuse it.
 Suggested blurb:
 
 > Based on [Job Hunt Engine](https://github.com/EshwarCVS/job-hunt-engine) (MIT).
+> Live board: {PAGES_URL}/
 > Job data also attributed to SimplifyJobs, jobright-ai, and community curators.
 
 ---
@@ -536,94 +545,252 @@ MIT — see [LICENSE](LICENSE).
 
 
 def _write_board_html(jobs: list[Job], today: date) -> None:
-    """Standalone board with client-side sort + filter (works on GitHub Pages / local)."""
+    """Standalone interactive board for GitHub Pages (sort / filter / paginate)."""
     BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
     rows = "\n".join(job.to_html_row() for job in jobs)
     categories = sorted({j.category for j in jobs if j.category})
     sources = sorted({j.source for j in jobs if j.source})
     cat_opts = "\n".join(f'<option value="{c}">{c}</option>' for c in categories)
     src_opts = "\n".join(f'<option value="{s}">{s}</option>' for s in sources)
+    total = len(jobs)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Browse and filter {total} tech jobs. Apply from the board." />
   <title>Job Hunt Engine — Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fragment+Mono:wght@400&display=swap" rel="stylesheet" />
   <style>
     :root {{
-      --bg: #f6f4ef;
-      --ink: #1c1917;
-      --muted: #57534e;
-      --line: #d6d3d1;
-      --accent: #0a66c2;
-      --card: #fffcf7;
+      --bg: #f3efe6;
+      --ink: #1a1f16;
+      --muted: #5c6554;
+      --line: #d5d0c4;
+      --accent: #0f6a4b;
+      --accent-2: #c45c26;
+      --card: #fffcf5;
+      --shadow: 0 10px 30px rgba(26, 31, 22, .06);
+      --sticky-top: 0;
     }}
     * {{ box-sizing: border-box; }}
+    html {{ scroll-behavior: smooth; }}
     body {{
-      margin: 0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
-      background: radial-gradient(1200px 600px at 10% -10%, #dbeafe 0%, transparent 50%),
-                  radial-gradient(900px 500px at 100% 0%, #fde68a 0%, transparent 45%),
-                  var(--bg);
+      margin: 0;
+      font-family: "DM Sans", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(900px 420px at 0% -5%, rgba(15, 106, 75, .12), transparent 55%),
+        radial-gradient(700px 380px at 100% 0%, rgba(196, 92, 38, .10), transparent 50%),
+        linear-gradient(180deg, #ebe5d8 0%, var(--bg) 28%, #efe9db 100%);
       color: var(--ink);
+      min-height: 100vh;
     }}
-    header {{
-      padding: 2rem 1.25rem 1rem; max-width: 1200px; margin: 0 auto;
+    .shell {{ max-width: 1220px; margin: 0 auto; padding: 1.25rem 1.1rem 4rem; }}
+    .hero {{
+      display: grid; gap: .55rem; margin-bottom: 1rem;
+      animation: rise .45s ease both;
     }}
-    h1 {{ margin: 0 0 .35rem; font-size: clamp(1.6rem, 3vw, 2.2rem); }}
-    .meta {{ color: var(--muted); margin-bottom: 1rem; }}
+    @keyframes rise {{
+      from {{ opacity: 0; transform: translateY(8px); }}
+      to {{ opacity: 1; transform: none; }}
+    }}
+    .eyebrow {{
+      font-family: "Fragment Mono", ui-monospace, monospace;
+      font-size: .78rem; letter-spacing: .04em; text-transform: uppercase;
+      color: var(--accent); margin: 0;
+    }}
+    h1 {{
+      margin: 0; font-size: clamp(1.85rem, 4vw, 2.55rem); line-height: 1.1;
+      letter-spacing: -.02em;
+    }}
+    .lede {{ margin: 0; max-width: 46rem; color: var(--muted); font-size: 1.02rem; }}
+    .meta-row {{
+      display: flex; flex-wrap: wrap; gap: .65rem .9rem; align-items: center;
+      color: var(--muted); font-size: .92rem;
+    }}
+    .meta-row a {{ color: var(--accent); font-weight: 600; text-decoration: none; }}
+    .meta-row a:hover {{ text-decoration: underline; }}
+    .toolbar {{
+      position: sticky; top: 0; z-index: 20;
+      margin: 1rem 0 .85rem;
+      padding: .85rem;
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      animation: rise .5s ease .05s both;
+    }}
     .controls {{
-      display: flex; flex-wrap: wrap; gap: .6rem; align-items: center;
-      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-      padding: .85rem; margin-bottom: 1rem;
+      display: flex; flex-wrap: wrap; gap: .55rem; align-items: center;
+    }}
+    .chips {{
+      display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .65rem;
+    }}
+    .chip {{
+      border: 1px solid var(--line); background: #fff; color: var(--ink);
+      border-radius: 999px; padding: .32rem .7rem; font-size: .86rem; cursor: pointer;
+      transition: border-color .15s, background .15s, color .15s, transform .15s;
+    }}
+    .chip:hover {{ transform: translateY(-1px); border-color: var(--accent); }}
+    .chip.active {{
+      background: var(--accent); color: #fff; border-color: var(--accent);
+    }}
+    label.inline {{
+      color: var(--muted); font-size: .88rem;
+      display: inline-flex; gap: .35rem; align-items: center;
     }}
     input, select, button {{
-      font: inherit; padding: .45rem .65rem; border-radius: 8px;
-      border: 1px solid var(--line); background: #fff;
+      font: inherit; padding: .48rem .7rem; border-radius: 10px;
+      border: 1px solid var(--line); background: #fff; color: var(--ink);
     }}
-    input {{ min-width: 220px; flex: 1; }}
+    input#q {{ min-width: min(100%, 260px); flex: 1.4; }}
     button {{
       background: var(--accent); color: #fff; border-color: var(--accent); cursor: pointer;
+      font-weight: 600;
     }}
-    main {{ max-width: 1200px; margin: 0 auto; padding: 0 1.25rem 3rem; }}
+    button:hover:not(:disabled) {{ filter: brightness(1.05); }}
+    button:disabled {{ opacity: .4; cursor: not-allowed; }}
+    button.secondary {{
+      background: #fff; color: var(--ink); border-color: var(--line); font-weight: 500;
+    }}
+    .count {{ font-size: .88rem; color: var(--muted); white-space: nowrap; }}
+    .pager {{
+      display: flex; flex-wrap: wrap; gap: .55rem; align-items: center;
+      justify-content: space-between;
+      margin: .75rem 0;
+      padding: .7rem .8rem;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }}
+    .pager-nav {{ display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }}
     .table-wrap {{
-      overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+      overflow: auto; border: 1px solid var(--line); border-radius: 16px;
+      background: var(--card); box-shadow: var(--shadow);
+      max-height: min(72vh, 920px);
     }}
-    table {{ border-collapse: collapse; width: 100%; min-width: 900px; }}
-    th, td {{ padding: .65rem .75rem; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }}
-    th {{ position: sticky; top: 0; background: #fafaf9; cursor: pointer; user-select: none; }}
+    table {{ border-collapse: separate; border-spacing: 0; width: 100%; min-width: 980px; }}
+    th, td {{
+      padding: .72rem .78rem; border-bottom: 1px solid var(--line);
+      text-align: left; vertical-align: top; font-size: .94rem;
+    }}
+    th {{
+      position: sticky; top: 0; z-index: 5;
+      background: #f7f3ea; cursor: pointer; user-select: none;
+      font-size: .8rem; letter-spacing: .02em; text-transform: uppercase; color: var(--muted);
+    }}
     th:hover {{ color: var(--accent); }}
+    tbody tr {{ transition: background .12s ease; }}
+    tbody tr:hover {{ background: #f4faf6; }}
     tr.hidden {{ display: none; }}
-    a {{ color: var(--accent); }}
-    .count {{ font-size: .9rem; color: var(--muted); }}
+    .date {{
+      font-family: "Fragment Mono", ui-monospace, monospace;
+      font-size: .82rem; color: var(--muted); white-space: nowrap;
+    }}
+    .role-link {{
+      color: var(--ink); font-weight: 600; text-decoration: none;
+    }}
+    .role-link:hover {{ color: var(--accent); text-decoration: underline; }}
+    .pill {{
+      display: inline-block; padding: .15rem .45rem; border-radius: 999px;
+      background: #e8f3ec; color: #0f6a4b; font-size: .78rem; font-weight: 600;
+      white-space: nowrap;
+    }}
+    .apply-col {{ white-space: nowrap; }}
+    .apply-btn {{
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: .38rem .7rem; border-radius: 999px;
+      background: var(--accent-2); color: #fff !important; font-weight: 700;
+      font-size: .82rem; text-decoration: none !important;
+      box-shadow: 0 1px 0 rgba(0,0,0,.06);
+      transition: transform .12s ease, filter .12s ease;
+    }}
+    .apply-btn:hover {{ transform: translateY(-1px); filter: brightness(1.05); }}
+    .tip {{
+      margin-top: 1rem; color: var(--muted); font-size: .88rem;
+    }}
+    #toTop {{
+      position: fixed; right: 1rem; bottom: 1rem; z-index: 30;
+      width: 2.6rem; height: 2.6rem; border-radius: 999px;
+      display: grid; place-items: center; font-size: 1.1rem;
+      box-shadow: var(--shadow); opacity: 0; pointer-events: none;
+      transition: opacity .2s ease, transform .2s ease;
+      transform: translateY(8px);
+    }}
+    #toTop.show {{ opacity: 1; pointer-events: auto; transform: none; }}
+    @media (max-width: 720px) {{
+      .table-wrap {{ max-height: 65vh; }}
+      input#q {{ min-width: 100%; flex: 1 1 100%; }}
+    }}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Job Hunt Engine</h1>
-    <p class="meta">{today.strftime("%B %Y")} · generated {today.isoformat()} ·
-      <a href="../README.md">Back to README</a>
-    </p>
-    <div class="controls">
-      <input id="q" type="search" placeholder="Filter by role, company, location, info…" />
-      <select id="category"><option value="">All categories</option>{cat_opts}</select>
-      <select id="source"><option value="">All sources</option>{src_opts}</select>
-      <button type="button" id="reset">Reset</button>
-      <span class="count" id="count"></span>
+  <div class="shell">
+    <header class="hero">
+      <p class="eyebrow">Open-source · updated daily</p>
+      <h1>Job Hunt Engine</h1>
+      <p class="lede">Filter thousands of tech roles, then hit <strong>Apply</strong> — stays in your browser, no account.</p>
+      <div class="meta-row">
+        <span>{today.strftime("%B %Y")} · {total} listings · generated {today.isoformat()}</span>
+        <a href="{REPO_URL}">GitHub</a>
+        <a href="{REPO_URL}#readme">README</a>
+        <a href="{PAGES_URL}/">Website</a>
+      </div>
+    </header>
+
+    <div class="toolbar" id="toolbar">
+      <div class="controls">
+        <input id="q" type="search" placeholder="Search role, company, location, visa…" autocomplete="off" />
+        <select id="category" aria-label="Category"><option value="">All categories</option>{cat_opts}</select>
+        <select id="source" aria-label="Source"><option value="">All sources</option>{src_opts}</select>
+        <label class="inline">Per page
+          <select id="pageSize" aria-label="Rows per page">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="75">75</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+        <button type="button" id="reset" class="secondary">Reset</button>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Quick filters">
+        <button type="button" class="chip" data-flag="remote">Remote</button>
+        <button type="button" class="chip" data-flag="newgrad">New grad</button>
+        <button type="button" class="chip" data-flag="intern">Internship</button>
+        <button type="button" class="chip" data-flag="visa">Visa / H1B</button>
+      </div>
     </div>
-  </header>
-  <main>
-    <div class="table-wrap">
+
+    <div class="pager" id="pagerTop">
+      <div class="pager-nav">
+        <button type="button" class="secondary" data-nav="first">« First</button>
+        <button type="button" class="secondary" data-nav="prev">‹ Prev</button>
+        <span class="count" data-page-info></span>
+        <button type="button" class="secondary" data-nav="next">Next ›</button>
+        <button type="button" class="secondary" data-nav="last">Last »</button>
+      </div>
+      <label class="inline">Go to
+        <input data-goto type="number" min="1" step="1" style="min-width:4.2rem;flex:0" />
+      </label>
+    </div>
+
+    <div class="table-wrap" id="tableWrap">
       <table id="jobs">
         <thead>
           <tr>
             <th data-key="date">Date</th>
             <th data-key="role">Role</th>
             <th data-key="company">Company</th>
-            <th data-key="location">Location / Type</th>
+            <th data-key="location">Location</th>
             <th data-key="category">Category</th>
             <th data-key="source">Source</th>
             <th data-key="info">Info</th>
+            <th>Apply</th>
           </tr>
         </thead>
         <tbody>
@@ -631,32 +798,121 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
         </tbody>
       </table>
     </div>
-  </main>
+
+    <div class="pager" id="pagerBottom">
+      <div class="pager-nav">
+        <button type="button" class="secondary" data-nav="first">« First</button>
+        <button type="button" class="secondary" data-nav="prev">‹ Prev</button>
+        <span class="count" data-page-info></span>
+        <button type="button" class="secondary" data-nav="next">Next ›</button>
+        <button type="button" class="secondary" data-nav="last">Last »</button>
+      </div>
+      <label class="inline">Go to
+        <input data-goto type="number" min="1" step="1" style="min-width:4.2rem;flex:0" />
+      </label>
+    </div>
+    <p class="tip">Tip: click column headers to sort. Use chips for Remote / New grad / Intern / Visa. Open roles in a new tab so you keep browsing.</p>
+  </div>
+  <button type="button" id="toTop" class="secondary" aria-label="Back to top">↑</button>
+
   <script>
     const q = document.getElementById('q');
     const category = document.getElementById('category');
     const source = document.getElementById('source');
+    const pageSizeEl = document.getElementById('pageSize');
     const count = document.getElementById('count');
     const tbody = document.querySelector('#jobs tbody');
+    const activeFlags = new Set();
     let sortKey = 'date';
     let sortAsc = false;
+    let page = 1;
 
-    function apply() {{
+    // Backfill Apply + flags for older generated rows
+    for (const row of tbody.rows) {{
+      const link = row.querySelector('a[href]');
+      if (!row.dataset.flags) {{
+        const blob = (row.innerText || '').toLowerCase();
+        const flags = [];
+        if (blob.includes('remote')) flags.push('remote');
+        if (blob.includes('new grad') || blob.includes('new college') || blob.includes('entry level')) flags.push('newgrad');
+        if (blob.includes('intern') && !blob.includes('internal')) flags.push('intern');
+        if (blob.includes('h1b') || blob.includes('sponsor')) flags.push('visa');
+        row.dataset.flags = flags.join(' ');
+      }}
+      if (link && !row.querySelector('.apply-btn')) {{
+        const td = document.createElement('td');
+        td.className = 'apply-col';
+        td.innerHTML = `<a class="apply-btn" href="${{link.href}}" rel="noopener noreferrer" target="_blank">Apply</a>`;
+        row.appendChild(td);
+        link.classList.add('role-link');
+      }}
+      const dateCell = row.cells[0];
+      if (dateCell && !dateCell.querySelector('.date')) {{
+        dateCell.innerHTML = `<span class="date">${{dateCell.textContent}}</span>`;
+      }}
+    }}
+
+    function matchedRows() {{
       const term = q.value.trim().toLowerCase();
       const cat = category.value;
       const src = source.value;
-      let visible = 0;
+      const out = [];
       for (const row of tbody.rows) {{
         const hay = (row.dataset.company + ' ' + row.dataset.location + ' ' +
                      row.dataset.category + ' ' + row.dataset.source + ' ' +
                      row.dataset.info + ' ' + row.innerText).toLowerCase();
+        const flags = (row.dataset.flags || '').split(/\\s+/).filter(Boolean);
+        const flagOk = [...activeFlags].every(f => flags.includes(f));
         const ok = (!term || hay.includes(term))
           && (!cat || row.dataset.category === cat)
-          && (!src || row.dataset.source === src);
-        row.classList.toggle('hidden', !ok);
-        if (ok) visible++;
+          && (!src || row.dataset.source === src)
+          && flagOk;
+        if (ok) out.push(row);
       }}
-      count.textContent = visible + ' shown';
+      return out;
+    }}
+
+    function syncPagers(totalPages) {{
+      document.querySelectorAll('[data-page-info]').forEach(el => {{
+        el.textContent = `Page ${{page}} / ${{totalPages}}`;
+      }});
+      document.querySelectorAll('[data-goto]').forEach(el => {{
+        el.value = String(page);
+        el.max = String(totalPages);
+      }});
+      document.querySelectorAll('[data-nav]').forEach(btn => {{
+        const action = btn.dataset.nav;
+        if (action === 'first' || action === 'prev') btn.disabled = page <= 1;
+        if (action === 'next' || action === 'last') btn.disabled = page >= totalPages;
+      }});
+    }}
+
+    function apply() {{
+      const matched = matchedRows();
+      const pageSize = Math.max(1, parseInt(pageSizeEl.value, 10) || 50);
+      const totalPages = Math.max(1, Math.ceil(matched.length / pageSize));
+      if (page > totalPages) page = totalPages;
+      if (page < 1) page = 1;
+      const start = (page - 1) * pageSize;
+      const end = start + pageSize;
+      const onPage = new Set(matched.slice(start, end));
+
+      for (const row of tbody.rows) {{
+        row.classList.toggle('hidden', !onPage.has(row));
+      }}
+
+      const from = matched.length ? start + 1 : 0;
+      const to = Math.min(end, matched.length);
+      count.textContent = matched.length
+        ? `Showing ${{from}}–${{to}} of ${{matched.length}}`
+        : '0 matches';
+      syncPagers(totalPages);
+    }}
+
+    function resetPageAndApply() {{
+      page = 1;
+      apply();
+      document.getElementById('tableWrap').scrollTop = 0;
     }}
 
     function sortBy(key) {{
@@ -671,31 +927,78 @@ def _write_board_html(jobs: list[Job], today: date) -> None:
         else if (key === 'category') {{ av = a.dataset.category; bv = b.dataset.category; }}
         else if (key === 'source') {{ av = a.dataset.source; bv = b.dataset.source; }}
         else if (key === 'info') {{ av = a.dataset.info; bv = b.dataset.info; }}
-        else {{ av = a.cells[1].innerText; bv = b.cells[1].innerText; }}
+        else {{
+          av = (a.querySelector('.role-link') || a.cells[1]).innerText;
+          bv = (b.querySelector('.role-link') || b.cells[1]).innerText;
+        }}
         if (av < bv) return sortAsc ? -1 : 1;
         if (av > bv) return sortAsc ? 1 : -1;
         return 0;
       }});
       rows.forEach(r => tbody.appendChild(r));
+      resetPageAndApply();
     }}
 
-    q.addEventListener('input', apply);
-    category.addEventListener('change', apply);
-    source.addEventListener('change', apply);
+    q.addEventListener('input', resetPageAndApply);
+    category.addEventListener('change', resetPageAndApply);
+    source.addEventListener('change', resetPageAndApply);
+    pageSizeEl.addEventListener('change', resetPageAndApply);
     document.getElementById('reset').addEventListener('click', () => {{
-      q.value = ''; category.value = ''; source.value = ''; apply();
+      q.value = ''; category.value = ''; source.value = '';
+      pageSizeEl.value = '50'; page = 1; activeFlags.clear();
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      apply();
+    }});
+    document.querySelectorAll('.chip').forEach(chip => {{
+      chip.addEventListener('click', () => {{
+        const flag = chip.dataset.flag;
+        if (activeFlags.has(flag)) {{ activeFlags.delete(flag); chip.classList.remove('active'); }}
+        else {{ activeFlags.add(flag); chip.classList.add('active'); }}
+        resetPageAndApply();
+      }});
+    }});
+    document.querySelectorAll('[data-nav]').forEach(btn => {{
+      btn.addEventListener('click', () => {{
+        const pageSize = Math.max(1, parseInt(pageSizeEl.value, 10) || 50);
+        const totalPages = Math.max(1, Math.ceil(matchedRows().length / pageSize));
+        const action = btn.dataset.nav;
+        if (action === 'first') page = 1;
+        if (action === 'prev') page -= 1;
+        if (action === 'next') page += 1;
+        if (action === 'last') page = totalPages;
+        apply();
+        document.getElementById('tableWrap').scrollTop = 0;
+      }});
+    }});
+    document.querySelectorAll('[data-goto]').forEach(el => {{
+      el.addEventListener('change', () => {{
+        const pageSize = Math.max(1, parseInt(pageSizeEl.value, 10) || 50);
+        const totalPages = Math.max(1, Math.ceil(matchedRows().length / pageSize));
+        page = Math.min(totalPages, Math.max(1, parseInt(el.value, 10) || 1));
+        apply();
+      }});
     }});
     document.querySelectorAll('th[data-key]').forEach(th => {{
       th.addEventListener('click', () => sortBy(th.dataset.key));
     }});
+    const toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', () => {{
+      toTop.classList.toggle('show', window.scrollY > 480);
+    }}, {{ passive: true }});
+    toTop.addEventListener('click', () => window.scrollTo({{ top: 0, behavior: 'smooth' }}));
     apply();
   </script>
 </body>
 </html>
 """
+    BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
+    (BOARD_PATH.parent / ".nojekyll").write_text("", encoding="utf-8")
     with open(BOARD_PATH, "w") as f:
         f.write(html)
-    print(f"Updated {BOARD_PATH.relative_to(ROOT)}")
+    with open(BOARD_INDEX_PATH, "w") as f:
+        f.write(html)
+    print(f"Updated {BOARD_PATH.relative_to(ROOT)} + {BOARD_INDEX_PATH.relative_to(ROOT)}")
+    print(f"  Public board: {PAGES_URL}/")
 
 
 def _write_month_file(jobs: list[Job], year: int, month: int, filepath: Path):
@@ -730,7 +1033,7 @@ def _write_month_file(jobs: list[Job], year: int, month: int, filepath: Path):
 
     content = f"""# {month_name} {year} Jobs
 
-[← Back to Current Listings](../../README.md) · [Interactive Board](../../docs/board.html)
+[← Back to Current Listings]({REPO_URL}#readme) · [Interactive Board]({PAGES_URL}/)
 
 {nav}
 

@@ -158,7 +158,7 @@ Close the issue with label `curator-onboarding` kept (or add `onboarded`).
    - Commit under `sources/curators/<id>/YYYY/MM/`
    - Attribute the commit to their GitHub when possible
    - Trigger scrape → publish to `master`
-3. Confirm boards: `README.md` / `docs/board.html` / monthly archive
+3. Confirm boards: `README.md` / live site https://eshwarcvs.github.io/job-hunt-engine/ / monthly archive
 
 If auth fails: check id spelling, `active: true`, and that `CURATOR_KEYS` JSON includes that id/alias.
 

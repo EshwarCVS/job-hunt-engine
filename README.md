@@ -2,14 +2,17 @@
 
 Your open-source job board for tech roles — internships, new grad, and experienced.
 
+**Website (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
+
 <p>
-  <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-15&color=0A66C2" alt="Last updated" /></a>
-  <a href="docs/board.html"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3625&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-15&color=0A66C2" alt="Last updated" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3625&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
 </p>
 
-**Quick links:** [Interactive Board (sort & filter)](docs/board.html) ·
+**Quick links:** [Interactive Board (sort & filter)](https://eshwarcvs.github.io/job-hunt-engine/) ·
 [Contribute a job](CONTRIBUTING.md) ·
 [Curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) ·
 [Curator onboarding (maintainers)](sources/curators/ONBOARDING.md) ·
@@ -31,7 +34,7 @@ This project stays useful when the community helps. We especially need:
 - New / hard-to-find listings via [community PR or issue](CONTRIBUTING.md)
 - Curators: paste posts with the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml) (secret key + owned year/month folder) · [request access](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-request.yml)
 - Bug reports for dead application links
-- Improvements to scrapers and the interactive board — see [pipeline/README.md](pipeline/README.md)
+- Improvements to scrapers and the interactive board ([live site](https://eshwarcvs.github.io/job-hunt-engine/)) — see [pipeline/README.md](pipeline/README.md)
 - ⭐ Star [this repo](https://github.com/EshwarCVS/job-hunt-engine) and [@EshwarCVS](https://github.com/EshwarCVS) if it helps you
 
 ---
@@ -39,7 +42,7 @@ This project stays useful when the community helps. We especially need:
 ## July 2026 Jobs
 
 > **3625** active listings · newest first · previous month: _no prior archive yet_ ·
-> full list with **sort & filter**: [Interactive Board](docs/board.html)
+> full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
 <summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3625</summary>
@@ -126,7 +129,7 @@ This project stays useful when the community helps. We especially need:
 | Jul 14 | [Software Development Engineer - Military Veterans](https://amazon.jobs/en/jobs/3179205/software-development-engineer-military-veterans) | Amazon | Seattle, WA, Redmond, WA, Arlington, VA +4 more | Software Engineering | SimplifyJobs | Bachelor's |
 | Jul 14 | [Graduate Java Developer](https://jobs.smartrecruiters.com/RadiusLimited/744000137606588) | Radius Limited | Northwich, UK | Software Engineering | SimplifyJobs | Bachelor's |
 | Jul 14 | [Electrical Tech 1](https://jobs.halliburton.com/job/Aberdeen-Aberdeen-R&M-Electrical-Tech-I-ABE-AB21-0GN/1408540000/?ats=successfactors) | Halliburton | Aberdeen, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's, MBA, PhD, Associate's, JD, MD, Certificate |
-| … | *+3545 more — use [Interactive Board](docs/board.html) to browse all* | | | | | |
+| … | *+3545 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 
@@ -243,6 +246,7 @@ Please keep attribution when you reuse it.
 Suggested blurb:
 
 > Based on [Job Hunt Engine](https://github.com/EshwarCVS/job-hunt-engine) (MIT).
+> Live board: https://eshwarcvs.github.io/job-hunt-engine/
 > Job data also attributed to SimplifyJobs, jobright-ai, and community curators.
 
 ---

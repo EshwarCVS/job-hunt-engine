@@ -2,14 +2,22 @@
 
 Thanks for helping make job hunting easier for everyone.
 
+## Live board (website)
+
+Sort & filter all listings here (no clone needed):
+
+**https://eshwarcvs.github.io/job-hunt-engine/**
+
+Updated automatically after each **Scrape Jobs + Publish** run (from `master`’s `docs/`).
+
 ## Branching
 
 | Branch | Role |
 |--------|------|
-| **`master`** | Public board — what everyone should look at |
+| **`master`** | Public git board + source for GitHub Pages |
 | **`develop`** | Queue / workspace — curator JSON, community PRs, scrape runs here first |
 
-Flow: contributions → `develop` → daily **Scrape Jobs + Publish** Action scrapes on `develop`, then merges to `master` so both tips match.
+Flow: contributions → `develop` → daily **Scrape Jobs + Publish** scrapes on `develop`, merges to `master`, then deploys Pages.
 
 Open PRs against **`develop`**.
 

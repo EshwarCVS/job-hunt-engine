@@ -1,5 +1,7 @@
 # Data Sources Configuration
 
+**Live board (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
+
 Admin-tunable settings live in [`config.json`](config.json). Discovered GitHub
 repos are tracked in [`repos.json`](repos.json).
 

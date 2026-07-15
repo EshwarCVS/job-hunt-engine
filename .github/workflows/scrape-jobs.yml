@@ -1,7 +1,8 @@
 name: Scrape Jobs + Publish
 
 # develop = queue (curators + community + scrape workspace)
-# master  = public board (always updated from develop after scrape)
+# master  = public board (git)
+# GitHub Pages = interactive board from master's docs/
 
 on:
   schedule:
@@ -17,7 +18,7 @@ on:
           - 'false'
           - 'true'
       skip_publish_master:
-        description: 'Only update develop (skip merge to master).'
+        description: 'Only update develop (skip merge to master + Pages).'
         required: false
         default: 'false'
         type: choice
@@ -27,10 +28,14 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   scrape-and-publish:
     runs-on: ubuntu-latest
+    outputs:
+      published_master: ${{ steps.publish.outputs.published }}
     steps:
       - name: Checkout develop
         uses: actions/checkout@v4
@@ -94,6 +99,7 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Publish develop → master (public board)
+        id: publish
         if: ${{ github.event.inputs.skip_publish_master != 'true' }}
         run: |
           AUTHOR_NAME=$(python -c "import json; print(json.load(open('sources/config.json'))['commit_author']['name'])")
@@ -115,3 +121,14 @@ jobs:
           git merge --ff-only origin/master || git merge origin/master -m "chore: sync develop with master after publish"
           git push origin develop
           echo "master is public; develop queue tip synced"
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+  deploy-pages:
+    name: Deploy GitHub Pages (from master)
+    needs: scrape-and-publish
+    if: ${{ github.event.inputs.skip_publish_master != 'true' && needs.scrape-and-publish.result == 'success' }}
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

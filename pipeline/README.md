@@ -23,10 +23,12 @@ Source credentials / curator intake: [`sources/README.md`](../sources/README.md)
 └─────────────────┘   └──────────────────┘   └────────┬────────┘
                                                       ↓
                       ┌──────────────────┐   ┌─────────────────┐
-                      │ README + board   │ ← │ Current-month   │
-                      │ docs/board.html  │   │ jobs/YYYY/mon.md│
+                      │ README + Pages   │ ← │ Current-month   │
+                      │ github.io board  │   │ jobs/YYYY/mon.md│
                       └──────────────────┘   └─────────────────┘
 ```
+
+Live board: https://eshwarcvs.github.io/job-hunt-engine/
 
 Implemented in [`scraper.py`](scraper.py) (`run()`).
 
@@ -88,7 +90,9 @@ newest date:
 
 - Persist snapshot: `pipeline/jobs_data.csv` (gitignored)  
 - Archive **current calendar month only**: `jobs/YYYY/<month>.md`  
-- Regenerate root `README.md` (collapsible preview) and `docs/board.html` (sort/filter)
+- Regenerate root `README.md` (collapsible preview) and `docs/board.html` + `docs/index.html`
+  (sort/filter board). Published to **GitHub Pages**:
+  https://eshwarcvs.github.io/job-hunt-engine/
 
 Past month files are not invented from upstream timestamps. Prior archives appear
 only if they were produced by real runs in those months.
@@ -96,7 +100,8 @@ only if they were produced by real runs in those months.
 ### 5. Automation
 
 - **Curator ingest** ([`curator-submit.yml`](../.github/workflows/curator-submit.yml)): runs when an issue is **opened** with the `curator-submission` label (Curator submission form). Commits JSON to **`develop`**.
-- **Scrape + publish** ([`scrape-jobs.yml`](../.github/workflows/scrape-jobs.yml)): daily cron (and manual). Checks out **`develop`**, scrapes (curators + community + upstream), commits, then merges **`develop` → `master`** and keeps both in sync. **`master`** is the public board.
+- **Scrape + publish** ([`scrape-jobs.yml`](../.github/workflows/scrape-jobs.yml)): daily cron (and manual). Checks out **`develop`**, scrapes, commits, merges **`develop` → `master`**, then deploys **`docs/` from `master`** to GitHub Pages via [`pages.yml`](../.github/workflows/pages.yml).
+  Public board URL: https://eshwarcvs.github.io/job-hunt-engine/
 
 Scheduled runs never prompt. Manual “Run workflow” may show an optional LinkedIn force flag — leave `false` unless you are forcing LinkedIn.
 

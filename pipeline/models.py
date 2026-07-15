@@ -54,13 +54,27 @@ class Job:
         source = html.escape(self.source or "-")
         info = html.escape(self.info or "-")
         url = html.escape(self.url or "#", quote=True)
+        blob = f"{self.title} {self.location_type} {self.info} {self.category}".lower()
+        flags: list[str] = []
+        if "remote" in blob:
+            flags.append("remote")
+        if "new grad" in blob or "new college" in blob or "entry level" in blob:
+            flags.append("newgrad")
+        if "intern" in blob and "internal" not in blob:
+            flags.append("intern")
+        if "h1b" in blob or "sponsor" in blob:
+            flags.append("visa")
+        flag_attr = " ".join(flags)
         return (
             f'<tr data-date="{date_str}" data-category="{category}" data-source="{source}" '
-            f'data-company="{company}" data-location="{loc}" data-info="{info}">'
-            f'<td data-sort="{date_str}">{self.date_posted.strftime("%b %d")}</td>'
-            f'<td><a href="{url}" rel="noopener noreferrer" target="_blank">{title}</a></td>'
-            f"<td>{company}</td><td>{loc}</td><td>{category}</td>"
-            f"<td>{source}</td><td>{info}</td></tr>"
+            f'data-company="{company}" data-location="{loc}" data-info="{info}" '
+            f'data-flags="{flag_attr}">'
+            f'<td data-sort="{date_str}"><span class="date">{self.date_posted.strftime("%b %d")}</span></td>'
+            f'<td class="role"><a class="role-link" href="{url}" rel="noopener noreferrer" target="_blank">{title}</a></td>'
+            f"<td>{company}</td><td>{loc}</td><td><span class=\"pill\">{category}</span></td>"
+            f"<td>{source}</td><td>{info}</td>"
+            f'<td class="apply-col"><a class="apply-btn" href="{url}" rel="noopener noreferrer" target="_blank">Apply</a></td>'
+            f"</tr>"
         )
 
     @staticmethod
