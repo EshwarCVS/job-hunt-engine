@@ -8,6 +8,14 @@
       "github": "",
       "active": true,
       "notes": "Passphrase is stored only in GitHub Actions (never in this file)."
+    },
+    {
+      "id": "eshwarchandravidhyasagar",
+      "display_name": "Eshwar Chandra Vidhyasagar",
+      "linkedin_url": "https://www.linkedin.com/in/eshwarchandravidhyasagar/",
+      "github": "EshwarCVS",
+      "active": true,
+      "notes": "Passphrase is stored only in GitHub Actions (never in this file)."
     }
   ]
 }
