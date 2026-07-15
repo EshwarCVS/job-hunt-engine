@@ -3,6 +3,15 @@ description: Submit a job listing to be added to the board
 title: "Add: [Company] — [Role]"
 labels: ["job-submission"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a listing. A **maintainer reviews** this issue before
+        anything is added to the board (we do not auto-merge public job issues).
+
+        Prefer a PR to `sources/community-jobs.json` if you are comfortable with git.
+        Trusted curators should use the **Curator submission** template instead.
+
   - type: input
     id: title
     attributes:
@@ -71,5 +80,14 @@ body:
       label: Additional Info
       description: "H1B sponsorship, seniority level, degree requirements, etc."
       placeholder: "e.g., H1B Sponsor, Senior level"
+    validations:
+      required: false
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub username (optional)
+      description: So maintainers can attribute the commit to you when merging. Defaults to the account that opened this issue.
+      placeholder: "EshwarCVS"
     validations:
       required: false

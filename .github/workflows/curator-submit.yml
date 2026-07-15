@@ -1,34 +1,89 @@
 name: Ingest Curator Submission
 
+# Fires when a Curator issue is opened OR labeled.
+# Issue-form labels often arrive AFTER "opened", so we also match title "Curator:".
+# Writes to develop; then triggers scrape→master publish.
+
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   contents: write
   issues: write
+  actions: write
 
 jobs:
   ingest:
-    if: contains(github.event.issue.labels.*.name, 'curator-submission')
+    # Skip if already ingested (avoids double-run on opened+labeled)
+    if: >
+      !contains(join(github.event.issue.labels.*.name, ','), 'ingested') &&
+      !contains(join(github.event.issue.labels.*.name, ','), 'needs-curator-fix') &&
+      (
+        (github.event.action == 'opened' &&
+          (startsWith(github.event.issue.title, 'Curator:') ||
+           contains(join(github.event.issue.labels.*.name, ','), 'curator-submission')))
+        ||
+        (github.event.action == 'labeled' && github.event.label.name == 'curator-submission')
+      )
     runs-on: ubuntu-latest
+    concurrency:
+      group: curator-ingest-${{ github.event.issue.number }}
+      cancel-in-progress: false
     steps:
-      - name: Checkout
+      - name: Redact curator key immediately
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+            let body = issue.data.body || '';
+            // Wipe curator key field so the passphrase does not stay public
+            body = body.replace(
+              /(###\s*Curator key\s*\r?\n)([\s\S]*?)(?=\r?\n###\s|\r?\n*$)/i,
+              '$1\n`[REDACTED by bot — do not re-post secrets]`\n\n'
+            );
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+              labels: Array.from(new Set([
+                ...(issue.data.labels || []).map(l => typeof l === 'string' ? l : l.name),
+                'curator-submission'
+              ]))
+            });
+
+      - name: Checkout develop
         uses: actions/checkout@v4
+        with:
+          ref: develop
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Ingest submission
+      - name: Ingest + parse post
         id: ingest
         env:
+          # Body from the original event still contains the key for auth only.
+          # It is never echoed; the public issue was redacted in the previous step.
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
-          # Plaintext keys live only in Actions secrets — never in git
-          CURATOR_KEY_MADHANVADLAMUDI: ${{ secrets.CURATOR_KEY_MADHANVADLAMUDI }}
+          ISSUE_USER_LOGIN: ${{ github.event.issue.user.login }}
+          ISSUE_USER_ID: ${{ github.event.issue.user.id }}
+          ISSUE_USER_TYPE: ${{ github.event.issue.user.type }}
+          # Preferred: one JSON secret CURATOR_KEYS for every curator.
           CURATOR_KEYS: ${{ secrets.CURATOR_KEYS }}
+          # Optional per-curator fallbacks (Actions only injects secrets you list here).
+          # Prefer migrating these into CURATOR_KEYS so new curators need no workflow edit.
+          CURATOR_MADHANVADLAMUDI: ${{ secrets.CURATOR_MADHANVADLAMUDI }}
+          CURATOR_ESHWARCHANDRAVIDHYASAGAR: ${{ secrets.CURATOR_ESHWARCHANDRAVIDHYASAGAR }}
         run: |
           set +e
           python -m pipeline.curator_ingest
@@ -41,49 +96,68 @@ jobs:
           fi
           exit 0
 
-      - name: Commit append
+      - name: Resolve commit author
+        id: author
+        if: steps.ingest.outputs.ok == 'true'
+        env:
+          CURATOR_ID: ${{ steps.ingest.outputs.curator_id }}
+          FORM_GITHUB: ${{ steps.ingest.outputs.form_github }}
+          ISSUE_USER_LOGIN: ${{ github.event.issue.user.login }}
+          ISSUE_USER_ID: ${{ github.event.issue.user.id }}
+          ISSUE_USER_TYPE: ${{ github.event.issue.user.type }}
+        run: python -m pipeline.commit_author
+
+      - name: Commit curator files on develop
         if: steps.ingest.outputs.ok == 'true'
         run: |
-          git config user.name "EshwarCVS"
-          git config user.email "EshwarCVS@users.noreply.github.com"
+          AUTHOR_NAME='${{ steps.author.outputs.name }}'
+          AUTHOR_EMAIL='${{ steps.author.outputs.email }}'
+          AUTHOR_LOGIN='${{ steps.author.outputs.login }}'
+          git config user.name "$AUTHOR_NAME"
+          git config user.email "$AUTHOR_EMAIL"
           git add sources/curators/
           if git diff --cached --quiet; then
             echo "No file changes"
             exit 0
           fi
-          git commit --author="EshwarCVS <EshwarCVS@users.noreply.github.com>" \
-            -m "chore: curator submission from #${{ github.event.issue.number }}"
-          git push
+          git commit --author="${AUTHOR_NAME} <${AUTHOR_EMAIL}>" \
+            -m "chore: curator submission from #${{ github.event.issue.number }} (@${AUTHOR_LOGIN})"
+          git push origin develop
+
+      - name: Publish board (scrape develop → master)
+        if: steps.ingest.outputs.ok == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'scrape-jobs.yml',
+              ref: 'develop',
+              inputs: {
+                force_linkedin: 'false',
+                skip_publish_master: 'false'
+              }
+            });
 
       - name: Comment success
         if: steps.ingest.outputs.ok == 'true'
         uses: actions/github-script@v7
         with:
           script: |
-            const issue = await github.rest.issues.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number
-            });
-            let body = issue.data.body || '';
-            body = body.replace(
-              /(###\s*Curator key\s*\n)([\s\S]*?)(?=\n###\s|\n*$)/i,
-              '$1\n`[REDACTED]`\n\n'
-            );
-            await github.rest.issues.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body
-            });
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: [
-                'Thanks — submission accepted and appended under your curator year/month folder.',
+                'Accepted on **develop**.',
                 '',
-                'Your **curator key** was redacted from this issue. If it was visible before redact, ask a maintainer to rotate the GitHub secret.'
+                '- Pasted post was parsed for application links and job fields',
+                '- Saved under `sources/curators/<id>/<year>/<month>/`',
+                `- Commit attributed to @${{ steps.author.outputs.login }} (thanks for contributing!)`,
+                '- Scrape/publish was triggered so **master** should update shortly',
+                '',
+                'Your curator key was redacted from this issue at the start of the run.'
               ].join('\n')
             });
             await github.rest.issues.update({
@@ -102,8 +176,8 @@ jobs:
             const code = '${{ steps.ingest.outputs.exit_code }}';
             const auth = code === '10';
             const body = auth
-              ? 'Could not verify your **curator key** (or curator ID / secret is not configured). No files were changed.'
-              : 'Submission failed (missing apply URL or invalid form). No files were changed.';
+              ? 'Could not verify curator credentials. Ask a maintainer to confirm your id is registered and `CURATOR_KEYS` is set. Your key field was still redacted.'
+              : 'Could not parse jobs from the post (need at least one apply URL in the pasted text, or Application URL). Key field was redacted.';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -114,5 +188,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              labels: ['needs-curator-key']
+              labels: ['needs-curator-fix']
             });

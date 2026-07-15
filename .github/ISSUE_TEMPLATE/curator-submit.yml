@@ -1,25 +1,22 @@
 name: Curator submission
-description: Paste a LinkedIn hiring post into your owned curator space. Requires your private curator key (GitHub secret).
+description: Paste a LinkedIn hiring post as-is. We extract apply links and push jobs to the board.
 title: "Curator: add hiring post"
 labels: ["curator-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## How this works
-        1. Maintainers store your key as a **GitHub Actions secret** (not in the repo).
-        2. You paste that same key here once per submission.
-        3. Actions compares your input to the secret. Match → append under `sources/curators/<id>/<year>/<month>/jobs.json`.
-        4. The key field is **redacted** from the issue after success.
+        Paste the **full LinkedIn post text** (with apply links). We parse roles/companies/URLs
+        into your curator folder on `develop`, then publish to `master`.
 
-        Docs: [sources/curators/README.md](../blob/master/sources/curators/README.md)
+        You need a curator id + passphrase from maintainers (stored privately — never re-post it in comments).
 
   - type: input
     id: curator_id
     attributes:
       label: Curator ID
-      description: Your registered id (example `madhanvadlamudi`). Or paste your LinkedIn profile URL.
-      placeholder: "madhanvadlamudi"
+      description: Registered id (example eshwarchandravidhyasagar) or your LinkedIn profile URL.
+      placeholder: "eshwarchandravidhyasagar"
     validations:
       required: true
 
@@ -27,115 +24,59 @@ body:
     id: curator_key
     attributes:
       label: Curator key
-      description: Private key from maintainers (same value as the GitHub secret). Do not share it elsewhere.
-      placeholder: "paste-your-key"
+      description: Private passphrase from maintainers. It is redacted from the issue as soon as processing starts.
+      placeholder: "your-passphrase"
     validations:
       required: true
-
-  - type: input
-    id: name
-    attributes:
-      label: Your name
-      description: Optional if you provide a LinkedIn profile URL.
-      placeholder: "Madhan Vadlamudi"
-    validations:
-      required: false
-
-  - type: input
-    id: linkedin_url
-    attributes:
-      label: LinkedIn profile URL
-      description: Optional if name is set. Used for credit.
-      placeholder: "https://www.linkedin.com/in/madhanvadlamudi/"
-    validations:
-      required: false
 
   - type: textarea
     id: raw_post
     attributes:
       label: LinkedIn post content
-      description: Paste the full post text as-is (including links).
-      placeholder: "Hiring! Software Engineer Intern at … https://boards.greenhouse.io/..."
+      description: Paste the post as-is, including every apply / careers link.
+      placeholder: "Hiring Software Engineer Intern at Acme… https://boards.greenhouse.io/acme/jobs/123"
     validations:
       required: true
 
   - type: input
     id: url
     attributes:
-      label: Application URL
-      description: Direct apply link (required if the post has no clear job URL).
+      label: Application URL (optional override)
+      description: Only if the pasted post has no clear apply link.
       placeholder: "https://boards.greenhouse.io/..."
     validations:
       required: false
 
   - type: input
-    id: title
+    id: name
     attributes:
-      label: Job title
-      placeholder: "Software Engineer Intern"
+      label: Your name (optional)
+      placeholder: "Eshwar Chandra Vidhyasagar"
     validations:
       required: false
 
   - type: input
-    id: company
+    id: github
     attributes:
-      label: Company
-      placeholder: "Acme"
+      label: GitHub username (optional)
+      description: Used to attribute the git commit to you. If omitted, we use the GitHub account that opened this issue.
+      placeholder: "EshwarCVS"
     validations:
       required: false
 
   - type: input
-    id: location
+    id: linkedin_url
     attributes:
-      label: Location
-      placeholder: "Remote · US"
-    validations:
-      required: false
-
-  - type: dropdown
-    id: work_model
-    attributes:
-      label: Work model
-      options:
-        - Not sure
-        - Remote
-        - Hybrid
-        - On Site
-    validations:
-      required: false
-
-  - type: dropdown
-    id: category
-    attributes:
-      label: Category / type
-      options:
-        - Software Engineering
-        - Internship
-        - Data/ML
-        - Frontend
-        - Backend
-        - Full Stack
-        - DevOps/Infra
-        - Mobile
-        - Security
-        - Embedded/HW
-    validations:
-      required: false
-
-  - type: input
-    id: info
-    attributes:
-      label: Visa / sponsorship / info
-      description: "e.g. H1B Sponsor, No Sponsorship, US Citizen Only, New Grad"
-      placeholder: "H1B Sponsor"
+      label: LinkedIn profile URL (optional)
+      placeholder: "https://www.linkedin.com/in/eshwarchandravidhyasagar/"
     validations:
       required: false
 
   - type: input
     id: date
     attributes:
-      label: Date posted
-      description: YYYY-MM-DD (defaults to today). Controls which year/month folder is used.
+      label: Date posted (optional)
+      description: YYYY-MM-DD — defaults to today; controls year/month folder.
       placeholder: "2026-07-15"
     validations:
       required: false

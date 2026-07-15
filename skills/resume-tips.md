@@ -1,5 +1,11 @@
 # Resume Tips for Tech Roles
 
+## Start here
+
+- [Resume mistakes to stop](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumetips-jobsearch-softwareengineering-activity-7458586210945490946-1yzF) — tailor for ATS and recruiters
+- [Live resume review sessions](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-share-7450549819946835968-e_pG) — in-person / live review signup posts
+- [Vigilant Lamp learning hub](https://github.com/EshwarCVS/vigilant-lamp) — interview tracks and foundation skills
+
 ## Format & Structure
 
 - **One page** for less than 5 years of experience. Two pages max for senior roles.

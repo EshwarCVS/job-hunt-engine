@@ -2,6 +2,8 @@
 
 <!-- Briefly describe the change -->
 
+> Target branch: **`develop`** (queue). `master` is updated by the scrape/publish Action.
+
 ## Type
 
 - [ ] Add job listing(s)

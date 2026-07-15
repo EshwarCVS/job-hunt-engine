@@ -2,6 +2,17 @@
 
 Thanks for helping make job hunting easier for everyone.
 
+## Branching
+
+| Branch | Role |
+|--------|------|
+| **`master`** | Public board — what everyone should look at |
+| **`develop`** | Queue / workspace — curator JSON, community PRs, scrape runs here first |
+
+Flow: contributions → `develop` → daily **Scrape Jobs + Publish** Action scrapes on `develop`, then merges to `master` so both tips match.
+
+Open PRs against **`develop`**.
+
 ## Ways to contribute
 
 | Path | Best for |
@@ -48,19 +59,36 @@ Use [Add Job Listing](https://github.com/EshwarCVS/job-hunt-engine/issues/new?te
 `H1B Sponsor`, `H1B (Historical)`, `No Sponsorship`, `US Citizen Only`,
 `Advanced Degree`, `New Grad`, seniority labels.
 
-## Curator submissions (owned space + GitHub secret key)
+## Who approves community job submissions?
+
+| Path | What happens | Who publishes to the board |
+|------|----------------|----------------------------|
+| **Add Job Listing** issue | Creates a labeled issue (`job-submission`). **Not auto-merged.** | A **maintainer** (repo admin) reviews, then opens/merges a PR that adds the row to `sources/community-jobs.json`, **or** closes as duplicate/spam |
+| **PR** editing `community-jobs.json` | CI / review on the PR | Maintainer **merges** the PR → next scrape includes it |
+| **Curator form** | Authed by `CURATOR_KEYS` secret | **Automated** append on **`develop`** if the key matches; public board updates on next scrape→`master` publish |
+
+There is no anonymous auto-write for public job issues — that would spam the board. Curators are the exception because they share a passphrase stored in GitHub Secrets.
+
+## Curator submissions (owned space + `CURATOR_KEYS`)
+
+**Want curator access?** Open
+[Request curator access](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-request.yml).
+Maintainers create a passphrase in GitHub Secrets and send it **privately** (usually LinkedIn DM). No email server required.
 
 Curators get `sources/curators/<id>/<year>/<month>/jobs.json`.
 
-**Keys are GitHub Actions secrets — not files in the repo.**
+**One secret for every curator** (no workflow change when onboarding):
 
-1. Maintainer runs `python -m pipeline.generate_curator_key <id>` (prints a key; does not write the repo).
-2. Maintainer adds it under **Settings → Secrets and variables → Actions** as `CURATOR_KEY_<ID>`.
-3. Maintainer DMs the key to the curator.
-4. Curator opens the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml), pastes **curator id + key + post**.
-5. Actions compares the form key to the secret. On match it appends `jobs.json` and redacts the key.
+1. Add the person to `sources/curators/_index.json`
+2. Edit GitHub **Actions secret** `CURATOR_KEYS` (JSON), e.g.
+   `{"eshwarchandravidhyasagar":"<passphrase>","CURATOR_ESHWARCHANDRAVIDHYASAGAR":"<passphrase>"}`
+3. DM them the passphrase **privately** (never in a public issue/PR)
+4. They submit via the [curator form](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml)
 
-Details: [`sources/curators/README.md`](sources/curators/README.md).
+Alias formula: `CURATOR_` + id in screaming case → e.g. `eshwarchandravidhyasagar` → `CURATOR_ESHWARCHANDRAVIDHYASAGAR`.
+
+Details: [`sources/curators/ONBOARDING.md`](sources/curators/ONBOARDING.md) (full checklist) and
+[`sources/curators/README.md`](sources/curators/README.md).
 
 ## Adding scrapers / sources
 
@@ -84,9 +112,18 @@ Broken links, duplicates, or scraper errors — open an issue with details.
 - Keep dependencies minimal (`pipeline/requirements.txt`)
 - Type hints encouraged; scrapers should not crash on odd upstream HTML/JSON
 
-## Credits
+## Contribution attribution
 
-See [CREDITS.md](CREDITS.md) for how we cite SimplifyJobs, jobright-ai, and this project.
+Curator ingest commits are attributed to the person who contributed when we can:
+
+1. Optional **GitHub username** on the form
+2. Registered `github` on their curator row in `_index.json`
+3. The GitHub account that opened the issue
+4. Otherwise the maintainer from `sources/config.json` → `commit_author`
+
+So curators who use GitHub get credit on the contribution graph. Board scrape/publish commits stay under the maintainer identity.
+
+When merging community **Add Job** issues by hand, attribute the commit to the issue author (or add `Co-authored-by: login <id+login@users.noreply.github.com>`).
 
 ## Questions?
 

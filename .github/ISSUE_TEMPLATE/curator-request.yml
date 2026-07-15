@@ -1,0 +1,79 @@
+name: Request curator access
+description: Ask to become a trusted curator (paste LinkedIn hiring posts via keyed form). Maintainers create your key and send it privately — never post a passphrase here.
+title: "Curator access: "
+labels: ["curator-onboarding"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to **request** curator access. A maintainer will review, add you to the registry,
+        create a passphrase in private GitHub Secrets, and **send the key to you privately**
+        (LinkedIn DM / GitHub private reply — not in this public issue).
+
+        Already have a key? Use **[Curator submission](https://github.com/EshwarCVS/job-hunt-engine/issues/new?template=curator-submit.yml)** instead.
+
+  - type: input
+    id: preferred_id
+    attributes:
+      label: Preferred curator ID
+      description: Lowercase LinkedIn slug if possible (example eshwarchandravidhyasagar).
+      placeholder: "eshwarchandravidhyasagar"
+    validations:
+      required: true
+
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name
+      placeholder: "Eshwar Chandra Vidhyasagar"
+    validations:
+      required: true
+
+  - type: input
+    id: linkedin_url
+    attributes:
+      label: LinkedIn profile URL
+      placeholder: "https://www.linkedin.com/in/eshwarchandravidhyasagar/"
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub username
+      description: Used for commit credit when you submit posts.
+      placeholder: "EshwarCVS"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: contact_channel
+    attributes:
+      label: How should we send your passphrase privately?
+      description: Never reply with the passphrase in this public issue thread.
+      options:
+        - LinkedIn DM (preferred)
+        - GitHub private — I will open a draft and wait for maintainer instructions
+        - Email (I will put a contact email only in a private reply after maintainers ask)
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why / what you share
+      description: Brief note on the roles you post (new grad, internships, etc.) and posting cadence.
+      placeholder: "I regularly share SWE new-grad and internship openings on LinkedIn…"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I submit posts voluntarily and allow this repo to republish job links I submit (not my full LinkedIn feed).
+          required: true
+        - label: I will never post my curator passphrase in a public issue, PR, or comment.
+          required: true

@@ -1,5 +1,11 @@
 # Resources
 
+## Resume & career coaching (from this org)
+
+- [Resume mistakes checklist](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumetips-jobsearch-softwareengineering-activity-7458586210945490946-1yzF) — tailor bullets (action + tech + result); common resume mistakes to stop
+- [In-person / live resume review](https://www.linkedin.com/posts/eshwarchandravidhyasagar_resumereview-jobsearch-careersupport-share-7450549819946835968-e_pG) — posting details for hands-on resume review sessions
+- [Vigilant Lamp](https://github.com/EshwarCVS/vigilant-lamp) — open learning boards: SDE / data / FDE tracks, databases, networking, cloud, interview prep
+
 ## Job Boards & Aggregators
 
 - [LinkedIn Jobs](https://www.linkedin.com/jobs/) — the largest professional job board

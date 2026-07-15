@@ -1,12 +1,23 @@
-name: Scrape Jobs Daily
+name: Scrape Jobs + Publish
+
+# develop = queue (curators + community + scrape workspace)
+# master  = public board (always updated from develop after scrape)
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # 9 AM UTC daily
-  workflow_dispatch:       # Allow manual trigger
+    - cron: '0 9 * * *'  # 9 AM UTC daily — no prompts
+  workflow_dispatch:
     inputs:
       force_linkedin:
-        description: 'Force LinkedIn scrape even if profiles are not due'
+        description: 'Optional. Force LinkedIn scrape even if profiles are not due (ignore if you are not using LinkedIn).'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      skip_publish_master:
+        description: 'Only update develop (skip merge to master).'
         required: false
         default: 'false'
         type: choice
@@ -18,11 +29,14 @@ permissions:
   contents: write
 
 jobs:
-  scrape:
+  scrape-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout develop
         uses: actions/checkout@v4
+        with:
+          ref: develop
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,7 +59,7 @@ jobs:
             echo "LinkedIn scrape is due this run"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "LinkedIn scrape skipped (not due / no cookies)"
+            echo "LinkedIn scrape skipped (not due / no cookies / not forced)"
           fi
 
       - name: Install Playwright (LinkedIn only)
@@ -61,16 +75,43 @@ jobs:
           LINKEDIN_LI_AT_2: ${{ secrets.LINKEDIN_LI_AT_2 }}
           FORCE_LINKEDIN: ${{ github.event.inputs.force_linkedin || 'false' }}
 
-      - name: Check for changes
-        id: changes
+      - name: Commit on develop (if changed)
+        id: commit
         run: |
-          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config user.name "EshwarCVS"
-          git config user.email "EshwarCVS@users.noreply.github.com"
+          AUTHOR_NAME=$(python -c "import json; print(json.load(open('sources/config.json'))['commit_author']['name'])")
+          AUTHOR_EMAIL=$(python -c "import json; print(json.load(open('sources/config.json'))['commit_author']['email'])")
+          git config user.name "$AUTHOR_NAME"
+          git config user.email "$AUTHOR_EMAIL"
           git add -A
-          git commit --author="EshwarCVS <EshwarCVS@users.noreply.github.com>" -m "chore: update job listings $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No scrape output changes"
+            exit 0
+          fi
+          git commit --author="${AUTHOR_NAME} <${AUTHOR_EMAIL}>" \
+            -m "chore: update job listings $(date -u +%Y-%m-%d)"
+          git push origin develop
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Publish develop → master (public board)
+        if: ${{ github.event.inputs.skip_publish_master != 'true' }}
+        run: |
+          AUTHOR_NAME=$(python -c "import json; print(json.load(open('sources/config.json'))['commit_author']['name'])")
+          AUTHOR_EMAIL=$(python -c "import json; print(json.load(open('sources/config.json'))['commit_author']['email'])")
+          git config user.name "$AUTHOR_NAME"
+          git config user.email "$AUTHOR_EMAIL"
+          git fetch origin master develop
+          git checkout master
+          git pull origin master
+          if git merge --ff-only origin/develop; then
+            echo "master fast-forwarded to develop"
+          else
+            git merge origin/develop -m "chore: publish develop to master $(date -u +%Y-%m-%d)"
+          fi
+          git push origin master
+          # Point develop at the same tip as master (no force)
+          git checkout develop
+          git pull origin develop
+          git merge --ff-only origin/master || git merge origin/master -m "chore: sync develop with master after publish"
+          git push origin develop
+          echo "master is public; develop queue tip synced"
