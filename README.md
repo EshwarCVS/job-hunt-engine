@@ -5,8 +5,8 @@ Your open-source job board for tech roles — internships, new grad, and experie
 **Website (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
 
 <p>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-15&color=0A66C2" alt="Last updated" /></a>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3672&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-07-16&color=0A66C2" alt="Last updated" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3668&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
@@ -41,14 +41,38 @@ This project stays useful when the community helps. We especially need:
 
 ## July 2026 Jobs
 
-> **3672** active listings · newest first · previous month: _no prior archive yet_ ·
+> **3668** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3672</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3668</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
+| Jul 16 | [Full-Stack Software Engineer Intern - Product](https://jobs.ashbyhq.com/netic/f291394a-f3c5-4f46-9b87-77aea3d487ef/application?embed=true) | Cybernetic Labs | SF | Internship | SimplifyJobs | - |
+| Jul 16 | [Software Engineer Intern - Agent Platform](https://jobs.ashbyhq.com/netic/b0ea7aab-8eea-4d31-96f9-278364180ae7/application?embed=true) | Cybernetic Labs | SF | Internship | SimplifyJobs | - |
+| Jul 16 | [Trading Automation and Operations Intern](https://www.optiver.com/join-us/jobs/8489582002/?gh_jid=8489582002) | Optiver | Chicago, IL | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 16 | [Forward Deployed Engineer New Grad - Fde](https://jobs.ashbyhq.com/netic/f2d170eb-c4c3-4715-9d2e-84dd4fe857c8/application?embed=true) | Cybernetic Labs | SF | Software Engineering | SimplifyJobs | - |
+| Jul 16 | [Software Engineer New Grad - Applied AI](https://jobs.ashbyhq.com/Lightfield/fc93a467-773d-4805-b342-bf470950732d/application?embed=true) | Lightfield | SF | Software Engineering | SimplifyJobs | Bachelor's |
+| Jul 16 | [Full-Stack Software Engineer New Grad - Product](https://jobs.ashbyhq.com/netic/bab5d1e5-e31b-42f0-9cef-334b1f17fed3/application?embed=true) | Cybernetic Labs | SF | Full Stack | SimplifyJobs | - |
+| Jul 16 | [Software Engineer New Grad - Agent Platform](https://jobs.ashbyhq.com/netic/d9bcb6a2-0e54-4cb3-baec-43f2d74db18f/application?embed=true) | Cybernetic Labs | SF | Software Engineering | SimplifyJobs | - |
+| Jul 16 | [Associate GIS Technologist](https://dukeenergy.wd1.myworkdayjobs.com/search/job/Plainfield-IN/Associate-GIS-Technologist_R40529) | Duke Energy | Plainfield, IN | Data/ML | SimplifyJobs | Bachelor's |
+| Jul 16 | [Postdoctoral Scholar - Saf Lab - Compass](https://amazon.jobs/en/jobs/10455422/postdoctoral-scholar-saf-lab-compass) | Amazon | Pasadena, CA | Data/ML | SimplifyJobs | PhD |
+| Jul 16 | [Front-End Developer Intern (Remote)](https://jobright.ai/jobs/info/6a589c4b9838a11e5d839666?utm_campaign=1079&utm_source=git) | eAI | United States · Remote | Internship | jobright-ai | - |
+| Jul 16 | [Web Developer/Programmer Internship](https://jobright.ai/jobs/info/6a5899d63330ca6f993c5ba6?utm_campaign=1079&utm_source=git) | Hasana, Inc. | Los Angeles, CA, United States · On Site | Internship | jobright-ai | - |
+| Jul 16 | [WEB DEVELOPER/PROGRAMMER INTERNSHIP](https://jobright.ai/jobs/info/6a5899290304e26a7e7e6fb4?utm_campaign=1079&utm_source=git) | Hasana, Inc. | Chicago, IL, United States · On Site | Internship | jobright-ai | - |
+| Jul 16 | [Mobile iOS Developer Intern](https://jobright.ai/jobs/info/6a5118e68d7d3e6cf1cbedd7?utm_campaign=1079&utm_source=git) | Eulerity | New York, New York · Hybrid | Internship | jobright-ai | - |
+| Jul 16 | [Software Engineer, General - London](https://jobright.ai/jobs/info/6a51a955bf63b66c7997abef?utm_campaign=Software%20Engineering&utm_source=1103) | InstaLILY AI | London, United Kingdom · On Site | Software Engineering | jobright-ai | - |
+| Jul 16 | [Software Engineer](https://jobright.ai/jobs/info/6a5887bc72fe7a7b98dcf3b4?utm_campaign=Software%20Engineering&utm_source=1103) | Clinisys | Morrisville, NC, United States · Hybrid | Software Engineering | jobright-ai | - |
+| Jul 16 | [Physical Design Methodology and Operations Engineer - New College Grad 2026](https://jobright.ai/jobs/info/6a5882350304e26a7e7e68f4?utm_campaign=Software%20Engineering&utm_source=1103) | NVIDIA AI | Santa Clara, CA, United States · On Site | Software Engineering | jobright-ai | - |
+| Jul 16 | [Data Science and Analytics_04](https://jobright.ai/jobs/info/6a588b3d9f1f56462cf6aca5?utm_campaign=Data%20Analysis&utm_source=1103) | Omnicom | Burbank, CA, United States · Hybrid | Data/ML | jobright-ai | - |
+| Jul 16 | [Data Science and Analytics_04](https://jobright.ai/jobs/info/6a588b2268d16a30e2413f8e?utm_campaign=Data%20Analysis&utm_source=1103) | Omnicom | Los Angeles, CA, United States · Hybrid | Data/ML | jobright-ai | - |
+| Jul 16 | [Analyst, Business Analytics](https://jobright.ai/jobs/info/6a588b1b72fe7a7b98dcf418?utm_campaign=Data%20Analysis&utm_source=1103) | Omnicom | New York, NY, United States · Hybrid | Data/ML | jobright-ai | - |
+| Jul 16 | [Data Science and Analytics_04](https://jobright.ai/jobs/info/6a588b153330ca6f993c5765?utm_campaign=Data%20Analysis&utm_source=1103) | Omnicom | Los Angeles, CA, United States · Hybrid | Data/ML | jobright-ai | - |
+| Jul 16 | [Associate Data Solutions Analyst](https://jobright.ai/jobs/info/6a57bcbca791c6211bf00bfa?utm_campaign=Data%20Analysis&utm_source=1103) | Highmark Health | PA, United States · Remote | Data/ML | jobright-ai | - |
+| Jul 16 | [Research Analyst](https://jobright.ai/jobs/info/6a57b105a791c6211bf0039e?utm_campaign=Data%20Analysis&utm_source=1103) | Harris Beach Murtha | Albany, NY, United States · Hybrid | Data/ML | jobright-ai | - |
+| Jul 16 | [Data Scientist Intern](https://jobright.ai/jobs/info/6a589a630304e26a7e7e702b?utm_campaign=1066&utm_source=git) | Brilent | San Mateo, CA, United States · On Site | Internship | jobright-ai | - |
+| Jul 16 | [Quantitative Research Analyst – Intern (US)](https://jobright.ai/jobs/info/6a58930168d16a30e241411b?utm_campaign=1066&utm_source=git) | Citadel | New York, NY, United States · On Site | Internship | jobright-ai | - |
 | Jul 15 | [Software Engineer Intern](https://boards.greenhouse.io/cloudflare/jobs/8052785) | Cloudflare | Austin, TX | Internship | SimplifyJobs | Bachelor's |
 | Jul 15 | [Test Engineering Apprentice](https://jobs.smartrecruiters.com/SmithsGroup2/744000137822980) | Smiths Detection Group | Slough, UK | Software Engineering | SimplifyJobs | - |
 | Jul 15 | [Software Engineer Intern](https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application?embed=true) | Circleback | SF | Internship | SimplifyJobs | - |
@@ -59,12 +83,40 @@ This project stays useful when the community helps. We especially need:
 | Jul 15 | [Software Engineer Intern](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689) | Copart | Dallas, TX | Internship | SimplifyJobs | Bachelor's |
 | Jul 15 | [Software Engineer Intern](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1/application?embed=true) | Beacon Software | SF | Internship | SimplifyJobs | Bachelor's |
 | Jul 15 | [Software Engineer Intern](https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b/apply) | Rainmaker | El Segundo, CA | Internship | SimplifyJobs | - |
-| Jul 15 | [Software Engineer Intern](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673) | Copart | Dallas, TX | Internship | SimplifyJobs | Bachelor's |
 | Jul 15 | [Associate Engineer Apprentice - Engineering](https://jobs.lever.co/ravl_io/4145932c-b493-4112-a0ed-68705ca0d720/apply) | RAVL | Toronto, ON, Canada | Software Engineering | SimplifyJobs | - |
 | Jul 15 | [Life Cycle Management Intern - Sustainability & Life Cycle Management](https://evonik.wd3.myworkdayjobs.com/External_Careers/job/Hanau/Praktikant--m-w-d--Sustainability---Life-Cycle-Management_R49998-2) | Evonik | Neukirchen-Vluyn, Germany, Frankfurt, Germany | Internship | SimplifyJobs | Bachelor's, Master's |
 | Jul 15 | [Bachelor's Apprentice - Data Analytics](https://www.careers.zurich.com/job/Anoka-Bachelor's-Apprenticeship-Data-Analytics-Anoka,-MN-MN/1366724757/?ats=successfactors) | Zurich Insurance | Andover, MN | Data/ML | SimplifyJobs | Bachelor's |
 | Jul 15 | [Quantitative Trading Internship](https://careers-sig.icims.com/jobs/11005/job?mobile=true&needsRedirect=false) | Susquehanna International Group (SIG) | London, UK | Internship | SimplifyJobs | - |
 | Jul 15 | [Quantitative Systematic Trading Intern](https://careers-sig.icims.com/jobs/11006/job?mobile=true&needsRedirect=false) | Susquehanna International Group (SIG) | London, UK | Internship | SimplifyJobs | Master's, PhD |
+| Jul 15 | [Software Engineer Intern](https://www.citadelsecurities.com/careers/details/software-engineer-intern-europe/) | Citadel Securities | London, UK | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 15 | [Full-Stack AI Developer Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044912) | Revvity | Remote in Canada | Internship | SimplifyJobs | - |
+| Jul 15 | [Full-Stack AI Developer Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044905) | Revvity | Remote in Canada | Internship | SimplifyJobs | - |
+| Jul 15 | [Product Manager Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Product-Manager-Intern_JR-044908-1) | Revvity | Remote in Canada | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 15 | [AI & Data Analytics Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2505878) | onsemi | Scottsdale, AZ | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Product Manager Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Product-Manager-Intern_JR-044906) | Revvity | Remote in Canada | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 15 | [Full-Stack AI Developer Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044915) | Revvity | Remote in Canada | Internship | SimplifyJobs | - |
+| Jul 15 | [Full-Stack AI Developer Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044914) | Revvity | Remote in Canada | Internship | SimplifyJobs | - |
+| Jul 15 | [Software Engineer Intern](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109897) | Copart | Dallas, TX | Internship | SimplifyJobs | Master's |
+| Jul 15 | [Monitoring & Evaluation for Accountability and Learning](https://compassion.wd5.myworkdayjobs.com/CompassionCareersPrivateLink/job/Remote---USA/Monitoring---Evaluation-for-Accountability-and-Learning--MEAL--Fellow_R8260-1) | Compassion International | Remote in USA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Agentic AI Intern](https://datarobot.wd1.myworkdayjobs.com/en-US/DataRobot_External_Careers/job/Boston-Massachusetts-US/Agentic-AI-Intern_R-102729) | DataRobot | Remote in USA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Linux Engineer](https://job-boards.greenhouse.io/janestreet/jobs/8626260002) | Jane Street | NYC | Software Engineering | SimplifyJobs | - |
+| Jul 15 | [Software Engineering Intern](https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007) | The Trade Desk | Seattle, WA, Irvine, CA, NYC +3 more | Internship | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Enterprise Data & AI Intern](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685) | Sentara Health | Virginia Beach, VA | Internship | SimplifyJobs | - |
+| Jul 15 | [Data Engineering Co-op](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ontario-Remote-Work/Data-Engineering-Co-Op_R65916) | Motorola | Remote in Canada | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Data Analyst Co-op](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ontario-Remote-Work/Data-Analyst-Co-Op_R65918) | Motorola | Remote in Canada | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Engineering Intern](https://generac.wd5.myworkdayjobs.com/en-US/external/job/Toronto-Canada/Intern-Engineering_JR14268) | Generac | Toronto, ON, Canada | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Technology Strategy & AI Enablement Co-op - AI Enablement](https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Fall-Co-op-2026---AI-Enablement_JR26070823) | Manulife Financial | Toronto, ON, Canada | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Research Intern - Video World Models - Research & ML Systems](https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752) | Tencent | Palo Alto, CA | Internship | SimplifyJobs | Master's, PhD |
+| Jul 15 | [Research Intern - Video World Models - Research & ML Systems](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1) | Tencent | Palo Alto, CA | Internship | SimplifyJobs | Master's, PhD |
+| Jul 15 | [Data Development Intern](https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5187532007) | Sparksoft | Columbia, MD | Internship | SimplifyJobs | Bachelor's |
+| Jul 15 | [Quantitative Research Analyst Intern](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-intern-bs-ms-europe-2/) | Citadel Securities | London, UK | Internship | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [Product Manager Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Product-Manager-Intern_JR-044907) | Revvity | Remote in Canada | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Jul 15 | [Full-Stack AI Developer Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044782-1) | Revvity | Remote in Canada | Internship | SimplifyJobs | - |
+| Jul 15 | [Software Engineer Intern](https://www.oldmissioncapital.com/careers/?gh_jid=7796180003) | Old Mission | Chicago, IL | Internship | SimplifyJobs | Bachelor's, Master's |
+| Jul 15 | [IT & Data Systems Intern - Archibus & Applications Development](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3276) | RFCUNY | NYC | Internship | SimplifyJobs | - |
+| Jul 15 | [IT & Data Systems Intern - Archibus & Applications Development](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/IT---Data-Systems-Intern--Archibus---Applications-Development-_JR3277) | RFCUNY | NYC | Internship | SimplifyJobs | - |
+| Jul 15 | [Full-Stack AI Developer Intern](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044913) | Revvity | Remote in Canada | Internship | SimplifyJobs | - |
+| Jul 15 | [Graduate Teaching Assistant Health Data Analytics Course: Introduction to the Big Data Era](https://ubc.wd10.myworkdayjobs.com/ubcstaffjobs/job/UBC-Hospital-Site---Vancouver-BC-Canada/Graduate-Teaching-Assistant--Health-Data-Analytics-Course--Introduction-to-the-Big-Data-Era---Opportunities-for-Better-Health-Care_JR25265) | University of British Columbia | Vancouver, BC, Canada | Data/ML | SimplifyJobs | - |
 | Jul 15 | [Software Engineer – University Graduate](https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-europe/) | Citadel Securities | London, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
 | Jul 15 | [Data Labeler](https://www.tesla.com/careers/search/job/276585) | Tesla | Palo Alto, CA | Data/ML | SimplifyJobs | - |
 | Jul 15 | [GIS Analyst](https://enbridge.wd3.myworkdayjobs.com/enbridge_careers/job/Gastonia-NC-USA/Analyst-GIS_70804-1) | Enbridge | Morrisville, NC, Gastonia, NC | Data/ML | SimplifyJobs | Bachelor's |
@@ -77,59 +129,7 @@ This project stays useful when the community helps. We especially need:
 | Jul 15 | [Associate Data Engineer](https://jobs.ashbyhq.com/quantexa/b835b33f-a320-48b9-bf6b-e7c59cc87466/application?embed=true) | Quantexa | London, UK | Data/ML | SimplifyJobs | - |
 | Jul 15 | [Software Engineer New Grad](https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066/application?embed=true) | Faros AI | San Mateo, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
 | Jul 15 | [Software Engineer 1](https://jobs.ashbyhq.com/checkout.com/c37d4aba-998a-4266-8525-2b5fad1bfb56/application?embed=true) | Checkout.com | London, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Jul 15 | [Forward Deployed Engineer](https://jobs.ashbyhq.com/faros-ai/842a6e50-4050-4d7d-99f0-b9272c76cf43/application?embed=true) | Faros AI | San Mateo, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Jul 15 | [Product Implementation Engineer 1](https://jobs.ashbyhq.com/corvus-robotics/e180a9e8-6611-485b-b76a-bbf995b69e7f/application?embed=true) | Corvus Robotics | Mountain View, CA | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Data Scientist 1 - Digital](https://westlake.wd1.myworkdayjobs.com/westlake/job/US---Houston-TX/Data-Scientist-I---Digital_R32974) | Westlake | Houston, TX | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 15 | [Software Engineer 1 - Computational Fluid Dynamics - Computational Fluid Dynamics](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/LONDON-01/Software-Engineer-I---Computational-Fluid-Dynamics--CFD-_R55487-1) | Cadence Design Systems | London, UK | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 15 | [Client Engineer](https://jobs.ashbyhq.com/glia/9936ff15-a4b8-43a4-99a5-e774a75c829c/application?embed=true) | Glia | Vancouver, BC, Canada | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 15 | [Forecasting Analyst - Traffic & Market Insights](https://encd.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6005/job/5633) | Heathrow | London, UK | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 15 | [Quantitative Researcher](https://careers-sig.icims.com/jobs/11033/job?mobile=true&needsRedirect=false) | Susquehanna International Group (SIG) | London, UK | Software Engineering | SimplifyJobs | Master's, PhD |
-| Jul 15 | [Rapid Prototyping Analyst - EY-Parthenon](https://careers.ey.com/ey/job/London-Analyst-Rapid-Prototyping-EY-Parthenon-SE1-2AF/1415240333/) | Ernst & Young | London, UK | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Associate Analyst - Business - Rops](https://davita.wd1.myworkdayjobs.com/DKC_External/job/09514---California-Remote/Associate-Analyst--Business--ROPS-_R0467785-1) | DaVita | El Segundo, CA | Data/ML | SimplifyJobs | - |
-| Jul 15 | [Mobile GIS Field Mapping and Inspection Specialist](https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/42094) | Arcadis | Atlanta, GA | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 15 | [Applications Development Associate](https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/IN---TDC-1-IN110/Applications-Devt-Associate_R26005648) | United Parcel Service (UPS) | Indiana | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Application Developer - Java Backend & Front end](https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/IN---TDC-1-IN110/Application-Developer---Java-Backend---Front-end_R26020292) | United Parcel Service (UPS) | Indiana | Frontend | SimplifyJobs | Bachelor's |
-| Jul 15 | [Trading Services Analyst](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768200) | JP Morgan Chase | NYC | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Strategy & Analytics Analyst](https://davita.wd1.myworkdayjobs.com/DKC_External/job/05555---Casa-del-Mundo-Office-Denver-HQ/Strategy---Analytics-Analyst_R0457655-1) | DaVita | Denver, CO | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 15 | [Machine Learning Analyst](https://job-boards.greenhouse.io/bracebridgecapital/jobs/4715042005) | Bracebridge Capital | Boston, MA | Data/ML | SimplifyJobs | Bachelor's |
-| Jul 15 | [Data Manager](https://job-boards.greenhouse.io/clarityinnovates/jobs/5165168007) | Clarity Innovations | Hurlburt Field, FL | Data/ML | SimplifyJobs | Bachelor's, Certificate |
-| Jul 15 | [Data Engineer](https://job-boards.greenhouse.io/leolabsinc/jobs/4221511009) | LeoLabs | Remote in USA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Jul 15 | [Graduate Quantitative Trader](https://careers-sig.icims.com/jobs/11031/job?mobile=true&needsRedirect=false) | Susquehanna International Group (SIG) | London, UK | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Associate Product Manager](https://job-boards.greenhouse.io/sharpelectronics/jobs/4254963009) | Sharp Electronics | Memphis, TN | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 15 | [E-commerce Product Enablement Assistant](https://jobs.lever.co/moo/920ec01a-af4f-4ef3-86db-decf2ef52b7d/apply) | moo | Boston, MA, London, UK, Beckton, London, UK +2 more | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Trading & Merchandising Assistant](https://jobs.lever.co/moo/1a7604fe-57bd-4dc8-bf81-ebaae75cd7ac/apply) | moo | Boston, MA, London, UK, Beckton, London, UK +2 more | Software Engineering | SimplifyJobs | - |
-| Jul 15 | [Motion Automation Intelligence-Application Engineer](https://genpt.wd1.myworkdayjobs.com/Careers/job/Eden-Prairie-MN-USA/Motion-Automation-Intelligence--Application-Engineer_R26_0000023122) | Genuine Parts Company | Eden Prairie, MN | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 15 | [Technical Software Consultant](https://jobs.ashbyhq.com/pariveda/d825ed65-edd8-4540-92c9-4c01f2b6a982/application?embed=true) | Pariveda Solutions | SF | Software Engineering | SimplifyJobs | Bachelor's |
-| Jul 15 | [Graduate Quantitative Systematic Trader](https://careers-sig.icims.com/jobs/11032/job?mobile=true&needsRedirect=false) | Susquehanna International Group (SIG) | London, UK | Software Engineering | SimplifyJobs | Master's, PhD |
-| Jul 15 | [Software Engineer - Tools & Infrastructure / DevOps](https://jobs.ashbyhq.com/cerebras/c0d8fa46-fd9e-49b5-80c9-040bbd0da916/application?embed=true) | Cerebras | Toronto, ON, Canada, Sunnyvale, CA | DevOps/Infra | SimplifyJobs | - |
-| Jul 15 | [Software Engineer Intern - Undergraduate Students](https://jobright.ai/jobs/info/6a56482353b3962b910af1c9?utm_campaign=1079&utm_source=git) | North Carolina Department of Agriculture and Consumer Services | Boston, MA, United States · Hybrid | Internship | jobright-ai | - |
-| Jul 15 | [Web Developer/Programmer Internship](https://jobright.ai/jobs/info/6a579ee610c4d945d864f2f6?utm_campaign=1079&utm_source=git) | Hasana, Inc. | New York, NY, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Quality Assurance Internship](https://jobright.ai/jobs/info/6a5798fdefb06a45240db3ca?utm_campaign=1079&utm_source=git) | Marketeq Talent | United States · Remote | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineering Internship](https://jobright.ai/jobs/info/6a5791a1f7517b519ad5ae84?utm_campaign=1079&utm_source=git) | Elevated Web Design | United States · Remote | Internship | jobright-ai | - |
-| Jul 15 | [Internship - Software Test - Fall 2026](https://jobright.ai/jobs/info/6a4d46a035e45603c4bb3380?utm_campaign=1079&utm_source=git) | Firefly Aerospace | Cedar park, TX, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Embedded Software Developer, Network/Payload Software Intern (Fall 2026)](https://jobright.ai/jobs/info/6a3ea41cd261407de9803c8e?utm_campaign=1079&utm_source=git) | Astranis Space Technologies | San Francisco · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineering Intern](https://jobright.ai/jobs/info/6a578867efb06a45240dae30?utm_campaign=1079&utm_source=git) | Copart | Dallas, TX, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineering Intern](https://jobright.ai/jobs/info/6a578823e9b77f668bd686d0?utm_campaign=1079&utm_source=git) | Copart | Dallas, TX - Headquarters, United States of America · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineer Intern](https://jobright.ai/jobs/info/6a5782d4a791c6211befe903?utm_campaign=1079&utm_source=git) | RightOn Education | Philadelphia, PA, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [ERM Risk Data Aggregation Intern](https://jobright.ai/jobs/info/6a5778aee9b77f668bd680fc?utm_campaign=1079&utm_source=git) | Bank of China USA | New York, NY, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Scientific Software Developer Paid Co-op/Internship](https://jobright.ai/jobs/info/6a57783e21f64463ad359416?utm_campaign=1079&utm_source=git) | Stellar Science Ltd Co | Albuquerque, NM, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Firmware Engineer Intern](https://jobright.ai/jobs/info/6a57778fe9b77f668bd680a2?utm_campaign=1079&utm_source=git) | Fluxergy | Irvine, CA, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineer (SkillBridge Intern) - 23875](https://jobright.ai/jobs/info/6a563233e9b77f668bd61cc2?utm_campaign=1079&utm_source=git) | Mission Technologies, a division of HII | Roanoke, VA, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineer (SkillBridge Intern) - 23875](https://jobright.ai/jobs/info/6a11cfb812f8b43cf398b5ee?utm_campaign=1079&utm_source=git) | Mission Technologies, a division of HII | VA - Roanoke - Pheasant Ridge · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineer Intern - Android Connectivity (Fall-Spring Co-op)](https://jobright.ai/jobs/info/6a4129cc3bfa967791ec0ccf?utm_campaign=1079&utm_source=git) | Rivian and Volkswagen Group Technologies | Vancouver, British Columbia · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineering Intern - Embedded Platforms (Fall 2026)](https://jobright.ai/jobs/info/6a55b69bfdf4fa71202b3d96?utm_campaign=1079&utm_source=git) | Rivian and Volkswagen Group Technologies | Palo Alto, CA, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Embedded Software Engineer Intern (Fall 2026)](https://jobright.ai/jobs/info/6a5461c98a74e077472fb929?utm_campaign=1079&utm_source=git) | Zipline | South San Francisco, California, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineer Intern (Ads Measurement Signal and Privacy) - 2026 Summer (BS/MS)](https://jobright.ai/jobs/info/6a2f9e96eace377055eb325d?utm_campaign=1079&utm_source=git) | TikTok | San Jose, CA, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Digital Verification Engineer Intern](https://jobright.ai/jobs/info/6a51eff9ae4052672fe9cd98?utm_campaign=1079&utm_source=git) | NXP Semiconductors | Kanata, Canada · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineering Intern - Fall 2026 - ASL](https://jobright.ai/jobs/info/6a454f3c971cd25b06f886c9?utm_campaign=1079&utm_source=git) | Georgia Tech Research Institute | Atlanta, Georgia, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Development Engineer Intern (Network Automation) - 2026 Summer (BS/MS)](https://jobright.ai/jobs/info/6a5747f9e9b77f668bd67618?utm_campaign=1079&utm_source=git) | ByteDance | San Jose, CA, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Software Engineer Intern](https://jobright.ai/jobs/info/6a56a26ff7517b519ad57272?utm_campaign=1079&utm_source=git) | NetApp | Wichita, KS, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Developer Intern](https://jobright.ai/jobs/info/6a4af1163dbab558e29af6e1?utm_campaign=1079&utm_source=git) | CCS | Hauppauge, NY, United States · On Site | Internship | jobright-ai | - |
-| Jul 15 | [Associate Product Engineer](https://jobright.ai/jobs/info/6a5527e7377f983ce8a9822f?utm_campaign=Software%20Engineering&utm_source=1103) | MJH Life Sciences® | United States · Remote | Software Engineering | jobright-ai | - |
-| Jul 15 | [Associate Product Engineer](https://jobright.ai/jobs/info/6a17433a5b0a497d5210a590?utm_campaign=Software%20Engineering&utm_source=1103) | MJH Life Sciences® | United States, US · Remote | Software Engineering | jobright-ai | - |
-| Jul 15 | [Software Developer I](https://jobright.ai/jobs/info/6a579c2af7517b519ad5b427?utm_campaign=Software%20Engineering&utm_source=1103) | General Atomics Aeronautical Systems | Poway, CA, United States · On Site | Software Engineering | jobright-ai | - |
-| Jul 15 | [Associate Embedded Software Engineer](https://jobright.ai/jobs/info/6a579ba5e9b77f668bd68df7?utm_campaign=Software%20Engineering&utm_source=1103) | Intramotev | St. Louis, Missouri, United States · On Site | Software Engineering | jobright-ai | - |
-| … | *+3592 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
+| … | *+3588 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 
@@ -196,8 +196,8 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-07-15`
-- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-07-15`
+- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-07-16`
+- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-07-16`
 
 <details>
 <summary>Archived (1)</summary>
@@ -210,10 +210,10 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-07-15`
-- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-07-15`
-- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-07-15`
-- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-07-15`
+- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-07-16`
+- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-07-16`
+- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-07-16`
+- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-07-16`
 - [Daily-H1B-Jobs-In-Tech](https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech) — last activity `2026-05-06`
 
 
