@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-18",
+  "updated_at": "2026-07-19",
   "orgs": {
     "SimplifyJobs": {
       "active": [
@@ -9,8 +9,8 @@
           "url": "https://github.com/SimplifyJobs/New-Grad-Positions",
           "branch": "dev",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
-          "last_activity": "2026-07-18",
+          "last_seen": "2026-07-19",
+          "last_activity": "2026-07-19",
           "meta": {
             "kind": "new-grad"
           }
@@ -20,8 +20,8 @@
           "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
           "branch": "dev",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
-          "last_activity": "2026-07-18",
+          "last_seen": "2026-07-19",
+          "last_activity": "2026-07-19",
           "meta": {
             "kind": "internships"
           }
@@ -50,8 +50,8 @@
           "url": "https://github.com/jobright-ai/2026-Data-Analysis-Internship",
           "branch": "master",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
-          "last_activity": "2026-07-18",
+          "last_seen": "2026-07-19",
+          "last_activity": "2026-07-19",
           "meta": {
             "is_h1b": false
           }
@@ -61,8 +61,8 @@
           "url": "https://github.com/jobright-ai/2026-Data-Analysis-New-Grad",
           "branch": "master",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
-          "last_activity": "2026-07-18",
+          "last_seen": "2026-07-19",
+          "last_activity": "2026-07-19",
           "meta": {
             "is_h1b": false
           }
@@ -72,8 +72,8 @@
           "url": "https://github.com/jobright-ai/2026-Software-Engineer-Internship",
           "branch": "master",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
-          "last_activity": "2026-07-18",
+          "last_seen": "2026-07-19",
+          "last_activity": "2026-07-19",
           "meta": {
             "is_h1b": false
           }
@@ -83,8 +83,8 @@
           "url": "https://github.com/jobright-ai/2026-Software-Engineer-New-Grad",
           "branch": "master",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
-          "last_activity": "2026-07-18",
+          "last_seen": "2026-07-19",
+          "last_activity": "2026-07-19",
           "meta": {
             "is_h1b": false
           }
@@ -94,7 +94,7 @@
           "url": "https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech",
           "branch": "master",
           "first_seen": "2026-07-15",
-          "last_seen": "2026-07-18",
+          "last_seen": "2026-07-19",
           "last_activity": "2026-05-06",
           "meta": {
             "is_h1b": true
