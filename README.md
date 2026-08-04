@@ -5,8 +5,8 @@ Your open-source job board for tech roles — internships, new grad, and experie
 **Website (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
 
 <p>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-08-03&color=0A66C2" alt="Last updated" /></a>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3832&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-08-04&color=0A66C2" alt="Last updated" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=3945&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
@@ -41,95 +41,95 @@ This project stays useful when the community helps. We especially need:
 
 ## August 2026 Jobs
 
-> **3832** active listings · newest first · previous month: _no prior archive yet_ ·
+> **3945** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3832</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 3945</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
-| Aug 03 | [Digital & Technology Extern - Digital & Technology](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US--REMOTE/Start-Your-Legacy-HBCU-Externship-----Digital---Technology_R-144386) | The Coca-Cola Company | Remote in USA | Data/ML | SimplifyJobs | Bachelor's |
-| Aug 03 | [Campus Undergraduate Summer Internship - Strategy & Analytics - Credit & Fraud Risk](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011984) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Product Management Intern - Product Innovation - Credit & Fraud Risk](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011992) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Software Engineer Intern](https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA) | Black Cape | Arlington County, Arlington, VA | Internship | SimplifyJobs | Associate's, Bootcamp, Bachelor's |
-| Aug 03 | [Digital Product Analyst Intern](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011918) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Undergraduate Intern - Strategy & Analytics](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011990) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Product Manager Intern](https://apply.careers.microsoft.com/careers/job/1970393556953113) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 03 | [Technology Intern](https://zgfarchitects.applytojob.com/apply/uqHC8SCmq2/Technology-Intern) | ZGF Architects | Portland, OR | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Scientific Software Developer Intern Co-op](https://stellarscience.applytojob.com/apply/my4AC4VXHI/Scientific-Software-Developer-Paid-CoopInternship) | Stellar Science | Albuquerque, NM | Internship | SimplifyJobs | - |
-| Aug 03 | [Process Systems Engineering Co-op - Automation & Data Integration](https://carbonengineering.applytojob.com/apply/39rDfuYiYY/Process-Systems-Engineering-Coop-Automation-Data-Integration) | Carbon Engineering Ltd. | Squamish, BC, Canada | Internship | SimplifyJobs | Incomplete |
-| Aug 03 | [Polling and Outreach Intern](https://newventurefund.applytojob.com/apply/RFdviqLOwW/Polling-And-Outreach-Intern) | The Hub Project | Washington, DC | Internship | SimplifyJobs | - |
-| Aug 03 | [Research Scientist Intern - Trust and Safety](https://lifeattiktok.com/search/7662672903447988485) | TikTok | Seattle, WA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Research Scientist Intern - Content Intelligence](https://lifeattiktok.com/search/7662662842545539381) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Product Management Intern](https://naveruhubinc.applytojob.com/apply/snw35vU7eX/ThingsBook-Product-Management-Intern) | Naver U.Hub INC | Redwood City, CA | Internship | SimplifyJobs | Bachelor's, Master's, MBA |
-| Aug 03 | [Research Scientist Intern - Foundations & Intelligence Service](https://lifeattiktok.com/search/7662677746436524293) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Machine Learning Engineer Intern - Basic Ranking](https://lifeattiktok.com/search/7667339583362025781) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Machine Learning Engineer Intern - Recommendation](https://lifeattiktok.com/search/7662653087863081221) | TikTok | San Jose, CA | Internship | SimplifyJobs | Master's |
-| Aug 03 | [Machine Learning Scientist Intern - Recommendation](https://lifeattiktok.com/search/7662657855099357493) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Software Engineer Intern - Creative Intelligence and Brand Innovation](https://lifeattiktok.com/search/7668642761473902901) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Engineer Intern](https://lifeattiktok.com/search/7667338938890930437) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern - Trust and Safety Engineering](https://lifeattiktok.com/search/7662684280234232117) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Engineer Intern - Data Search Search Quality](https://lifeattiktok.com/search/7665475888805611781) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Software Engineer Intern](https://lifeattiktok.com/search/7668581636242016565) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Engineer Intern - Trust and Safety](https://lifeattiktok.com/search/7662672554084059445) | TikTok | San Jose, CA | Internship | SimplifyJobs | Master's |
-| Aug 03 | [Software Engineer Intern](https://lifeattiktok.com/search/7662700594251958581) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Engineer Intern - Search Quality](https://lifeattiktok.com/search/7665475460339665157) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Research Scientist Intern - Neural Graphics and World Models](https://lifeattiktok.com/search/7667935738840090933) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Machine Learning Engineer Intern](https://lifeattiktok.com/search/7667350291952765237) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Engineer Intern - Data Search - Visual Search](https://lifeattiktok.com/search/7667349591727278341) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Backend Software Engineer Intern](https://lifeattiktok.com/search/7667935565120112949) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Scientist Intern - Content Ecology - LLM Application](https://lifeattiktok.com/search/7667933770625599749) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Backend Software Engineer Intern](https://lifeattiktok.com/search/7667934635573692725) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Machine Learning Engineer Intern](https://lifeattiktok.com/search/7667346576033777925) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Backend Software Engineer Intern](https://lifeattiktok.com/search/7667933770819897605) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern - Ads Measurement Signal and Privacy](https://lifeattiktok.com/search/7668582031916435717) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Backend Software Engineer Intern - Innovative Growth](https://lifeattiktok.com/search/7667934860750063925) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Artificial Intelligence Engineer Intern - Client Architecture](https://lifeattiktok.com/search/7667935738190465285) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Backend Software Engineer Intern - Digital Content Center](https://lifeattiktok.com/search/7667934302872537397) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern - Social Friending](https://lifeattiktok.com/search/7667935399050692917) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 03 | [Machine Learning Scientist Intern](https://lifeattiktok.com/search/7667934169444485429) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Software Engineer Intern - Data Architecture - E-commerce](https://lifeattiktok.com/search/7668582146236631349) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern](https://lifeattiktok.com/search/7667935738376227077) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Backend Software Engineer Intern](https://lifeattiktok.com/search/7667933335084124469) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Research Scientist Intern - Trust and Safety](https://lifeattiktok.com/search/7662674242861074741) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Frontend Engineer Intern - Open Platform](https://lifeattiktok.com/search/7667935739300792629) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Software Engineer Intern - Agentic Creation-Effect Platform](https://lifeattiktok.com/search/7668445566565321013) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern](https://lifeattiktok.com/search/7668675500744837381) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern](https://lifeattiktok.com/search/7668582086899763461) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Backend Software Engineer Intern](https://lifeattiktok.com/search/7667935739300317493) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern - ML Infra](https://lifeattiktok.com/search/7668696895234197813) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Frontend Software Engineer Intern - Ads Measurement Signal and Privacy](https://lifeattiktok.com/search/7668584161852229893) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Software Engineer Intern - Business Integrity](https://lifeattiktok.com/search/7668584916620527925) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Research Scientist Intern - Recommendation](https://lifeattiktok.com/search/7662661203281447221) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Generative AI Researcher Intern - Intelligent Creation-Vision and Graphics](https://lifeattiktok.com/search/7668183035989281029) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Quantitative Research Intern - Markets - Analyst](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038) | JP Morgan Chase | NYC | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Data & AI Intern - Analyst](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773869) | JP Morgan Chase | Palo Alto, CA, Newark, DE, Plano, TX +5 more | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Data Internship - Data & AI Program](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775223) | JP Morgan Chase | Palo Alto, CA, Newark, DE, Plano, TX +5 more | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Quantitative Research Intern - Risk and Treasury](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773978) | JP Morgan Chase | Plano, TX, Chicago, IL, NYC | Internship | SimplifyJobs | Master's, PhD |
-| Aug 03 | [Software Engineer Intern - Software Engineer Program](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759) | JP Morgan Chase | Palo Alto, CA, Houston, TX, Tampa, FL +6 more | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Quantitative Research Summer Analyst Intern - Asset Management](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074) | JP Morgan Chase | NYC | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 03 | [Quantitative Research Intern](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774061) | JP Morgan Chase | NYC | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Scale Prototyping Shop Intern](https://innovationworks.applytojob.com/apply/nrxEUkXjtp/Scale-Prototyping-Shop-Intern-Innovation-Works-Inc) | Innovation Works, Inc. | Pittsburgh, PA | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Backend / Frontend Developer Intern](https://prospectequities.applytojob.com/apply/XTbzSAcNtg/Backend-Frontend-Developer-Intern) | Prospect Equities | Chicago, IL | Internship | SimplifyJobs | - |
-| Aug 03 | [Data Science Co-op](https://rodanenergysolutionsinc.applytojob.com/apply/6Zif3yjncr/Data-Science-Coop-Student) | Rodan Energy Solutions Inc. | Mississauga, ON, Canada | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Back-End Engineer Intern](https://neboagency.applytojob.com/apply/VhgOaS6Nx3/BackEnd-Engineering-Intern) | Nebo | Atlanta, GA | Internship | SimplifyJobs | - |
-| Aug 03 | [AI Solutions Specialist Co-op](https://rodanenergysolutionsinc.applytojob.com/apply/hKQA66W5Ad/AI-Solutions-Specialist-Coop-Student) | Rodan Energy Solutions Inc. | Mississauga, ON, Canada | Internship | SimplifyJobs | Bachelor's |
-| Aug 03 | [Web Development Intern](https://neboagency.applytojob.com/apply/AFMqe9Jb7b/Web-Development-Intern) | Nebo | Atlanta, GA | Internship | SimplifyJobs | - |
-| Aug 03 | [Front-End Engineer Intern](https://neboagency.applytojob.com/apply/TtGKnP4ODV/FrontEnd-Engineering-Intern) | Nebo | Atlanta, GA | Internship | SimplifyJobs | - |
-| Aug 03 | [Applied Data Scientist Intern](http://intelligenesis.applytojob.com/apply/synY3toJUH/Applied-Data-Scientist-Internship-DoW-SkillBridge) | IntelliGenesis | Columbia, MD | Internship | SimplifyJobs | - |
-| Aug 03 | [Artificial Intelligence Co-op - Data Services](https://rodanenergysolutionsinc.applytojob.com/apply/cGazgwLfqg/Data-Services-AI-Coop-Student) | Rodan Energy Solutions Inc. | Mississauga, ON, Canada | Internship | SimplifyJobs | - |
-| Aug 03 | [Research Scientist Intern - AI Infra Compute](https://jobs.bytedance.com/en/position/7667379221434796341/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Research Scientist Intern - Multi-modal Agentic Databases](https://jobs.bytedance.com/en/position/7667380184615127301/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Research Scientist Intern - Distributed NoSQL Database Systems](https://jobs.bytedance.com/en/position/7668371456348326149/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Software Engineer Intern - AI Infra Compute](https://jobs.bytedance.com/en/position/7667378931599214853/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | Master's |
-| Aug 03 | [Software Engineer Intern - AI Infrastructure Compute](https://jobs.bytedance.com/en/position/7667377525182662965/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Master's |
-| Aug 03 | [Research Scientist Intern - Distributed NoSQL Database Systems](https://jobs.bytedance.com/en/position/7668371003554138421/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Network Security Software Engineer Intern - Security Engineering](https://jobs.bytedance.com/en/position/7667876489597257989/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 03 | [Research Scientist Intern](https://jobs.bytedance.com/en/position/7667379218929780997/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [AI Perception Intern - Pico](https://jobs.bytedance.com/en/position/7665457718334425349/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 03 | [Research Scientist Intern - Multi-modal Agentic Databases](https://jobs.bytedance.com/en/position/7667380487805995269/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
-| … | *+3752 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
+| Aug 04 | [Cell Engineering Intern - Cell Qualification](https://www.tesla.com/careers/search/job/278620) | Tesla | Palo Alto, CA, San Diego, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Data Engineer Intern - Cell Engineering](https://www.tesla.com/careers/search/job/278622) | Tesla | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Product Management Intern](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011916) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Marketing Programs and Analytics Intern](https://boards.greenhouse.io/cloudflare/jobs/8104138) | Cloudflare | Austin, TX | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Software Developer Trainee](https://apply.workable.com/ecareers/j/C82B9AD635/apply) | e-Careers | Blackpool, UK | Software Engineering | SimplifyJobs | - |
+| Aug 04 | [Business Intelligence Intern](https://jobs.jobvite.com/webmd/job/oQBjAfw4?nl=1&nl=1&fr=false) | WebMD | Newark, NJ | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Software Engineer: AI/ML & LLM Intern](https://apply.careers.microsoft.com/careers/job/1970393556922929) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Intern - Data Platform & Analytics](https://apply.careers.microsoft.com/careers/job/1970393556922931) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Security & Identity Intern](https://apply.careers.microsoft.com/careers/job/1970393556922930) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Full-Stack Product Engineer Intern - Web + Services](https://apply.careers.microsoft.com/careers/job/1970393556922922) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Intern - Cloud & Distributed Backend](https://apply.careers.microsoft.com/careers/job/1970393556922923) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Intern - Data Search Local Service](https://lifeattiktok.com/search/7668381860191734021) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
+| Aug 04 | [Software Engineer Intern - Global CRM](https://lifeattiktok.com/search/7669711844487399685) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Intern](https://lifeattiktok.com/search/7668379675467761925) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Intern - Effects Performance](https://lifeattiktok.com/search/7668725183121000757) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Backend Software Engineer Intern - Product Infrastructure](https://lifeattiktok.com/search/7667935633764370741) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Backend Software Engineer Intern - Global E-Commerce](https://lifeattiktok.com/search/7668834837268138293) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Intern - Commercial AI-CRM and Transaction](https://lifeattiktok.com/search/7669702702763018501) | TikTok | San Jose, CA | Internship | SimplifyJobs | Master's |
+| Aug 04 | [Software Engineer Intern - Ads Interface](https://lifeattiktok.com/search/7669705785962727733) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Intern - Ads Signal & Measurement](https://lifeattiktok.com/search/7669700361976809733) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Software Engineer Intern](https://lifeattiktok.com/search/7668921505254410549) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Backend Software Engineer Intern - Global E-Commerce](https://lifeattiktok.com/search/7668834837268416821) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Recommendation Product Manager Intern - Content Ecosystem](https://lifeattiktok.com/search/7667874197682899205) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Intern - Performance Monetization](https://lifeattiktok.com/search/7669693163422845237) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Machine Learning Engineer Intern - Lead Ads](https://lifeattiktok.com/search/7669707492914727221) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Research Engineer Intern - Agentic Systems & AI Infrastructure - Tiktok-Generalized Arch](https://lifeattiktok.com/search/7667935568626043141) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
+| Aug 04 | [Machine Learning Engineer Intern - Commerce Ads - Summer 2027](https://lifeattiktok.com/search/7669711968043092229) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's, MBA, PhD |
+| Aug 04 | [Machine Learning Engineer Intern - Search Ads](https://lifeattiktok.com/search/7669698648817305909) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Machine Learning Engineer Intern - Brand Ads](https://lifeattiktok.com/search/7668654528822954245) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [AI Product Manager Intern - Content Ecosystem](https://lifeattiktok.com/search/7667578131150506293) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Intern - Performance Monetization](https://lifeattiktok.com/search/7669693205558561077) | TikTok | San Jose, CA | Internship | SimplifyJobs | PhD |
+| Aug 04 | [Backend Software Engineer Intern - LIVE Foundation Governance Engineering](https://lifeattiktok.com/search/7667935150530840837) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Machine Learning Engineer Intern - App Ads and Gaming](https://lifeattiktok.com/search/7669709472078170373) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Machine Learning Engineer Intern - Data Search Recommendation Global E-Commerce](https://lifeattiktok.com/search/7668383643375257909) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Frontend Engineer Intern - Global CRM](https://lifeattiktok.com/search/7669711026846058757) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Intern - Transaction Platform](https://lifeattiktok.com/search/7669943120351906053) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Intern - Intelligent Creation-Camera](https://lifeattiktok.com/search/7668862422178318597) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [Software Engineer Intern](https://lifeattiktok.com/search/7669712589169117445) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Data Science Intern - Integrity and Safety](https://lifeattiktok.com/search/7669682935444900149) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Data Science Intern - TikTok Live](https://lifeattiktok.com/search/7669700822370945333) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer Intern - AI Platform](https://jobs.bytedance.com/en/position/7668212952030841093/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Data and Analytics Intern](https://job-boards.greenhouse.io/inizio/jobs/8066854) | Inizio | Manchester, UK | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [GIS Analyst - Data and Technology Services - Utilities Program](https://rinconconsultants.applytojob.com/apply/mK4biw1nRt/GIS-Analyst) | Rincon Consultants, Inc | Ventura, CA | Data/ML | SimplifyJobs | Bachelor's, Certificate |
+| Aug 04 | [Software Developer 1](https://jobs.lever.co/agatesoftware/60c278e1-9b47-4ba9-8961-0e0cf41e0739/apply) | Agate Software | Glendale, AZ | Software Engineering | SimplifyJobs | - |
+| Aug 04 | [Software Developer Trainee](https://apply.workable.com/ecareers/j/5049C7B338/apply) | e-Careers | Glazebury, UK | Software Engineering | SimplifyJobs | - |
+| Aug 04 | [Data and Reporting Intern](https://apply.workable.com/perryhomes/j/65C2ED2361/apply) | Perry Homes | Houston, TX | Internship | SimplifyJobs | Bachelor's |
+| Aug 04 | [.NET Software Developer - Multiple Teams](https://apply.workable.com/genetec-inc/j/145492924C/apply) | Genetec | Montreal, QC, Canada | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 04 | [Electrical Product Engineer](https://jobs.jobvite.com/synqor-careers/job/o2EKxfwH?nl=1&nl=1&fr=false) | SynQor | Salem, NH | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 04 | [Product Specialist - Energy Systems](https://franklin-electric.pinpointhq.com/en/postings/f3239526-4e5f-4608-bf65-f5d00b83b4bd?ats=pinpointhq) | Franklin Electric | Madison, WI | Software Engineering | SimplifyJobs | Bachelor's, Associate's |
+| Aug 04 | [Software Engineer - Front-end](https://jobs.apple.com/en-us/details/200660851) | Apple | Austin, TX | Frontend | SimplifyJobs | Bachelor's |
+| Aug 04 | [Frontend Software Engineer Graduate - Global CRM](https://lifeattiktok.com/search/7668561079544154373) | TikTok | San Jose, CA | Frontend | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Research Scientist - Monetization Technology - Business Integrity](https://lifeattiktok.com/search/7667766028122048773) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [Machine Learning Engineer Graduate - Data Search Recommendation Global E-Commerce](https://lifeattiktok.com/search/7668384123840514309) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Software Engineer New Grad](https://lifeattiktok.com/search/7668701361741007109) | TikTok | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Graduate - Brand Ads](https://lifeattiktok.com/search/7668663594419374341) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Master's |
+| Aug 04 | [Graduate Software Engineer - Transaction Platform](https://lifeattiktok.com/search/7668557209047894325) | TikTok | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Frontend Software Engineer New Grad - Ads Interface](https://lifeattiktok.com/search/7668569995571726597) | TikTok | San Jose, CA | Frontend | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Graduate Software Engineer - Ads Interface](https://lifeattiktok.com/search/7668855346857019701) | TikTok | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Graduate - Tiktok Content Ecology](https://lifeattiktok.com/search/7668838052657678597) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [Machine Learning Engineer Graduate - App Ads and Gaming](https://lifeattiktok.com/search/7669709290431236357) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 04 | [Machine Learning Engineer New Grad - Search Ads](https://lifeattiktok.com/search/7669698543896054069) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
+| Aug 04 | [Software Engineer New Grad - Ads Infrastructure](https://lifeattiktok.com/search/7668879883938203957) | TikTok | San Jose, CA | DevOps/Infra | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Graduate - Lead Ads](https://lifeattiktok.com/search/7669707604717209861) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
+| Aug 04 | [Graduate Machine Learning Engineer](https://lifeattiktok.com/search/7669702699627661573) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Master's |
+| Aug 04 | [Data Engineer Graduate - Monetization Data](https://lifeattiktok.com/search/7668550561096665397) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer Graduate - Performance Monetization](https://lifeattiktok.com/search/7669691057987520773) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [Machine Learning Scientist Graduate - Trust and Safety](https://lifeattiktok.com/search/7665985896410368261) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [Machine Learning Engineer Graduate - Monetization Technology-Ads Core Global](https://lifeattiktok.com/search/7668809845088504117) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [Backend Engineer Graduate - User Growth](https://lifeattiktok.com/search/7665986019233958197) | TikTok | San Jose, CA | Backend | SimplifyJobs | Bachelor's |
+| Aug 04 | [Backend Software Engineer Graduate - Global E-commerce](https://lifeattiktok.com/search/7668824169648097541) | TikTok | San Jose, CA | Backend | SimplifyJobs | Bachelor's |
+| Aug 04 | [Research Engineer Graduate - Agentic Arch - PhD](https://lifeattiktok.com/search/7669824354636613941) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [AI Engineer Graduate - Client Architecture - 2027 Start](https://lifeattiktok.com/search/7664978367107713333) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 04 | [AI Effects Workflow Software Engineer Graduate - Agentic Creation Effect House](https://lifeattiktok.com/search/7669905277419948293) | TikTok | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Mobile Software Engineer Graduate - Global E-commerce](https://lifeattiktok.com/search/7668831181590513925) | TikTok | San Jose, CA | Mobile | SimplifyJobs | Bachelor's |
+| Aug 04 | [Backend Software Engineer Graduate - Digital Content Center](https://lifeattiktok.com/search/7668843238309824773) | TikTok | San Jose, CA | Backend | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Backend Engineer Graduate](https://lifeattiktok.com/search/7665989305914984709) | TikTok | San Jose, CA | Backend | SimplifyJobs | Bachelor's |
+| Aug 04 | [Data Scientist Graduate - TikTok Platform Safety](https://lifeattiktok.com/search/7667074822035261749) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 04 | [Data Scientist Graduate - TikTok Platform Safety](https://lifeattiktok.com/search/7667035008003328309) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Data Scientist Graduate - TikTok Live](https://lifeattiktok.com/search/7669660107303684405) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 04 | [Machine Learning Engineer New Grad - Performance Monetization](https://lifeattiktok.com/search/7669691374918011141) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's |
+| … | *+3865 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 
@@ -196,9 +196,9 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-08-03`
-- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-08-03`
-- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-08-03`
+- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-08-04`
+- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-08-04`
+- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-08-04`
 
 <details>
 <summary>Archived (1)</summary>
@@ -211,10 +211,10 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-08-03`
-- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-08-03`
-- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-08-03`
-- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-08-03`
+- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-08-04`
+- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-08-04`
+- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-08-04`
+- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-08-04`
 - [Daily-H1B-Jobs-In-Tech](https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech) — last activity `2026-05-06`
 
 
