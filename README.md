@@ -5,8 +5,8 @@ Your open-source job board for tech roles — internships, new grad, and experie
 **Website (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
 
 <p>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-08-05&color=0A66C2" alt="Last updated" /></a>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=4138&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-08-06&color=0A66C2" alt="Last updated" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=4285&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
@@ -41,14 +41,83 @@ This project stays useful when the community helps. We especially need:
 
 ## August 2026 Jobs
 
-> **4138** active listings · newest first · previous month: _no prior archive yet_ ·
+> **4285** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 4138</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 4285</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
+| Aug 06 | [AI & Automation Intern - Summer 2027](https://careers-sargentlundy.icims.com/jobs/25857/job?mobile=true&needsRedirect=false) | Sargent & Lundy | Wilmington, DE | Internship | SimplifyJobs | Bachelor's |
+| Aug 06 | [LLM Post-training Engineer Intern - Research & Product](https://lifeattiktok.com/search/7670285031018432773) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Software Engineer Intern - Media Engine](https://lifeattiktok.com/search/7670295535077427509) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [AI Product Operations Intern](https://lifeattiktok.com/search/7670420017544251701) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Product Manager Intern - Product Infrastructure - Account](https://lifeattiktok.com/search/7670009830602721589) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Strategy Product Manager Intern - Platform Responsibility](https://lifeattiktok.com/search/7670420287191517493) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Research Scientist Intern - Multimedia Streaming](https://jobs.bytedance.com/en/position/7670354800621603125/detail) | ByteDance | San Diego, CA | Internship | SimplifyJobs | PhD |
+| Aug 06 | [AI/LLM Network Research Intern - High Speed Network - PhD](https://jobs.bytedance.com/en/position/7669969771686775045/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
+| Aug 06 | [Software Engineer Intern - Global Payment - Compliance](https://jobs.bytedance.com/en/position/7669774721406208261/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [ASIC Design Engineer Intern - Video Silicon IP](https://jobs.bytedance.com/en/position/7670332179383699717/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Master's |
+| Aug 06 | [AI/LLM Network Research Intern - High Speed Network](https://jobs.bytedance.com/en/position/7670281454740818181/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | PhD |
+| Aug 06 | [Research Scientist Intern](https://jobs.bytedance.com/en/position/7670375041041320245/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
+| Aug 06 | [Video/Image AI/ML Software Engineer Intern - Multimedia](https://jobs.bytedance.com/en/position/7670354329765464373/detail) | ByteDance | San Diego, CA | Internship | SimplifyJobs | PhD |
+| Aug 06 | [GPU/AI Application System Software Engineer Intern - System Technologies and Engineering](https://jobs.bytedance.com/en/position/7668464504736876853/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Software Engineer Intern - Foundation Platform](https://lifeattiktok.com/search/7670281449668905269) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Product Operations Intern - TikTok Shop Apps and API - MBA](https://lifeattiktok.com/search/7668820702623467781) | TikTok | Seattle, WA | Internship | SimplifyJobs | MBA |
+| Aug 06 | [Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance](https://lifeattiktok.com/search/7670247810111768837) | TikTok | Seattle, WA | Internship | SimplifyJobs | PhD |
+| Aug 06 | [AI Network Automation Engineer Intern - Global Physical Network Infrastructure](https://jobs.bytedance.com/en/position/7670690923748870405/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Applied Machine Learning Production Engineer Intern - AML Production Engineer](https://jobs.bytedance.com/en/position/7670009669494704437/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Data Engineer 1](https://careers.varsitybrands.com/global/en/job/JR114562) | Varsity Brands | Farmers Branch, TX | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [Software Engineer Graduate - Multiple Teams](https://lifeattiktok.com/search/7668582086900680965) | TikTok | Seattle, WA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Software Engineer Graduate - Global E-commerce-Search - 2027 Start](https://lifeattiktok.com/search/7670558992960358661) | TikTok | Seattle, WA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Software Engineer Graduate - Data Arch - E-commerce](https://lifeattiktok.com/search/7668582542044072245) | TikTok | Seattle, WA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Automation Developer](https://apply.workable.com/saalex/j/B9CC90B5BA/apply) | Saalex | Remote in USA, Lexington Park, MD | Software Engineering | SimplifyJobs | Bachelor's, Associate's |
+| Aug 06 | [AI Strategy & Innovation Associate](https://apply.workable.com/civica-uk-ltd-1/j/B7064442D1/apply) | Civica | London, UK | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [Digital Electronics Technician - Intelligence, Surveillance and Reconnaissance](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Crawley/Digital-Electronics-Technician_R0332087) | Thales | Crawley, UK | Software Engineering | SimplifyJobs | - |
+| Aug 06 | [Graduate Software Engineer - Global CRM](https://lifeattiktok.com/search/7668554579301124357) | TikTok | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Operating System Engineer Graduate - Operating System-System Technologies and Engineering](https://jobs.bytedance.com/en/position/7668461589331642677/detail) | ByteDance | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 06 | [AI/LLM Network Software Development Engineer Graduate - High Speed Network - PhD](https://jobs.bytedance.com/en/position/7668862426676775173/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 06 | [Software Engineer - Agentic AI Harness & Quality](https://jobs.smartrecruiters.com/ServiceNow/744000141814009) | ServiceNow | Mountain View, CA | Software Engineering | SimplifyJobs | - |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation/Search Alliance](https://lifeattiktok.com/search/7669908897587824949) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation/Search Alliance](https://lifeattiktok.com/search/7669910326745434421) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation Live](https://lifeattiktok.com/search/7670285949553707317) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [Research Scientist Graduate - Intelligent Creation - Global Frontier Tech Recruitment Program](https://lifeattiktok.com/search/7668206301950642437) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation/Search Alliance](https://lifeattiktok.com/search/7669909088788138245) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | PhD |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation Live](https://lifeattiktok.com/search/7670285495593273605) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation Live](https://lifeattiktok.com/search/7670283981954746677) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | PhD |
+| Aug 06 | [Machine Learning Engineer Graduate - E-Commerce Recommendation/Search Alliance](https://lifeattiktok.com/search/7669913085331409205) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [Data Collection Operator - Optimus](https://www.tesla.com/careers/search/job/279362) | Tesla | Orlando, FL | Data/ML | SimplifyJobs | - |
+| Aug 06 | [Data Collection Operator](https://www.tesla.com/careers/search/job/279363) | Tesla | Tampa, FL | Data/ML | SimplifyJobs | - |
+| Aug 06 | [Data Collection Operator - Optimus](https://www.tesla.com/careers/search/job/279361) | Tesla | Doral, FL | Data/ML | SimplifyJobs | - |
+| Aug 06 | [Backend Inference Framework Engineer - AML Inference](https://jobs.bytedance.com/en/position/7669670735275526453/detail) | ByteDance | San Jose, CA | Backend | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Graduate Software Engineer - Data-Intelligent Creation-AI Platform-Global Vision Engineering](https://jobs.bytedance.com/en/position/7669859743775000885/detail) | ByteDance | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Machine Learning Backend Engineer Graduate - AML MLDev](https://jobs.bytedance.com/en/position/7669791940490168629/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Backend Inference Runtime Engineer New Grad - AML Inference](https://jobs.bytedance.com/en/position/7669789046777940229/detail) | ByteDance | San Jose, CA | Backend | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Research Scientist Graduate - Data-Intelligent Creation-Vision and Graphics-Global GenAI](https://jobs.bytedance.com/en/position/7668208806895831349/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
+| Aug 06 | [Applied Machine Learning Production Engineer Graduate - AML Production Engineer](https://jobs.bytedance.com/en/position/7670004502598060341/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 06 | [Data Center Technician - DCC Communities](https://amazon.jobs/en/jobs/10485823/data-center-technician-dcc-communities) | Amazon | London, UK | Software Engineering | SimplifyJobs | - |
+| Aug 06 | [Economic and Data Analyst](https://jobs.smartrecruiters.com/Talan/744000141860370) | Talan | London, UK, Birmingham, UK | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 06 | [AI Engineer - Private Bank and Wealth Management](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Glasgow-Campus/AI-Engineer_JR-0000113698-1) | Barclays | Glasgow, UK | Data/ML | SimplifyJobs | - |
+| Aug 06 | [Front-End Developer Intern (Remote)](https://jobright.ai/jobs/info/6a744bd7fba916306bd98f7b?utm_campaign=1079&utm_source=git) | eAI | United States · Remote | Internship | jobright-ai | - |
+| Aug 06 | [Backend Development Engineer Intern (Infrastructure Platform Delivery) - 2027 Summer](https://jobright.ai/jobs/info/6a7448c7fba916306bd98eb3?utm_campaign=1079&utm_source=git) | ByteDance | San Jose, CA, United States · On Site | Internship | jobright-ai | - |
+| Aug 06 | [Software Engineering Intern, Dynamo - Fall 2026](https://jobright.ai/jobs/info/6a7431d2b17cba5690355337?utm_campaign=1079&utm_source=git) | NVIDIA AI | Santa Clara, CA, United States · On Site | Internship | jobright-ai | - |
+| Aug 06 | [Software Engineer (Apps & Firmware)](https://jobright.ai/jobs/info/6a037806bc4184089f232bb0?utm_campaign=Software%20Engineering&utm_source=1103) | WD | San Jose, CA · Hybrid | Software Engineering | jobright-ai | - |
+| Aug 06 | [Software Engineer (Apps & Firmware)](https://jobright.ai/jobs/info/6a4205bb16b1493953284dc5?utm_campaign=Software%20Engineering&utm_source=1103) | WD | San Jose, CA, US · Hybrid | Software Engineering | jobright-ai | - |
+| Aug 06 | [Software Developer TS/SCI w/Polygraph](https://jobright.ai/jobs/info/6a51db6a8d7d3e6cf1cc3ed2?utm_campaign=Software%20Engineering&utm_source=1103) | General Dynamics Information Technology | McLean, VA, United States · On Site | Software Engineering | jobright-ai | - |
+| Aug 06 | [Software Developer TS/SCI w/Polygraph](https://jobright.ai/jobs/info/6a047600bc4184089f23ac71?utm_campaign=Software%20Engineering&utm_source=1103) | General Dynamics Information Technology | USA VA McLean, US · On Site | Software Engineering | jobright-ai | - |
+| Aug 06 | [Quality Assurance Engineer-Systems & Automation(Teradyne, N. Reading MA) Job Details / Teradyne](https://jobright.ai/jobs/info/6a744bd7972ac843c6995264?utm_campaign=Software%20Engineering&utm_source=1103) | Teradyne | North Reading, MA, United States · On Site | Software Engineering | jobright-ai | - |
+| Aug 06 | [Software Engineer (Memory Test, San Jose) Job Details / Teradyne](https://jobright.ai/jobs/info/6a744bc4fba916306bd98f6c?utm_campaign=Software%20Engineering&utm_source=1103) | Teradyne | San Jose, CA, United States · On Site | Software Engineering | jobright-ai | - |
+| Aug 06 | [Backend and Infra Software Engineer Graduate (Dev Infra US) - 2027 Start](https://jobright.ai/jobs/info/6a7448bafba916306bd98eb1?utm_campaign=Software%20Engineering&utm_source=1103) | ByteDance | San Jose, CA, United States · On Site | Backend | jobright-ai | - |
+| Aug 06 | [Data Scientist](https://jobright.ai/jobs/info/6a66a3828d5360344960a027?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Fort Meade, MD, United States · On Site | Data/ML | jobright-ai | - |
+| Aug 06 | [Data Scientist](https://jobright.ai/jobs/info/6a195cc417492d3a389bdb25?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Fort Meade, MD, US · On Site | Data/ML | jobright-ai | - |
+| Aug 06 | [Data Scientist](https://jobright.ai/jobs/info/6a66b1920c8e2b4f36dd5a8b?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Fort Meade, MD, United States · On Site | Data/ML | jobright-ai | - |
+| Aug 06 | [Data Scientist](https://jobright.ai/jobs/info/6a2376936624e500cad0bbfc?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Fort Meade, MD, US · On Site | Data/ML | jobright-ai | - |
+| Aug 06 | [Data Scientist](https://jobright.ai/jobs/info/6a64289e979290281c7058c7?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Fort Meade, MD, United States · On Site | Data/ML | jobright-ai | - |
+| Aug 06 | [Data Scientist](https://jobright.ai/jobs/info/6a6777352bda4d2842854028?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Arlington, VA, United States · On Site | Data/ML | jobright-ai | - |
+| Aug 06 | [Graduate Quant Researcher 2027 - Chicago](https://jobright.ai/jobs/info/6a70a561e2b7476e7b209e7b?utm_campaign=Data%20Analysis&utm_source=1103) | Maven Securities | Chicago, IL, United States · Hybrid | Data/ML | jobright-ai | - |
+| Aug 06 | [PhD Research Scientist Intern](https://jobright.ai/jobs/info/6a73e67532ebbc14ffb51537?utm_campaign=1066&utm_source=git) | Canva | San Francisco, CA, United States · Hybrid | Internship | jobright-ai | - |
+| Aug 06 | [PhD Research Scientist Intern](https://jobright.ai/jobs/info/6a742846972ac843c6994b29?utm_campaign=1066&utm_source=git) | Canva | San Francisco, CA, United States · Hybrid | Internship | jobright-ai | - |
 | Aug 05 | [Machine Learning Engineer Intern - Data-Global E-Commerce-Search](https://lifeattiktok.com/search/7668415591670417717) | TikTok | Seattle, WA | Internship | SimplifyJobs | PhD |
 | Aug 05 | [Data Science Intern - TikTok Product](https://lifeattiktok.com/search/7669683639101884725) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
 | Aug 05 | [Software Engineer Intern - 3D & Manufacturing Applications](https://jobs.ashbyhq.com/valstad/7ff6d452-969f-43a6-9127-d153025e6aea/application?embed=true) | Valstad | Austin, TX | Internship | SimplifyJobs | Bachelor's, Master's |
@@ -60,76 +129,7 @@ This project stays useful when the community helps. We especially need:
 | Aug 05 | [Student Researcher - Compiler - Seed Infra](https://jobs.bytedance.com/en/position/7670316084662339845/detail) | ByteDance | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
 | Aug 05 | [Product Development Engineer Co-op - Research & Development Engineering](https://eaton.eightfold.ai/careers/job/687234535534) | Eaton Corporation | Hodges, SC | Internship | SimplifyJobs | Bachelor's, Master's |
 | Aug 05 | [AI Integration & Interoperability Intern](https://qualcomm.eightfold.ai/careers/job/446716226621) | Qualcomm | Cheektowaga, NY | Internship | SimplifyJobs | Master's, PhD |
-| Aug 05 | [Software Engineer Part-Time Student - Technology](https://johndeere.eightfold.ai/careers/job/137480957123) | John Deere | Moline, IL | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Part-Time Student - Product Engineering](https://johndeere.eightfold.ai/careers/job/137481425666) | John Deere | Moline, IL | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Engine Lab Support Part-Time Student - Product Engineering](https://johndeere.eightfold.ai/careers/job/137482177469) | John Deere | Waterloo, IA | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Advanced Engineering Student Intern - Product Engineering](https://johndeere.eightfold.ai/careers/job/137481393611) | John Deere | Fargo, ND | Internship | SimplifyJobs | Bachelor's |
-| Aug 05 | [Data Science and Analytics Part-Time Student - Data and Analytics](https://johndeere.eightfold.ai/careers/job/137481458189) | John Deere | Austin, TX | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [Data Science and Analytics Part-Time Student - Data and Analytics](https://johndeere.eightfold.ai/careers/job/137481983166) | John Deere | Austin, TX, Urbandale, IA | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [Sensor Software Design Student - Product Engineering](https://johndeere.eightfold.ai/careers/job/137481396869) | John Deere | Fargo, ND | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Electrical Systems Engineer Part-Time Student - Product Engineering](https://johndeere.eightfold.ai/careers/job/137482489158) | John Deere | Silvis, IL | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Data Scientist Intern - VOD Data](https://lifeattiktok.com/search/7670287013157095733) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Machine Learning Engineer Intern - Search](https://lifeattiktok.com/search/7668396597746862341) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Backend Software Engineer Intern - Creation Platform](https://lifeattiktok.com/search/7670289874020993285) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Data Engineer Intern - Ads Targeting](https://lifeattiktok.com/search/7668533140146817333) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Student Researcher Intern - AI Foundation Models Infrastructure - Seed Infra](https://jobs.bytedance.com/en/position/7670330161462364421/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Student Researcher - Multiple Teams](https://jobs.bytedance.com/en/position/7670323135220959493/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
-| Aug 05 | [Student Researcher - Multiple Teams](https://jobs.bytedance.com/en/position/7670318960697952517/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
-| Aug 05 | [Student Researcher - LLM Post Training - Agent & Reinforcement Learning](https://jobs.bytedance.com/en/position/7670325736893565189/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
-| Aug 05 | [Student Researcher - Seed Vision - Long-Range Video Generation](https://jobs.bytedance.com/en/position/7670326702018906421/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
-| Aug 05 | [Research Engineer Graduate - Agentic Arch - PhD](https://lifeattiktok.com/search/7669824148794575109) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | PhD |
-| Aug 05 | [Data Scientist Graduate - UG-Mid Platform](https://lifeattiktok.com/search/7668512600592812293) | TikTok | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Associate AI Software Engineer](https://asuresoftware.bamboohr.com/careers/1059/) | Asure | Austin, TX | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Associate AI Software Engineer](https://asuresoftware.bamboohr.com/careers/1058/) | Asure | Addison, TX | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Engineer – Risk Assessment](https://jobs.constellationenergy.com/jobs/136246?icims=1) | Constellation Energy | Lusby, MD, Delta, PA, Pottstown, PA +1 more | Data/ML | SimplifyJobs | Bachelor's |
-| Aug 05 | [Electro Mechanical Assembler B - Manufacturing](https://eaton.eightfold.ai/careers/job/687237030365) | Eaton Corporation | Glenolden, PA | Software Engineering | SimplifyJobs | Bachelor's, Associate's, Incomplete |
-| Aug 05 | [Electrical Pre-Tester - Manufacturing](https://eaton.eightfold.ai/careers/job/687237346739) | Eaton Corporation | Sumter, SC | Software Engineering | SimplifyJobs | Bachelor's, Associate's |
-| Aug 05 | [Software Engineer - Research & Development Engineering](https://eaton.eightfold.ai/careers/job/687236827500) | Eaton Corporation | Wimborne Minster, Wimborne, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Technician 2 - Manufacturing](https://eaton.eightfold.ai/careers/job/687238416152) | Eaton Corporation | Greenwood, SC | Software Engineering | SimplifyJobs | - |
-| Aug 05 | [System Level Test Engineer - Hardware Engineering](https://qualcomm.eightfold.ai/careers/job/446718848199) | Qualcomm | San Diego, CA | Embedded/HW | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Machine Learning Engineer - Machine Learning Engineering](https://qualcomm.eightfold.ai/careers/job/446717859953) | Qualcomm | San Diego, CA | Data/ML | SimplifyJobs | Bachelor's |
-| Aug 05 | [Physical Synthesis Implementation Engineer - ASICS Engineering](https://qualcomm.eightfold.ai/careers/job/446719767153) | Qualcomm | San Diego, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [System Level Test Engineer - Hardware Engineering](https://qualcomm.eightfold.ai/careers/job/446718848189) | Qualcomm | San Diego, CA | Embedded/HW | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Engineering Technician - Intermediate](https://qualcomm.eightfold.ai/careers/job/446719764029) | Qualcomm | San Diego, CA | Software Engineering | SimplifyJobs | Associate's |
-| Aug 05 | [System AI Engineer New Grad - Display - ASICS Engineering](https://qualcomm.eightfold.ai/careers/job/446718599884) | Qualcomm | Markham, ON, Canada | Data/ML | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [SoC Performance Architect - Server CPU - SoC Architecture](https://qualcomm.eightfold.ai/careers/job/446719899553) | Qualcomm | Santa Clara, CA | Backend | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [Camera Firmware Engineer - Camera Engineering](https://qualcomm.eightfold.ai/careers/job/446719364433) | Qualcomm | San Diego, CA | Embedded/HW | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Software Engineer - Kernel Services - Software Engineering](https://qualcomm.eightfold.ai/careers/job/446719058286) | Qualcomm | San Diego, CA | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Camera Low Power Engineer - Camera Engineering](https://qualcomm.eightfold.ai/careers/job/446718440313) | Qualcomm | San Diego, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [Robotics Field Development Test Associate](https://jobs.ashbyhq.com/serverobotics/28bbd767-93f5-4df1-8917-ca3cc339041b/application?embed=true) | Serve Robotics | LA | Data/ML | SimplifyJobs | Bachelor's, Associate's |
-| Aug 05 | [Senior ASIC Design Engineer - Multiple Teams](https://qualcomm.eightfold.ai/careers/job/446720188752) | Qualcomm | Markham, ON, Canada | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [Data Networking Software Engineer - Modem Software Engineering](https://qualcomm.eightfold.ai/careers/job/446719871565) | Qualcomm | San Diego, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Senior ASIC Design Verification Engineer - Compute DSP/AI Processors - ASICS Engineering](https://qualcomm.eightfold.ai/careers/job/446720188585) | Qualcomm | Markham, ON, Canada | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [System Performance Modeling Engineer - ASICS Engineering](https://qualcomm.eightfold.ai/careers/job/446715371689) | Qualcomm | San Diego, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [GPU Compiler Performance - GPU ASICS Engineering](https://qualcomm.eightfold.ai/careers/job/446716514304) | Qualcomm | Santa Clara, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
-| Aug 05 | [Associate Software Engineer 1](https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-1-FL-32919/1416023200/?ats=successfactors) | L3Harris Technologies | Melbourne, FL | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Associate Software Engineer](https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-FL-32919/1416023100/?ats=successfactors) | L3Harris Technologies | Melbourne, FL | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Electronics Assembler](http://novatechc1.applytojob.com/apply/b63HvfQkCi/Electronics-Assembler) | NovaTech Automation | Lenexa, KS | Software Engineering | SimplifyJobs | - |
-| Aug 05 | [Graduate AI Model Optimization Engineer - Data Speech Product R&D Engineering](https://jobs.bytedance.com/en/position/7669899962768165173/detail) | ByteDance | San Jose, CA | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Technical Marketing Engineer - FPGA Design](https://careers.amd.com/jobs/89140?icims=1) | AMD | Belfast, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 05 | [Barista - Trader Ridge](https://starbucks.eightfold.ai/careers/job/481079405686) | Starbucks | Grande Prairie, AB, Canada | Software Engineering | SimplifyJobs | - |
-| Aug 05 | [Application Developer - Application Development](https://starbucks.eightfold.ai/careers/job/481078166376) | Starbucks | Nashville, TN | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Shift Supervisor - Store - Frederick Trading Center](https://starbucks.eightfold.ai/careers/job/481079527743) | Starbucks | Frederick, MD | Software Engineering | SimplifyJobs | - |
-| Aug 05 | [Shift Supervisor - Store](https://starbucks.eightfold.ai/careers/job/481079556104) | Starbucks | Grande Prairie, AB, Canada | Software Engineering | SimplifyJobs | - |
-| Aug 05 | [Software Engineer - Software Engineering](https://starbucks.eightfold.ai/careers/job/481078371803) | Starbucks | Seattle, WA | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 05 | [Fiber Network Mapping Specialist 3](https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/London-United-Kingdom/Fiber-Network-Mapping-Specialist-III_R0016616) | Astreya | London, UK | Data/ML | SimplifyJobs | - |
-| Aug 05 | [Backend Software Engineer Intern (Creation Platform) - 2027 Summer](https://jobright.ai/jobs/info/6a72f52f5049141ad172bf7a?utm_campaign=1079&utm_source=git) | TikTok | San Jose, CA, United States · On Site | Internship | jobright-ai | - |
-| Aug 05 | [Software Engineer - Intern](https://jobright.ai/jobs/info/6a72f41dd6bd4912bbceaf21?utm_campaign=1079&utm_source=git) | Object | San Jose, CA, United States · On Site | Internship | jobright-ai | - |
-| Aug 05 | [Enterprise Architecture IT Intern - REMOTE](https://jobright.ai/jobs/info/6a72e98d10edfd1ac5c171b6?utm_campaign=1079&utm_source=git) | Washington National Insurance Company | United States · Remote | Internship | jobright-ai | - |
-| Aug 05 | [Technical Intern 3](https://jobright.ai/jobs/info/6a72e57adc0f425389118381?utm_campaign=1079&utm_source=git) | BAE Systems | San Diego, CA, United States · On Site | Internship | jobright-ai | - |
-| Aug 05 | [Technical Intern 3](https://jobright.ai/jobs/info/6a72e574dc0f425389118379?utm_campaign=1079&utm_source=git) | BAE Systems | Totowa, NJ, United States · On Site | Internship | jobright-ai | - |
-| Aug 05 | [Software Engineer](https://jobright.ai/jobs/info/6a63eb0687cef057612cb4c9?utm_campaign=Software%20Engineering&utm_source=1103) | Booz Allen Hamilton | Rome, NY, United States · On Site | Software Engineering | jobright-ai | - |
-| Aug 05 | [GPU Driver Developer](https://jobright.ai/jobs/info/6a72f5016ffeee418e5b7ea8?utm_campaign=Software%20Engineering&utm_source=1103) | Bolt Graphics | Sunnyvale, CA, United States · On Site | Software Engineering | jobright-ai | - |
-| Aug 05 | [GPU Standards Developer](https://jobright.ai/jobs/info/6a72f4f66ffeee418e5b7ea6?utm_campaign=Software%20Engineering&utm_source=1103) | Bolt Graphics | Sunnyvale, CA, United States · On Site | Software Engineering | jobright-ai | - |
-| Aug 05 | [Associate, Software Engineer, New Grad Card Expansion](https://jobright.ai/jobs/info/6a72f1725049141ad172bf21?utm_campaign=Software%20Engineering&utm_source=1103) | Capital One | Toronto, ON, Canada · Hybrid | Software Engineering | jobright-ai | - |
-| Aug 05 | [SW Development Engineer 1](https://jobright.ai/jobs/info/6a729b79cb96192a3684eb60?utm_campaign=Software%20Engineering&utm_source=1103) | Dexcom | San Diego, CA, United States · Remote | Software Engineering | jobright-ai | - |
-| Aug 05 | [Junior Java Engineer - Accelerator Academy (ENG25)](https://jobright.ai/jobs/info/6a721b4e02d93145bf892a4d?utm_campaign=Software%20Engineering&utm_source=1103) | _nology | Newcastle upon Tyne, England, United Kingdom · Hybrid | Software Engineering | jobright-ai | - |
-| Aug 05 | [Junior Test Engineer - Accelerator Academy (ENG25)](https://jobright.ai/jobs/info/6a721b3445b6af1c30dbcaf8?utm_campaign=Software%20Engineering&utm_source=1103) | _nology | Newcastle upon Tyne, England, United Kingdom · Hybrid | Software Engineering | jobright-ai | - |
-| Aug 05 | [Software Developer I](https://jobright.ai/jobs/info/6a72e4f110edfd1ac5c1706e?utm_campaign=Software%20Engineering&utm_source=1103) | General Atomics Aeronautical Systems | Kaysville, UT, United States · Hybrid | Software Engineering | jobright-ai | - |
-| Aug 05 | [IT Development Program (3 Months - Path to Hire)](https://jobright.ai/jobs/info/6a6cc512acb0a61f9dbc6e3a?utm_campaign=Software%20Engineering&utm_source=1103) | Space Kinetic Corp. | El Segundo, CA, United States · On Site | Software Engineering | jobright-ai | - |
-| Aug 05 | [BUSINESS INTELLIGENCE ANALYST](https://jobright.ai/jobs/info/6a7302991ce9647cdbca61b7?utm_campaign=Data%20Analysis&utm_source=1103) | JBS | Greeley, CO, United States · On Site | Data/ML | jobright-ai | - |
-| Aug 05 | [Data Scientist](https://jobright.ai/jobs/info/6a6777352bda4d2842854028?utm_campaign=Data%20Analysis&utm_source=1103) | Booz Allen Hamilton | Arlington, VA, United States · On Site | Data/ML | jobright-ai | - |
-| … | *+4058 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
+| … | *+4205 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 
@@ -196,9 +196,9 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-08-05`
-- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-08-05`
-- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-08-05`
+- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-08-06`
+- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-08-06`
+- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-08-06`
 
 <details>
 <summary>Archived (1)</summary>
@@ -211,10 +211,10 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-08-05`
-- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-08-05`
-- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-08-05`
-- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-08-05`
+- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-08-06`
+- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-08-06`
+- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-08-06`
+- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-08-06`
 - [Daily-H1B-Jobs-In-Tech](https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech) — last activity `2026-05-06`
 
 
