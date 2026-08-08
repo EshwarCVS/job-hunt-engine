@@ -5,8 +5,8 @@ Your open-source job board for tech roles — internships, new grad, and experie
 **Website (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
 
 <p>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-08-07&color=0A66C2" alt="Last updated" /></a>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=4346&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-08-08&color=0A66C2" alt="Last updated" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=4530&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
@@ -41,14 +41,55 @@ This project stays useful when the community helps. We especially need:
 
 ## August 2026 Jobs
 
-> **4346** active listings · newest first · previous month: _no prior archive yet_ ·
+> **4530** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 4346</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 4530</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
+| Aug 08 | [Software Engineer Intern](https://apply.workable.com/pronexus-1/j/AF8C34AC6D/apply) | ProNexus | Remote in USA | Internship | SimplifyJobs | - |
+| Aug 08 | [Trading and Research Intern](https://apply.workable.com/capula-investment-management-ltd/j/A15A62A8BE/apply) | Capula | London, UK | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Aug 08 | [Research Intern](https://apply.workable.com/flexion-robotics/j/8FF540773C/apply) | Flexion Robotics | SF | Internship | SimplifyJobs | Master's, PhD |
+| Aug 08 | [Integrated Photonics Intern](https://apply.workable.com/hyperlight/j/498D9988C8/apply) | HyperLight | Cambridge, MA | Internship | SimplifyJobs | Master's, PhD |
+| Aug 08 | [Quantitative Trading Intern](https://apply.workable.com/wallstreetquants/j/8CB119E789/apply) | WallStreetQuants | Miami, FL | Internship | SimplifyJobs | Bachelor's |
+| Aug 08 | [Quantitative Researcher Intern](https://apply.workable.com/wallstreetquants/j/494E392FD3/apply) | WallStreetQuants | NYC | Internship | SimplifyJobs | Bachelor's |
+| Aug 08 | [AI Automation Intern](https://apply.workable.com/turabify-co/j/0B50CC0D49/apply) | Turabify | Franklin, OH | Internship | SimplifyJobs | Bachelor's |
+| Aug 08 | [Applications Intern - AI and Machine Learning](https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/apply) | TMEIC Corporation Americas | Roanoke, VA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 08 | [Software Development Engineer Intern - Network Automation - 2027 Summer](https://jobs.bytedance.com/en/position/7671147251943213317/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 08 | [AI Applications Developer Junior - AI Applications Development](https://apply.workable.com/mila-2/j/F73F31C5FD/apply) | Montreal Institute for Learning Algorithms | Montreal, QC, Canada | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 08 | [Forward Deployed Engineer](https://apply.workable.com/kanbrick/j/CA9D01A008/apply) | Kanbrick | Nashville, TN, Charlotte, NC | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Software Engineer](https://jobs.ashbyhq.com/interface-ai/abbcf39d-cac3-49ee-9279-82a59821c300/application?embed=true) | interface.ai | SF | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Software Engineer](https://apply.workable.com/arondite/j/4DB1A60B2B/apply) | Arondite | London, UK | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Deployed Software Engineer New Grad](https://apply.workable.com/arondite/j/5C5C551ADA/apply) | Arondite | London, UK | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Junior Software Engineer - AI-Native](https://apply.workable.com/homey/j/50DF9B3D53/apply) | Homey | London, UK | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Quantitative Strategist](https://apply.workable.com/capula-investment-management-ltd/j/9582487D5F/apply) | Capula | London, UK | Software Engineering | SimplifyJobs | PhD |
+| Aug 08 | [Technology Graduate Analyst](https://apply.workable.com/capula-investment-management-ltd/j/88F2A24444/apply) | Capula | London, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
+| Aug 08 | [Computer Assembly Technician](https://apply.workable.com/teguar-corporation/j/6B5F9ADBF1/apply) | Teguar | Charlotte, NC | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Soldering Rework / Repair Technician](https://apply.workable.com/vanguard-ems-inc/j/3B58F227C1/apply) | Vanguard EMS | Beaverton, OR | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Motor Repair Technician](https://apply.workable.com/christie-lites-3/j/25F36FBEF7/apply) | Christie | Toronto, ON, Canada | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Graduate Machine Learning Engineer - AI](https://apply.workable.com/zaizi/j/5DBB38B542/apply) | Zaizi | Cheltenham, UK | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 08 | [Quantitative Developer](https://apply.workable.com/wallstreetquants/j/AA3FB20456/apply) | WallStreetQuants | Remote in USA | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Quantitative Trader New Grad](https://apply.workable.com/wallstreetquants/j/615D982644/apply) | WallStreetQuants | Chicago, IL | Software Engineering | SimplifyJobs | Bachelor's, Master's, PhD |
+| Aug 08 | [Panel Wirer](https://apply.workable.com/avk-seg-uk-ltd/j/B138C6B09D/apply) | AVK | Lenham, Maidstone, UK | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Quantitative Researcher New Grad](https://apply.workable.com/wallstreetquants/j/62537809CA/apply) | WallStreetQuants | London, UK | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Quantitative Trader New Grad](https://apply.workable.com/wallstreetquants/j/C611D9282B/apply) | WallStreetQuants | NYC | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Software Engineer - Infrastructure](https://apply.workable.com/flexcompute/j/143ECD1848/apply) | Flexcompute | Watertown, MA | DevOps/Infra | SimplifyJobs | - |
+| Aug 08 | [Scientific Computing New Grad - Rising Stars](https://apply.workable.com/flexcompute/j/75BA5AB5DC/apply) | Flexcompute | Watertown, MA | Software Engineering | SimplifyJobs | Master's, PhD |
+| Aug 08 | [CFD Solver Developer](https://apply.workable.com/flexcompute/j/EF3D90A736/apply) | Flexcompute | Watertown, MA | Software Engineering | SimplifyJobs | Master's, PhD |
+| Aug 08 | [Software Engineer 1](https://apply.workable.com/fuse-integration/j/6B54E80594/apply) | Fuse Integration | San Diego, CA | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Field Technician](https://apply.workable.com/slip-robotics/j/377166CD3F/apply) | Slip Robotics | Denton, TX | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Digital Analytics Associate Consultant](https://apply.workable.com/fifty-five/j/F21A38FE9E/apply) | Fifty-Five | London, UK | Data/ML | SimplifyJobs | Bachelor's |
+| Aug 08 | [Data Engineer](https://apply.workable.com/ubds/j/3E4DD87355/apply) | UBDS Group | London, UK | Data/ML | SimplifyJobs | - |
+| Aug 08 | [Rack and Stack Assembler](https://apply.workable.com/amax-1/j/4C6F9441A2/apply) | AMAX | Fremont, CA | Software Engineering | SimplifyJobs | - |
+| Aug 08 | [Junior Systems Engineer](https://apply.workable.com/amax-1/j/FE4BA3799A/apply) | AMAX | Fremont, CA | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Senior Machine Learning Engineer - Perception](https://jobs.lever.co/plus-2/d1b8ecc2-dfc2-4613-81ca-02d90776c618/apply) | PlusAI | Santa Clara, CA | Data/ML | SimplifyJobs | Master's, PhD |
+| Aug 08 | [SoC Physical Design Engineer - PnR](https://jobs.apple.com/en-us/details/200676744) | Apple | Austin, TX | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Associate Software Engineering](https://jobs.l3harris.com/job/Fort-Wayne-Associate,-Software-Engineering-IN-46818/1417294200/?ats=successfactors) | L3Harris Technologies | Fort Wayne, IN | Software Engineering | SimplifyJobs | Bachelor's |
+| Aug 08 | [Digital & IT Leadership Development Program Associate - Digital Product Development](https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Digital---IT-Leadership-Development-Program-Associate---Digital-Product-Development_R30565) | Polaris | Medina, MN, Plymouth, MN | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Aug 08 | [Digital & IT Leadership Development Program Associate - Predictive Data Science](https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Medina-MN-USA/Digital---IT-Leadership-Development-Program-Associate---Predictive-Data-Science_R30564) | Polaris | Medina, MN, Plymouth, MN | Data/ML | SimplifyJobs | Bachelor's, Master's |
+| Aug 08 | [Quantitative Researcher, Early Career](https://jobright.ai/jobs/info/69cd81f4cdb525785fb89761?utm_campaign=Data%20Analysis&utm_source=1103) | Aquatic Capital Management | Chicago · On Site | Data/ML | jobright-ai | - |
 | Aug 07 | [Fullstack Software Engineer Intern - Global E-Commerce](https://lifeattiktok.com/search/7670700387322300677) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
 | Aug 07 | [Software Engineer Intern - Global E-Commerce Search Infrastructure](https://lifeattiktok.com/search/7662594807715072261) | TikTok | Seattle, WA | Internship | SimplifyJobs | Bachelor's, Master's |
 | Aug 07 | [Fullstack Software Engineer Intern - Global E-Commerce - 2027 Summer](https://lifeattiktok.com/search/7670738362521520437) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
@@ -61,75 +102,34 @@ This project stays useful when the community helps. We especially need:
 | Aug 07 | [Monitoring & Evaluation Intern](https://apply.workable.com/healthcorpsorg/j/DD52981B55/apply) | HealthCorps | Remote in USA, Phoenix, AZ | Internship | SimplifyJobs | Bachelor's |
 | Aug 07 | [Product Development Intern](https://apply.workable.com/tarte-inc/j/66E81C77A4/apply) | tarte cosmetics | NYC | Internship | SimplifyJobs | - |
 | Aug 07 | [Software Engineer Intern](https://jobs.ashbyhq.com/kastle/6f32db51-de45-472f-a9c8-d9419d3634ee/application?embed=true) | Kastle AI | SF | Internship | SimplifyJobs | Bachelor's, Master's, Bootcamp |
-| Aug 07 | [PhD Research Scientist Intern - Reinforcement Learning for Diffusion Modelling](https://jobs.smartrecruiters.com/Canva/6000000001295209) | Canva | London, UK | Internship | SimplifyJobs | PhD |
-| Aug 07 | [Backend Software Engineer Graduate - Data Lifecycle Management](https://lifeattiktok.com/search/7670391173613160757) | TikTok | San Jose, CA | Backend | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Multimodal Generative AI Research Scientist - Intelligent Creation](https://lifeattiktok.com/search/7668206857737455877) | TikTok | Seattle, WA | Data/ML | SimplifyJobs | PhD |
-| Aug 07 | [Backend Software Engineer Graduate - Privacy and Security - Product](https://lifeattiktok.com/search/7670387719826786565) | TikTok | San Jose, CA | Backend | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Data Scientist 1 - Multiple Teams](https://bostonscientific.eightfold.ai/careers/job/563602813345805) | Boston Scientific | Arden Hills, MN | Data/ML | SimplifyJobs | Bachelor's |
-| Aug 07 | [Food Service Worker](https://aramarkcareers.com/UnitedStates/job/Overland-Park-Food-Service-Worker-Shamrock-Trading-Corporation-KS-66212/1416888300/?ats=successfactors) | Aramark | Overland Park, KS | Software Engineering | SimplifyJobs | - |
-| Aug 07 | [LLM/AI Operations Development Engineer Graduate - Data Center Networking](https://jobs.bytedance.com/en/position/7670773781477394741/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Research Scientist Graduate - Multimodal Interaction and World Model](https://jobs.bytedance.com/en/position/7671026650366183685/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | PhD |
-| Aug 07 | [Mutual Funds Trading Operations Specialist](https://career-schwab.icims.com/jobs/124846/job?mobile=true&needsRedirect=false) | Charles Schwab | Westlake, TX, Omaha, NE | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 07 | [Market Analysis & Trading Graduate](https://equinor.wd3.myworkdayjobs.com/EQNR/job/London-Great-Britain/Graduate-Programme-2027-UK---Market-Analysis-and-Trading_JR107223) | Equinor | London, UK | Software Engineering | SimplifyJobs | Master's, PhD |
-| Aug 07 | [Software Engineer](https://apply.workable.com/avalore/j/F157AC3B65/apply) | Avalore | Annapolis Junction, MD | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 07 | [Applications Engineer](https://apply.workable.com/luminance-1/j/6415D21465/apply) | Luminance | Cambridge, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Machine Learning Research Engineer](https://apply.workable.com/luminance-1/j/9C39B34AB3/apply) | Luminance | Cambridge, UK | Data/ML | SimplifyJobs | Master's |
-| Aug 07 | [Service Desk Technician](https://apply.workable.com/indra-uk/j/8D40F8C576/apply) | Indra Group UK & Ireland | Middlesbrough, UK | Software Engineering | SimplifyJobs | - |
-| Aug 07 | [R&D Engineer](https://apply.workable.com/luminance-1/j/A1D847B654/apply) | Luminance | Cambridge, UK | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Research Fellow - Workforce Intelligence](https://apply.workable.com/alphax/j/E8CAD15968/apply) | AlphaHire | Remote in USA | Data/ML | SimplifyJobs | - |
-| Aug 07 | [Product Specialist Associate](https://apply.workable.com/luminance-1/j/CA147DC61C/apply) | Luminance | London, UK | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Predictive Analytics Fellow - Workforce Intelligence](https://apply.workable.com/alphax/j/0ABEFABB05/apply) | AlphaHire | Remote in USA | Data/ML | SimplifyJobs | - |
-| Aug 07 | [Software Engineer 0](https://apply.workable.com/interimage/j/35ED59E021/apply) | InterImage | Fort Meade, MD | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 07 | [Software Engineer](https://apply.workable.com/interimage/j/50AEE969C4/apply) | InterImage | Remote in USA, Arlington County, Arlington, VA | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 07 | [Full Stack Developer - Entry/Associate Level](https://apply.workable.com/interimage/j/8DBD237A8E/apply) | InterImage | Columbia, MD | Full Stack | SimplifyJobs | - |
-| Aug 07 | [Junior Data Manager - Geoscience - Early Careers](https://apply.workable.com/sword-group/j/56CE66F081/apply) | Sword Group | Aberdeen, UK | Data/ML | SimplifyJobs | Bachelor's |
-| Aug 07 | [Entry Level Semiconductor Install Technician](https://apply.workable.com/msr-fsr/j/F32B7FDBB7/apply) | MSR-FSR | Hillsboro, OR | Software Engineering | SimplifyJobs | Associate's |
-| Aug 07 | [System Hardware Design Engineer - Early Career](https://apply.workable.com/tp-link-usa-corp/j/428D85D8DC/apply) | TP-Link Systems | Irvine, CA | Embedded/HW | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Early Career Embedded Software Engineer](https://apply.workable.com/tp-link-usa-corp/j/F943A617EC/apply) | TP-Link Systems | Irvine, CA | Embedded/HW | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Entry Level Semiconductor Install Technician](https://apply.workable.com/msr-fsr/j/FE25406113/apply) | MSR-FSR | Hillsboro, OR | Software Engineering | SimplifyJobs | Bachelor's |
-| Aug 07 | [Electronics Technician Maintenance 1](https://apply.workable.com/sigmadefense/j/73FEA914E0/apply) | Sigma Defense | Fort Irwin, CA | Software Engineering | SimplifyJobs | - |
-| Aug 07 | [Electrical Assembler](https://apply.workable.com/new-flyer/j/1FFE254239/apply) | New Flyer | Shepherdsville, KY | Software Engineering | SimplifyJobs | - |
-| Aug 07 | [Market Analysis and Trading Graduate](https://equinor.wd3.myworkdayjobs.com/EQNR/job/Houston-Texas/Graduate-Programme-2027-US---Market-Analysis-and-Trading_JR107225) | Equinor | Houston, TX, Stamford, CT | Software Engineering | SimplifyJobs | Master's, PhD |
-| Aug 07 | [Data Capture Technician - Construction](https://apply.workable.com/cloudfactory/j/25D2609FDB/apply) | CloudFactory | Salt Lake City, UT | Data/ML | SimplifyJobs | - |
-| Aug 07 | [Data Capture Technician - 1 Day/Week](https://apply.workable.com/cloudfactory/j/C65A66061E/apply) | CloudFactory | Oxford, UK | Data/ML | SimplifyJobs | - |
-| Aug 07 | [Data Capture Technician](https://apply.workable.com/cloudfactory/j/CC8EC9F326/apply) | CloudFactory | Dallas, TX | Data/ML | SimplifyJobs | - |
-| Aug 07 | [Data Capture Technician](https://apply.workable.com/cloudfactory/j/8354CC2447/apply) | CloudFactory | Boyce, LA | Data/ML | SimplifyJobs | - |
-| Aug 07 | [Research Scientist Graduate - ML Recommendation Systems](https://jobs.bytedance.com/en/position/7670850283815160069/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Large Language Model Inference System Engineer New Grad - Applied Machine Learning](https://jobs.bytedance.com/en/position/7667726338627356933/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Large Language Model Training System Engineer Graduate - Applied Machine Learning](https://jobs.bytedance.com/en/position/7667685712993650997/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Machine Learning Systems Scheduling Engineer Graduate - Applied Machine Learning](https://jobs.bytedance.com/en/position/7667727006294214965/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [LLM Backend Engineer Graduate - Applied Machine Learning](https://jobs.bytedance.com/en/position/7667730992538585349/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Machine Learning Engineer Graduate - Agent Evaluation & Evolution](https://jobs.bytedance.com/en/position/7670932427485186309/detail) | ByteDance | San Jose, CA | Data/ML | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Data Labeling Analyst - Speech & Voice AI](https://jobs.lever.co/weloglobal/2e144d33-40eb-4748-a53f-425a5e2b6ddb/apply) | Welo Global | SF | Data/ML | SimplifyJobs | Bachelor's |
-| Aug 07 | [Software Engineer - Campus](https://www.google.com/about/careers/applications/jobs/results/78703249065943750) | Google | Cambridge, MA, Seattle, WA, LA +7 more | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Software Developer - Campus](https://www.google.com/about/careers/applications/jobs/results/120686451305128646) | Google | Waterloo, ON, Canada | Software Engineering | SimplifyJobs | Bachelor's, Master's |
-| Aug 07 | [Software Developer, Early Career, Campus](https://jobright.ai/jobs/info/6a7597debb6ca93ae560f027?utm_campaign=Software%20Engineering&utm_source=1103) | Google | Waterloo, ON, Canada · On Site | Software Engineering | jobright-ai | - |
-| Aug 07 | [Associate Software Engineer - Seeking 2027 Graduates](https://jobright.ai/jobs/info/6a74ef4fbb6ca93ae560cc5b?utm_campaign=Software%20Engineering&utm_source=1103) | Veeva Systems | Boston, MA, United States · Hybrid | Software Engineering | jobright-ai | - |
-| Aug 07 | [Software Engineer - C++](https://jobright.ai/jobs/info/6a2a4fc02cde2824469c14ac?utm_campaign=Software%20Engineering&utm_source=1103) | Applied Intuition | Sunnyvale · On Site | Software Engineering | jobright-ai | - |
-| Aug 07 | [Software Engineer - C++](https://jobright.ai/jobs/info/6a55b66d14f1040fa611aabd?utm_campaign=Software%20Engineering&utm_source=1103) | Applied Intuition | Sunnyvale, CA, United States · On Site | Software Engineering | jobright-ai | - |
-| Aug 07 | [Scenario Engineer, Mining Autonomy](https://jobright.ai/jobs/info/6a54478ad007ee02d95fe3ad?utm_campaign=Software%20Engineering&utm_source=1103) | Applied Intuition | Sunnyvale · On Site | Software Engineering | jobright-ai | - |
-| Aug 07 | [Software Engineer - Python](https://jobright.ai/jobs/info/6a571476efb06a45240d9189?utm_campaign=Software%20Engineering&utm_source=1103) | Applied Intuition | Sunnyvale · On Site | Software Engineering | jobright-ai | - |
-| Aug 07 | [Software Engineer - Python](https://jobright.ai/jobs/info/6a2a4fb9d3ec8317fe143242?utm_campaign=Software%20Engineering&utm_source=1103) | Applied Intuition | Sunnyvale · On Site | Software Engineering | jobright-ai | - |
-| Aug 07 | [Power Platforms Junior Engineer](https://jobright.ai/jobs/info/6a6268dd1e089c0cc884c5f8?utm_campaign=Software%20Engineering&utm_source=1103) | Serco | Washington, DC, United States · Remote | DevOps/Infra | jobright-ai | - |
-| Aug 07 | [PhD Degree Required - Quantitative Analyst/Programmer, Mortgage Trading Desk (RMBS)](https://jobright.ai/jobs/info/6a559ce578d1443bd1e810cc?utm_campaign=Data%20Analysis&utm_source=1103) | Cerberus Capital Management | New York, NY, United States · On Site | Data/ML | jobright-ai | - |
-| Aug 06 | [LLM Post-training Engineer Intern - Research & Product](https://lifeattiktok.com/search/7670285031018432773) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [Software Engineer Intern - Media Engine](https://lifeattiktok.com/search/7670295535077427509) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [AI Product Operations Intern](https://lifeattiktok.com/search/7670420017544251701) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [Product Manager Intern - Product Infrastructure - Account](https://lifeattiktok.com/search/7670009830602721589) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [Strategy Product Manager Intern - Platform Responsibility](https://lifeattiktok.com/search/7670420287191517493) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [Research Scientist Intern - Multimedia Streaming](https://jobs.bytedance.com/en/position/7670354800621603125/detail) | ByteDance | San Diego, CA | Internship | SimplifyJobs | PhD |
-| Aug 06 | [AI/LLM Network Research Intern - High Speed Network - PhD](https://jobs.bytedance.com/en/position/7669969771686775045/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 06 | [Software Engineer Intern - Global Payment - Compliance](https://jobs.bytedance.com/en/position/7669774721406208261/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [ASIC Design Engineer Intern - Video Silicon IP](https://jobs.bytedance.com/en/position/7670332179383699717/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Master's |
-| Aug 06 | [AI/LLM Network Research Intern - High Speed Network](https://jobs.bytedance.com/en/position/7670281454740818181/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | PhD |
-| Aug 06 | [Research Scientist Intern](https://jobs.bytedance.com/en/position/7670375041041320245/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
-| Aug 06 | [Video/Image AI/ML Software Engineer Intern - Multimedia](https://jobs.bytedance.com/en/position/7670354329765464373/detail) | ByteDance | San Diego, CA | Internship | SimplifyJobs | PhD |
-| Aug 06 | [GPU/AI Application System Software Engineer Intern - System Technologies and Engineering](https://jobs.bytedance.com/en/position/7668464504736876853/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [Software Engineer Intern - Foundation Platform](https://lifeattiktok.com/search/7670281449668905269) | TikTok | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| Aug 06 | [Product Operations Intern - TikTok Shop Apps and API - MBA](https://lifeattiktok.com/search/7668820702623467781) | TikTok | Seattle, WA | Internship | SimplifyJobs | MBA |
-| Aug 06 | [Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance](https://lifeattiktok.com/search/7670247810111768837) | TikTok | Seattle, WA | Internship | SimplifyJobs | PhD |
-| Aug 06 | [AI Network Automation Engineer Intern - Global Physical Network Infrastructure](https://jobs.bytedance.com/en/position/7670690923748870405/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | Bachelor's, Master's |
-| … | *+4266 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
+| Aug 07 | [Software Developer Intern - Fall 2026](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-Intern---Fall-2026_R031492) | Ciena | Ottawa, ON, Canada | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Application Development Intern](https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101382) | Delta Dental | Okemos, MI | Internship | SimplifyJobs | - |
+| Aug 07 | [Artificial Intelligence/Machine Learning Intern](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912) | General Dynamics Information Technology | Falls Church, VA | Internship | SimplifyJobs | Bachelor's, Master's, Associate's |
+| Aug 07 | [Systems Engineer 1 Intern - Intern Conversion](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863190) | RTX | Cedar Rapids, IA | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Systems Engineer 1 Intern - Intern Conversion](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Intern-Conversion--Systems-Engineer-I--Onsite-_01863596) | RTX | Cedar Rapids, IA | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Product Development Engineer Intern](https://amcor.wd5.myworkdayjobs.com/amcor_external_career_site/job/CORP-Evansville-Head-Division-Office-IN/Product-Development-Intern_REQ_94654) | Amcor | Evansville, IN | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [DERMS Co-op/Intern](https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/DERMS-Co-Op-Intern_033809-1) | Ameren | St. Louis, MO, Illinois | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 07 | [Digital Co-op](https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Digital-Co-op_033841-1) | Ameren | St. Louis, MO | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 07 | [Quantitative Trading Intern - Summer 2027](https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab/apply) | Belvedere Trading | Chicago, IL | Internship | SimplifyJobs | - |
+| Aug 07 | [Quantitative Trading Intern - Winter Quarter 2027](https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0/apply) | Belvedere Trading | Chicago, IL | Internship | SimplifyJobs | - |
+| Aug 07 | [Software Engineer Intern - Summer 2027](https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0/apply) | Belvedere Trading | Chicago, IL | Internship | SimplifyJobs | - |
+| Aug 07 | [Flight Software Intern - Spring 2027](https://job-boards.greenhouse.io/vardaspace/jobs/7824815003) | Varda Space | El Segundo, CA | Internship | SimplifyJobs | - |
+| Aug 07 | [Applications Engineer Intern](https://job-boards.greenhouse.io/vardaspace/jobs/7824822003) | Varda Space | El Segundo, CA | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Telecommunications Intern - Computer Science/Data Analytics](https://edqv.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/21003640) | GCI | Anchorage, AK | Internship | SimplifyJobs | - |
+| Aug 07 | [PhD Research Scientist Intern - Edge AI](https://jobs.smartrecruiters.com/Canva/6000000001295782) | Canva | London, UK | Internship | SimplifyJobs | PhD |
+| Aug 07 | [Technology Intern - Texas Immersive Institute - Moody College of Communication](https://utaustin.wd1.myworkdayjobs.com/utstudent/job/UT-MAIN-CAMPUS/TXI-Tech-Intern--Texas-Immersive-Institute--Moody-College-of-Communication--Open-to-Work-Study-_R_00047950) | University of Texas at Austin | Austin, TX | Internship | SimplifyJobs | - |
+| Aug 07 | [Software Engineer Intern - Summer 2027](https://www.trlm.com/apply/5207089007?gh_jid=5207089007) | Trillium | NYC | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Software Engineer Intern](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003) | Axon | Boston, MA, Seattle, WA | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Software Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/cssmerge/jobs/8687896002) | Atoms | Seattle, WA, SF, LA +2 more | Internship | SimplifyJobs | Bachelor's, Master's |
+| Aug 07 | [Firmware Engineer Intern - Platform Firmware](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003) | Axon | Boston, MA, Seattle, WA | Internship | SimplifyJobs | Bachelor's, Bootcamp |
+| Aug 07 | [Machine Learning Intern - Special Projects - Epic Research Group](https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004) | Epic Games | London, UK | Internship | SimplifyJobs | Master's, PhD |
+| Aug 07 | [Machine Learning Intern](https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004) | Epic Games | Canada, United Kingdom, United States | Internship | SimplifyJobs | Master's, PhD |
+| Aug 07 | [Machine Learning Intern - Special Projects - Epic Research Group](https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004) | Epic Games | Montreal, QC, Canada | Internship | SimplifyJobs | Master's, PhD |
+| Aug 07 | [AI/ML Engineer Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008) | The Nuclear Company | Washington, DC | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Software Engineering Intern - Product - Platform](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008) | The Nuclear Company | Washington, DC | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [AI/ML Engineer Intern - Platform Integration & AI/Data](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383163008) | The Nuclear Company | Washington, DC | Internship | SimplifyJobs | Bachelor's |
+| Aug 07 | [Data Science Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383218008) | The Nuclear Company | Washington, DC | Internship | SimplifyJobs | Bachelor's, Master's |
+| … | *+4450 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 
@@ -196,9 +196,9 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-08-07`
-- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-08-07`
-- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-08-07`
+- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-08-08`
+- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-08-08`
+- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-08-08`
 
 <details>
 <summary>Archived (1)</summary>
@@ -211,10 +211,10 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-08-07`
-- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-08-07`
-- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-08-07`
-- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-08-07`
+- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-08-08`
+- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-08-08`
+- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-08-08`
+- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-08-08`
 - [Daily-H1B-Jobs-In-Tech](https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech) — last activity `2026-05-06`
 
 
