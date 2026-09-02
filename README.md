@@ -5,8 +5,8 @@ Your open-source job board for tech roles — internships, new grad, and experie
 **Website (sort & filter):** https://eshwarcvs.github.io/job-hunt-engine/
 
 <p>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-09-01&color=0A66C2" alt="Last updated" /></a>
-  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=5346&color=2ea44f" alt="Job count" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=last%20updated&message=2026-09-02&color=0A66C2" alt="Last updated" /></a>
+  <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=jobs%20this%20month&message=5724&color=2ea44f" alt="Job count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" alt="License" /></a>
   <a href="https://eshwarcvs.github.io/job-hunt-engine/"><img src="https://img.shields.io/static/v1?label=website&message=GitHub%20Pages&color=222" alt="Website" /></a>
   <img src="https://img.shields.io/static/v1?label=sources&message=Simplify%20%C2%B7%20jobright%20%C2%B7%20LinkedIn%20%C2%B7%20Community&color=6f42c1" alt="Sources" />
@@ -41,95 +41,95 @@ This project stays useful when the community helps. We especially need:
 
 ## September 2026 Jobs
 
-> **5346** active listings · newest first · previous month: _no prior archive yet_ ·
+> **5724** active listings · newest first · previous month: _no prior archive yet_ ·
 > full list with **sort & filter**: [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/)
 
 <details open>
-<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 5346</summary>
+<summary><strong>Job listings</strong> (click to collapse / expand) — preview of 80 / 5724</summary>
 
 | Date | Role | Company | Location / Type | Category | Source | Info |
 |------|------|---------|-----------------|----------|--------|------|
-| Sep 01 | [Signal Processing Intern - Multiple Teams](https://careers.jhuapl.edu/jobs/59875?icims=1) | Johns Hopkins Applied Physics Laboratory | Laurel, MD | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
-| Sep 01 | [Image Sensor Development Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506475) | onsemi | Hopewell Junction, NY | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012703) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Management Intern - Pmdp](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Product-Management-Development-Program--PMDP--Intern_R-52317) | Travelers | Hartford, CT | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Business Insights & Analytics Intern - BI&A LDP](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insights---Analytics-Leadership-Development-Program--BI-A-LDP--Intern_R-52304) | Travelers | Hartford, CT, St Paul, MN | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Engineering Development Intern](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-52270) | Travelers | Hunt Valley, Cockeysville, MD, Hartford, CT, Atlanta, GA +1 more | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Geospatial Intern](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insights---Analytics-Leadership-Development-Program--BI-A-LDP--Geospatial-Intern_R-52305) | Travelers | Hartford, CT, St Paul, MN | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Software Engineer Intern](https://jobs.ashbyhq.com/whatnot/928ffdca-b316-40ce-b82b-94b570919bcd/application?embed=true) | WhatNot | Seattle, WA, SF, LA +1 more | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Firmware Engineer Intern/Co-op - Research & Development Engineering](https://eaton.eightfold.ai/careers/job/687238596754) | Eaton | Moon Twp, PA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Research Scientist Intern](https://jobs.ashbyhq.com/pluralis-research/c8f78978-a693-4863-bcc0-66af5c3fd0be/application?embed=true) | Pluralis Research | Remote in USA, Remote in Australia | Internship | SimplifyJobs | PhD |
-| Sep 01 | [Software Development Intern / Data Science Intern - Multiple Teams](https://jobs.ashbyhq.com/wealthsimple/de09418a-8a12-46aa-a371-34bafaf5be26/application?embed=true) | Wealthsimple | Toronto, ON, Canada | Internship | SimplifyJobs | Bootcamp |
-| Sep 01 | [Software Engineer Intern](https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e/application?embed=true) | Sierra | SF, NYC | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [AI & Analytics Intern](https://careers.tranetechnologies.com/global/en/job/JR-7591) | Trane Technologies | Minneapolis, MN, Davidson, NC | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [AI Intern - AI Product Management - AI Controls Integration](https://careers.tranetechnologies.com/global/en/job/JR-7608) | Trane Technologies | Montreal, QC, Canada | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012784) | American Express | Charlotte, NC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Management Intern - Global Merchant & Network Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012638) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011818) | American Express | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012782) | American Express | Palo Alto, CA | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Analytics Intern - US Consumer Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011607) | American Express | NYC | Internship | SimplifyJobs | Master's, MBA |
-| Sep 01 | [Data Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831) | American Express | Sunrise, FL | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Digital Product Management Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011627) | American Express | Sunrise, FL | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012729) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Digital Product Management Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012057) | American Express | NYC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828) | American Express | Charlotte, NC | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011813) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781) | American Express | Sunrise, FL | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Management Intern - Global Merchant & Network Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012668) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Digital Product Management Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012681) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Science Intern - Finance](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013190) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Engineering Intern](https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Charleston-West-Virginia/Student-Intern--Engineering_JR-10741) | TC Energy | Charleston, WV | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Digital Product Management Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011143) | American Express | NYC | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Product Management Intern - Global Merchant & Network Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012636) | American Express | NYC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764) | American Express | Charlotte, NC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Digital Product Management Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012678) | American Express | Phoenix, AZ | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012783) | American Express | NYC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Data Analytics Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011807) | American Express | Charlotte, NC | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Science Intern - Finance](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013191) | American Express | NYC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Digital Product Management Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012145) | American Express | Sunrise, FL | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Product Development Intern - 2027 Product Development - US Consumer Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011605) | American Express | NYC | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Quantitative Research Markets Analyst Intern - Quantitative Trading & Research Markets](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775342) | JP Morgan Chase | London, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Summer Analyst Intern - Corporate Functions - Corporate Analyst Development Program](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775228) | JP Morgan Chase | Bournemouth, UK | Internship | SimplifyJobs | - |
-| Sep 01 | [Quantitative Research Intern - Multiple Teams](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776860) | JP Morgan Chase | London, UK | Internship | SimplifyJobs | Master's |
-| Sep 01 | [Quantitative Research Intern - Risk and Treasury - Off-Cycle](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776873) | JP Morgan Chase | London, UK | Internship | SimplifyJobs | PhD |
-| Sep 01 | [Quantitative Research Markets Associate Intern - Quantitative Trading & Research Markets](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775780) | JP Morgan Chase | London, UK | Internship | SimplifyJobs | PhD |
-| Sep 01 | [Software Engineer Intern](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774738) | JP Morgan Chase | London, UK, Glasgow, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Quantitative Research Intern - Asset Management - Off-Cycle](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776770) | JP Morgan Chase | London, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Software Engineer Intern - Summer Internship](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774716) | JP Morgan Chase | London, UK, Glasgow, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Data & AI Intern - Data & AI Program](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774745) | JP Morgan Chase | London, UK, Glasgow, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Product Manager Intern - Chase Digital Development Programme](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775305) | JP Morgan Chase | London, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Software Engineer Intern - Immersion Program](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774813) | JP Morgan Chase | Glasgow, UK | Internship | SimplifyJobs | Bachelor's, Master's |
-| Sep 01 | [Sales and Application Engineer Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010151) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Management Engineer Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009685) | Emerson Electric | Boulder, CO | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009657) | Emerson Electric | Shakopee, MN | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Engineer Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009500) | Emerson Electric | Houston, TX | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [AI Engineering Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26007510) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Management Engineer Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009610) | Emerson Electric | Shakopee, MN | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Management Engineering Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009499) | Emerson Electric | Houston, TX | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Operations Engineer Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009540) | Emerson Electric | Shakopee, MN | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Management Engineering Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009634) | Emerson Electric | Shakopee, MN, Chanhassen, MN | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Firmware Engineer Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008761) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Machine Learning Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008762) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analyst Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009200) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Engineer Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009673) | Emerson Electric | Shakopee, MN, Eden Prairie, MN, Chanhassen, MN | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Science Engineering Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009488) | Emerson Electric | Boulder, CO | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Engineer Co-op - January 2027 - May 2027](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454) | Emerson Electric | Shakopee, MN | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Engineering Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008442) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Data Analytics Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008130) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Engineer Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008445) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Embedded Software Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008443) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Lifecycle Service Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26007189) | Emerson Electric | Marshalltown, IA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Product Manager Intern](https://jobs.lever.co/MachinaLabs/c54d0857-09f3-479c-8d8d-cfa55d358be6/apply) | Machina Labs | Chatsworth, LA | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
-| Sep 01 | [Retail Administration Analytics Intern](https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Retail-Administration-Analytics-Intern_2026-02039) | First National Bank | Pittsburgh, PA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Capital Markets Intern](https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-Capital-Markets-Intern_2026-02010) | First National Bank | Pittsburgh, PA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Engineer Intern](https://www.ixl.com/company/jobs?gh_jid=8765770002) | IXL Learning | San Mateo, CA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Developer Intern - Fall 2026](https://isnetworld.com/en/about/careers/jobs?gh_jid=6176204004) | ISN Software | Dallas, TX | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Service Quality Intern](https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Waterford/Summer-2027-Intern---Service-Quality_R9767) | Momentive | Waterford, NY | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Software Engineer Intern - Core AI Compiler & Runtime](https://www.tesla.com/careers/search/job/281951) | Tesla | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
-| Sep 01 | [Direct Investing Intern/Co-op - Winter 2027](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Direct-Investing-Journey-Intern-Co-Op--Winter-2027-_R_1507625) | TD Bank | Toronto, ON, Canada | Internship | SimplifyJobs | Bachelor's |
-| … | *+5266 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
+| Sep 02 | [Data Science Intern](https://apply.careers.microsoft.com/careers/job/1970393556982897) | Microsoft | Redmond, WA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Vehicle Software Engineer Intern - Diagnostic User Interface](https://www.tesla.com/careers/search/job/281921) | Tesla | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Robotaxi Simulation Engineer Intern - Systems Modeling & Optimization](https://www.tesla.com/careers/search/job/281936) | Tesla | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Machine Learning Engineer Intern - Charging Data Modeling](https://www.tesla.com/careers/search/job/281940) | Tesla | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's, Master's, PhD |
+| Sep 02 | [Digital & IT Intern - Analyst - Enterprise Data Management](https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Enterprise-Data-Management-Summer-2027-NC-28216/1425715900/?ats=successfactors) | Corning | Charlotte, NC | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Hardware Systems Integration Intern - Winter/Spring 2027](https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004) | Formlabs | Somerville, MA | Internship | SimplifyJobs | - |
+| Sep 02 | [Data Engineering Intern](https://careers.na.panasonic.com/jobs/50772?icims=1) | Panasonic Holdings | Bridgeton, MO | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Hardware Engineer Co-op](https://job-boards.greenhouse.io/verkada/jobs/4321158007) | Verkada | San Mateo, CA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Full Stack Developer Co-op](https://jobs.ashbyhq.com/remarcable-inc/a4f3aaaa-9469-42e8-a610-450d25eb5da7/application?embed=true) | Remarcable | Vancouver, BC, Canada | Internship | SimplifyJobs | - |
+| Sep 02 | [Operations Research Analyst Intern - SkillBridge](https://ats.rippling.com/stag-careers/jobs/460b168c-070a-4132-b874-6e5c9323ccaa) | STAG | Hampton, VA, San Antonio, TX, Fort Meade, MD | Internship | SimplifyJobs | - |
+| Sep 02 | [Product Engineering Intern](https://johndeere.eightfold.ai/careers/job/137482769212) | John Deere | Fargo, ND | Internship | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Physics Engine Development Engineer Intern - Optimus](https://www.tesla.com/careers/search/job/282147) | Tesla | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [R&D Hardware Engineer Intern - Interns/Graduates](https://bostonscientific.eightfold.ai/careers/job/563602813483105) | Boston Scientific | Arden Hills, MN | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Research Data Science Intern - Active Implantable Systems](https://bostonscientific.eightfold.ai/careers/job/563602813483103) | Boston Scientific | Arden Hills, MN | Internship | SimplifyJobs | PhD |
+| Sep 02 | [Systems Engineer Intern](https://jobs.ashbyhq.com/dedalus-labs/6037de96-d9c7-418f-ad23-56bb327225a6/application?embed=true) | Dedalus Labs | SF | Internship | SimplifyJobs | - |
+| Sep 02 | [Research Algorithm & Data Science Intern - Interns/Graduates](https://bostonscientific.eightfold.ai/careers/job/563602813483110) | Boston Scientific | Arden Hills, MN | Internship | SimplifyJobs | PhD |
+| Sep 02 | [Product Management Intern](https://careers-americas.icims.com/jobs/26274/product-management-intern%2c-2027-summer-u.s./job) | Atlassian | SF | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Mission Systems Engineering Intern](https://careers.jhuapl.edu/jobs/59883?icims=1) | Johns Hopkins Applied Physics Laboratory | Laurel, MD | Internship | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Agent Engineer Intern](https://jobs.ashbyhq.com/cheiron/36763c16-8996-4c66-b693-d48329413678/application?embed=true) | Cheiron | Los Altos, CA | Internship | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Equities Sales & Trading Intern - Business Segments and Corporate Infrastructure](https://opco.hrmdirect.com/employment/job-opening.php?req=3799625) | Oppenheimer & Co. Inc. | NYC | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Prototype & Test Engineer Intern - New Product Development](https://jobs.ashbyhq.com/eightsleep/393ffe76-749e-4ec1-9975-a96b7fefe31f/application?embed=true) | Eight Sleep | SF | Internship | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Ecosystem Analyst Intern - TikTok LIVE](https://lifeattiktok.com/search/7678985103851407669) | TikTok | LA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Research Intern - AI-Native Databases](https://jobs.bytedance.com/en/position/7678450462765254965/detail) | ByteDance | San Jose, CA | Internship | SimplifyJobs | PhD |
+| Sep 02 | [Research Intern - AI-Native Databases](https://jobs.bytedance.com/en/position/7678451067500529925/detail) | ByteDance | Seattle, WA | Internship | SimplifyJobs | PhD |
+| Sep 02 | [Software Engineer Intern - Agent Systems](https://jobs.ashbyhq.com/armadin/8ddb9c3a-3031-42d4-ad68-adcc865e32cf/application?embed=true) | Armadin | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Frontend Engineer Intern - Product & UX/UI](https://jobs.ashbyhq.com/armadin/65b0796c-7490-4f92-91aa-5240b65e5211/application?embed=true) | Armadin | Palo Alto, CA | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Tools and Automation Software Developer Co-op/Intern](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39341) | Nokia | Ottawa, ON, Canada | Internship | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Junior Systems Analyst - Warehouse Management System](https://jobs.lever.co/hottopic/b006fecc-6662-4e8d-8f93-eff444c2b6e3/apply) | Hot Topic | Nashville, TN, La Vergne, TN, Riverside, CA | Data/ML | SimplifyJobs | - |
+| Sep 02 | [Digital Product Management Senior Associate - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012958) | American Express | NYC | Software Engineering | SimplifyJobs | Master's |
+| Sep 02 | [Software Engineer 1 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012796) | American Express | NYC | Software Engineering | SimplifyJobs | Bachelor's |
+| Sep 02 | [AI Engineer 1 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012987) | American Express | NYC | Data/ML | SimplifyJobs | Master's |
+| Sep 02 | [Software Engineer 2 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012944) | American Express | Sunrise, FL | Software Engineering | SimplifyJobs | Master's |
+| Sep 02 | [AI Engineer 1 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012985) | American Express | Sunrise, FL | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [AI Engineer 1 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012982) | American Express | NYC | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [Software Engineer 2 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012945) | American Express | Charlotte, NC | Software Engineering | SimplifyJobs | Master's |
+| Sep 02 | [Software Engineer 2 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012940) | American Express | NYC | Software Engineering | SimplifyJobs | Master's |
+| Sep 02 | [Data Analytics Analyst - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013097) | American Express | NYC | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [Digital Product Management Associate - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012956) | American Express | NYC | Software Engineering | SimplifyJobs | Bachelor's |
+| Sep 02 | [Software Engineer 1 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012869) | American Express | Charlotte, NC | Software Engineering | SimplifyJobs | Bachelor's |
+| Sep 02 | [AI Engineer 1 - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012988) | American Express | Sunrise, FL | Data/ML | SimplifyJobs | Master's |
+| Sep 02 | [Data & Analytics Analyst - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013099) | American Express | Sunrise, FL | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [Software Engineer Intern - Enterprise Technology Services](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012801) | American Express | Sunrise, FL | Internship | SimplifyJobs | Bachelor's |
+| Sep 02 | [Applied Algorithms Engineer New Grad](https://careers.jhuapl.edu/jobs/59902?icims=1) | Johns Hopkins Applied Physics Laboratory | Laurel, MD | Data/ML | SimplifyJobs | PhD |
+| Sep 02 | [Applied Algorithms Engineer New Grad](https://careers.jhuapl.edu/jobs/59887?icims=1) | Johns Hopkins Applied Physics Laboratory | Huntsville, AL | Data/ML | SimplifyJobs | PhD |
+| Sep 02 | [Software Engineer 2](https://jobs.smartrecruiters.com/Versant3/744000146840259) | Versant | Orlando, FL | Software Engineering | SimplifyJobs | Bachelor's |
+| Sep 02 | [AI and Data Engineering Analyst - Government & Public Services](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Analyst-AI-Data-Engineering-Winter-2027/365230) | Deloitte | Austin, TX | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [Software Engineering Analyst - Government & Public Services](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Analyst-Software-Engineering-Winter-2027/365228) | Deloitte | Rosslyn, Arlington, VA | Software Engineering | SimplifyJobs | Bachelor's, Master's, MBA, PhD |
+| Sep 02 | [College Sports Systems Technician - University of Washington](https://jobs.ashbyhq.com/hawkeyeinnovations/466edb26-050f-430b-b55c-dafbc5a4c239/application?embed=true) | Hawk-Eye Innovations | Seattle, WA | Software Engineering | SimplifyJobs | - |
+| Sep 02 | [Researcher](https://jobs.ashbyhq.com/tracelabs/7c8ad43b-bb8c-4cc2-8004-25a66d575822/application?embed=true) | Trace Labs | NYC | Data/ML | SimplifyJobs | Master's, PhD |
+| Sep 02 | [Hardware Engineer - Multiple Teams](https://jobs.ashbyhq.com/unlimitedindustries/f9a8d2e3-79a8-464b-9e1d-77aa649c38bd/application?embed=true) | Unlimited | SF | Embedded/HW | SimplifyJobs | - |
+| Sep 02 | [Software Engineer - Full Stack - Application Product Security](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Three-Nationwide-Plaza/Engineer--Software-Engineer--Full-Stack-_100006) | Nationwide | Columbus, OH | Full Stack | SimplifyJobs | Bachelor's |
+| Sep 02 | [Junior Renewable Natural Gas Trader](https://targray.applytojob.com/apply/ARMTbeRuSX/Junior-Renewable-Natural-Gas-Trader) | Targray | Montreal, QC, Canada | Software Engineering | SimplifyJobs | Bachelor's, Master's, MBA |
+| Sep 02 | [Exploitation Specialist - Data Scientist](https://careers-bluehawk.icims.com/jobs/2898/job?mobile=true&needsRedirect=false) | Bluehawk | Springfield, VA | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [Associate Configuration Management](https://jobs.l3harris.com/job/Greenville-Associate,-Configuration-Management-TX-75402/1425729900/?ats=successfactors) | L3Harris Technologies | Greenville, TX | Data/ML | SimplifyJobs | Bachelor's |
+| Sep 02 | [Graduate RF Signal Processing Sensor Engineer](https://careers.jhuapl.edu/jobs/59877?icims=1) | Johns Hopkins Applied Physics Laboratory | Laurel, MD | Software Engineering | SimplifyJobs | Bachelor's, Master's |
+| Sep 02 | [Internship - Firmware Engineer](https://jobright.ai/jobs/info/6a8589c874e02153f14575da?utm_campaign=1079&utm_source=git) | Infineon Technologies | Andover, MA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [Quality Assurance Intern - 2027](https://jobright.ai/jobs/info/6a9801a483fc63335762f617?utm_campaign=1079&utm_source=git) | Centrus Energy Corp. | Piketon, OH, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [Agent Engineering Intern](https://jobright.ai/jobs/info/6a979238a702dd5c73151988?utm_campaign=1079&utm_source=git) | Cheiron | Los Altos, CA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [Software Engineering Internship - San Francisco](https://jobright.ai/jobs/info/6a70bcdbe2b7476e7b20a819?utm_campaign=1079&utm_source=git) | Samsara | San Francisco, California, United States · Hybrid | Internship | jobright-ai | - |
+| Sep 02 | [(General Hire) Software Engineer Intern (Trust and Safety-Engineering) - 2027 Summer](https://jobright.ai/jobs/info/6a788e9bb17cba5690361ab0?utm_campaign=1079&utm_source=git) | TikTok | Seattle, WA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [Summer 2027 Engineering Intern](https://jobright.ai/jobs/info/6a97f9cbc8ed473c5c761c4e?utm_campaign=1079&utm_source=git) | Toast | Boston, MA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2026 Intern Conversion - Software Development Engineer I](https://jobright.ai/jobs/info/6a7b960b3b399d106e4d79af?utm_campaign=1079&utm_source=git) | Blue Origin | Greater Seattle Area, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2026 Intern Conversion - Aerospace Software Apps Engineer I](https://jobright.ai/jobs/info/6a7b9613b933773d16be879b?utm_campaign=1079&utm_source=git) | Blue Origin | Greater Seattle Area, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [Tools and Automation SW Dev Co-op/Intern](https://jobright.ai/jobs/info/6a97e2b8af954907d6570ca8?utm_campaign=1079&utm_source=git) | Nokia | Canada · Remote | Internship | jobright-ai | - |
+| Sep 02 | [Tools and Automation SW Dev Co-op/Intern](https://jobright.ai/jobs/info/6a97dc78d356304a026884af?utm_campaign=1079&utm_source=git) | Nokia | Ottawa, ON, Canada · Hybrid | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT SAP Intern](https://jobright.ai/jobs/info/6a97ec8cdef18223c854cf43?utm_campaign=1079&utm_source=git) | Textron Aviation | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT PLM Intern](https://jobright.ai/jobs/info/6a97ec80d356304a02688723?utm_campaign=1079&utm_source=git) | Textron Aviation | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Software Engineer Intern](https://jobright.ai/jobs/info/6a97ec6caf954907d6570e3c?utm_campaign=1079&utm_source=git) | Textron Aviation | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Intern - Software Enginer (Sea Systems) - Hunt Valley, MD](https://jobright.ai/jobs/info/6a97ec1f72b96b1c436f1b0d?utm_campaign=1079&utm_source=git) | Textron Aviation | Hunt Valley, MD, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Intern - Software Engineer (Electronic Systems) - Hunt Valley, MD](https://jobright.ai/jobs/info/6a97ec0a69d7730385d6ce56?utm_campaign=1079&utm_source=git) | Textron Aviation | Hunt Valley, MD, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Intern - Firmware Engineer (Weapons) - Hunt Valley, MD](https://jobright.ai/jobs/info/6a97ec03def18223c854cf11?utm_campaign=1079&utm_source=git) | Textron Aviation | Hunt Valley, MD, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT SAP Intern](https://jobright.ai/jobs/info/6a97ebef72b96b1c436f1af8?utm_campaign=1079&utm_source=git) | Textron | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Internship - Software Engineer - Aftermarket Programs (TRU Simulation - Lutz, FL)](https://jobright.ai/jobs/info/6a97ebaad356304a026886e5?utm_campaign=1079&utm_source=git) | Textron | Lutz, FL, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Internship - Quality Assurance Engineer (Customer Quality)](https://jobright.ai/jobs/info/6a97eba7af954907d6570de4?utm_campaign=1079&utm_source=git) | Textron | Wichita, KS, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT SAP Intern](https://jobright.ai/jobs/info/6a97eb35c8ed473c5c761917?utm_campaign=1079&utm_source=git) | Textron Specialized Vehicles | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT Programmer Intern](https://jobright.ai/jobs/info/6a97eb32d356304a026886d8?utm_campaign=1079&utm_source=git) | Textron Specialized Vehicles | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT Programmer Intern](https://jobright.ai/jobs/info/6a97eb2cc8ed473c5c761914?utm_campaign=1079&utm_source=git) | Textron | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 IT PLM Intern](https://jobright.ai/jobs/info/6a97eb29d356304a026886d3?utm_campaign=1079&utm_source=git) | Textron | Augusta, GA, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Intern - Software Enginer (Sea Systems) - Hunt Valley, MD](https://jobright.ai/jobs/info/6a97eb0672b96b1c436f1ac8?utm_campaign=1079&utm_source=git) | Textron | Hunt Valley, MD, United States · On Site | Internship | jobright-ai | - |
+| Sep 02 | [2027 Internship - Quality Assurance Engineer (Supplier Quality)](https://jobright.ai/jobs/info/6a97eb02def18223c854ceda?utm_campaign=1079&utm_source=git) | Textron | Wichita, KS, United States · On Site | Internship | jobright-ai | - |
+| … | *+5644 more — use [Interactive Board](https://eshwarcvs.github.io/job-hunt-engine/) to browse all* | | | | | |
 
 </details>
 
@@ -196,9 +196,9 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-09-01`
-- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-09-01`
-- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-09-01`
+- [New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) — last activity `2026-09-02`
+- [Summer2026-Internships](https://github.com/SimplifyJobs/Summer2026-Internships) — last activity `2026-09-02`
+- [Summer2027-Internships](https://github.com/SimplifyJobs/Summer2027-Internships) — last activity `2026-09-02`
 
 <details>
 <summary>Archived (1)</summary>
@@ -211,10 +211,10 @@ Tracked source repositories (auto-updated each scrape). Inactive repos are archi
 
 **Active**
 
-- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-09-01`
-- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-09-01`
-- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-09-01`
-- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-09-01`
+- [2026-Data-Analysis-Internship](https://github.com/jobright-ai/2026-Data-Analysis-Internship) — last activity `2026-09-02`
+- [2026-Data-Analysis-New-Grad](https://github.com/jobright-ai/2026-Data-Analysis-New-Grad) — last activity `2026-09-02`
+- [2026-Software-Engineer-Internship](https://github.com/jobright-ai/2026-Software-Engineer-Internship) — last activity `2026-09-02`
+- [2026-Software-Engineer-New-Grad](https://github.com/jobright-ai/2026-Software-Engineer-New-Grad) — last activity `2026-09-02`
 - [Daily-H1B-Jobs-In-Tech](https://github.com/jobright-ai/Daily-H1B-Jobs-In-Tech) — last activity `2026-05-06`
 
 
